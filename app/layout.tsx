@@ -3,6 +3,9 @@ import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 
+const repository = process.env.GITHUB_REPOSITORY?.split('/')[1]
+const assetPrefix = process.env.GITHUB_ACTIONS === 'true' && repository ? `/${repository}` : ''
+
 const geistSans = Geist({ subsets: ['latin', 'cyrillic'], variable: '--font-geist-sans' })
 const geistMono = Geist_Mono({ subsets: ['latin', 'cyrillic'], variable: '--font-geist-mono' })
 
@@ -13,19 +16,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: `${assetPrefix}/icon-light-32x32.png`,
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: `${assetPrefix}/icon-dark-32x32.png`,
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: `${assetPrefix}/icon.svg`,
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: `${assetPrefix}/apple-icon.png`,
   },
 }
 

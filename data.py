@@ -1,0 +1,92 @@
+# -*- coding: utf-8 -*-
+"""Список покупок для парсера. Индексы совпадают с plan_data.js!"""
+
+PURCHASES = [
+    {"cat": "👟 Кроссовки", "items": [
+        ["Adidas Adizero Evo SL", 330],
+        ["Asics Novablast 5", 390],
+        ["Hoka Clifton 9", 400],
+        ["Saucony Endorphin Speed 4", 500],
+        ["Nike Pegasus 41", 350],
+        ["Brooks Ghost 16", 380],
+        ["Kiprun KD900", 250],
+        ["Anta C202", 300],
+        ["Adidas Adizero Adios Pro 3", 700],
+        ["Nike Vaporfly 3", 800],
+    ]},
+    {"cat": "⌚ Часы", "items": [
+        ["Coros Pace 3", 800],
+        ["Garmin Forerunner 265", 1400],
+        ["Garmin Forerunner 965", 2100],
+        ["Polar Vantage V3", 2000],
+        ["Garmin Fenix 7 Pro", 2400],
+    ]},
+    {"cat": "❤️ Датчики и пульсометры", "items": [
+        ["Polar H10", 350],
+        ["Garmin Speed Cadence Sensor 2", 250],
+        ["Garmin HRM-Pro Plus", 450],
+        ["Polar Verity Sense", 400],
+        ["TymeWear VitalPro", 1000],
+        ["CORE Body Temp Sensor", 1100],
+    ]},
+    {"cat": "🚴 Велосипед", "items": [
+        ["Giant Defy", 2400],
+        ["Specialized Allez", 2200],
+        ["Trek Domane", 2600],
+        ["Triban RC520", 2000],
+        ["Merida Scultura 400", 3200],
+    ]},
+    {"cat": "🔧 Велоаксессуары", "items": [
+        ["велошлем Giro", 250],
+        ["флягодержатель велосипедный", 60],
+        ["аэробары Profile Design", 300],
+        ["велостанок Tacx", 800],
+        ["Garmin Edge 540", 1200],
+        ["Favero Assioma", 1500],
+    ]},
+    {"cat": "🏊 Гидрокостюм", "items": [
+        ["гидрокостюм триатлон Decathlon", 500],
+        ["гидрокостюм Orca", 550],
+        ["гидрокостюм Zone3", 900],
+        ["гидрокостюм 2XU", 1300],
+    ]},
+    {"cat": "🩱 Трисьют", "items": [
+        ["трисьют мужской", 220],
+        ["трисьют Decathlon", 280],
+        ["трисьют Zone3", 400],
+        ["трисьют Orca", 500],
+    ]},
+    {"cat": "🥽 Плавание", "items": [
+        ["колобашка для плавания", 80],
+        ["очки Arena Cobra", 140],
+        ["шапочка для плавания силикон", 30],
+        ["очки Speedo Biofuse", 90],
+        ["лопатки для плавания Finis", 90],
+    ]},
+    {"cat": "🕶️ Очки спортивные", "items": [
+        ["очки Rockbros фотохромные", 75],
+        ["100% Speedcraft", 350],
+        ["Oakley Sutro", 400],
+    ]},
+    {"cat": "🧢 Аксессуары", "items": [
+        ["Fat Gripz", 60],
+        ["кепка Nike Dri-FIT", 95],
+        ["эспандер Captain of Crush", 120],
+        ["массажный ролл", 70],
+        ["пояс для стартового номера", 25],
+    ]},
+    {"cat": "💊 Спортпит", "items": [
+        ["протеин сывороточный", 160],
+        ["креатин моногидрат", 40],
+        ["витамин D3", 45],
+        ["изотоник порошок", 55],
+        ["энергетический гель", 80],
+        ["бета-аланин", 45],
+        ["коллаген гидролизат", 50],
+        ["кофеин таблетки", 30],
+    ]},
+    {"cat": "🦷 Медицина", "items": [
+        ["MARPE", 3200],
+        ["элайнеры", 5000],
+    ]},
+]

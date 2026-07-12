@@ -1,0 +1,425 @@
+{
+ "updated": "12.07.2026 16:17",
+ "prices": {
+  "0:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Apple Watch Nike Series 7 41 мм (звездный свет/чистая платина, черный)",
+     "price": 990.0,
+     "url": "https://catalog.onliner.by/smartwatch/apple/mkn33"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 990.0,
+     "avg": 990.0,
+     "max": 990.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 990.0,
+      "avg": 990.0,
+      "max": 990.0,
+      "count": 1
+     }
+    }
+   }
+  },
+  "1:0": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
+     "price": 67.5,
+     "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 67.5,
+     "avg": 67.5,
+     "max": 67.5,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 67.5,
+      "avg": 67.5,
+      "max": 67.5,
+      "count": 1
+     }
+    }
+   }
+  },
+  "1:1": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Forerunner 265 (белый камень/синий)",
+     "price": 1570.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
+    },
+    {
+     "source": "Onliner",
+     "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
+     "price": 1670.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 1570.0,
+     "avg": 1636.67,
+     "max": 1670.0,
+     "count": 3
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 1570.0,
+      "avg": 1636.67,
+      "max": 1670.0,
+      "count": 3
+     }
+    }
+   }
+  },
+  "1:2": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Forerunner 965 (белый/серый)",
+     "price": 1939.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
+    },
+    {
+     "source": "Onliner",
+     "name": "Garmin Forerunner 965 (черный/серый)",
+     "price": 1950.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 1939.0,
+     "avg": 1959.49,
+     "max": 1989.46,
+     "count": 3
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 1939.0,
+      "avg": 1959.49,
+      "max": 1989.46,
+      "count": 3
+     }
+    }
+   }
+  },
+  "1:3": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Polar Vantage V3 (черный)",
+     "price": 2100.0,
+     "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bk"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 2100.0,
+     "avg": 2100.0,
+     "max": 2100.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 2100.0,
+      "avg": 2100.0,
+      "max": 2100.0,
+      "count": 1
+     }
+    }
+   }
+  },
+  "1:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
+     "price": 2780.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
+    },
+    {
+     "source": "Onliner",
+     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
+     "price": 2795.4,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 2780.0,
+     "avg": 3281.35,
+     "max": 3850.0,
+     "count": 4
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 2780.0,
+      "avg": 3281.35,
+      "max": 3850.0,
+      "count": 4
+     }
+    }
+   }
+  },
+  "2:0": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Polar H10 (черный)",
+     "price": 350.0,
+     "url": "https://catalog.onliner.by/heart_rate/polarpaper/polarh10"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 350.0,
+     "avg": 350.0,
+     "max": 350.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 350.0,
+      "avg": 350.0,
+      "max": 350.0,
+      "count": 1
+     }
+    }
+   }
+  },
+  "2:3": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Polar Verity Sense",
+     "price": 350.0,
+     "url": "https://catalog.onliner.by/heart_rate/polarpaper/veritysense"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 350.0,
+     "avg": 350.0,
+     "max": 350.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 350.0,
+      "avg": 350.0,
+      "max": 350.0,
+      "count": 1
+     }
+    }
+   }
+  },
+  "4:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Edge 540",
+     "price": 1910.7,
+     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 1910.7,
+     "avg": 1910.7,
+     "max": 1910.7,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 1910.7,
+      "avg": 1910.7,
+      "max": 1910.7,
+      "count": 1
+     }
+    }
+   }
+  },
+  "4:5": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Escada Favero 2108/8P",
+     "price": 652.98,
+     "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 652.98,
+     "avg": 652.98,
+     "max": 652.98,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 652.98,
+      "avg": 652.98,
+      "max": 652.98,
+      "count": 1
+     }
+    }
+   }
+  },
+  "7:1": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "ARENA Cobra Ultra Swipe Mirror 002507 330",
+     "price": 257.31,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507330"
+    },
+    {
+     "source": "Onliner",
+     "name": "ARENA Cobra Core Swipe Mirror 003251 350",
+     "price": 298.92,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251350"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 257.31,
+     "avg": 349.55,
+     "max": 428.73,
+     "count": 8
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 257.31,
+      "avg": 349.55,
+      "max": 428.73,
+      "count": 8
+     }
+    }
+   }
+  },
+  "9:3": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Bradex Роллер SF 0283",
+     "price": 59.97,
+     "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 59.97,
+     "avg": 59.97,
+     "max": 59.97,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 59.97,
+      "avg": 59.97,
+      "max": 59.97,
+      "count": 1
+     }
+    }
+   }
+  },
+  "10:1": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "1WIN Моногидрат (200г, без вкуса)",
+     "price": 30.03,
+     "url": "https://catalog.onliner.by/creatine/1win/1winmono200"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 30.03,
+     "avg": 30.03,
+     "max": 30.03,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 30.03,
+      "avg": 30.03,
+      "max": 30.03,
+      "count": 1
+     }
+    }
+   }
+  },
+  "10:2": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Эвалар Витамин D3 500 МЕ (10 мл)",
+     "price": 15.31,
+     "url": "https://catalog.onliner.by/vitamins/evalar/d3500memaslyan"
+    },
+    {
+     "source": "Onliner",
+     "name": "Balkan Pharmaceuticals Кальций + Витамин D3 (30 капсул)",
+     "price": 19.0,
+     "url": "https://catalog.onliner.by/vitamins/balkanpharmaceu/calcd330"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 15.31,
+     "avg": 17.16,
+     "max": 19.0,
+     "count": 2
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 15.31,
+      "avg": 17.16,
+      "max": 19.0,
+      "count": 2
+     }
+    }
+   }
+  },
+  "10:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Zeitun Гель для умывания Lulu Энергетический для тусклой кожи с витамином С и ма",
+     "price": 38.27,
+     "url": "https://catalog.onliner.by/facial_cosmetics/zeitun/lulu200gel"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 38.27,
+     "avg": 38.27,
+     "max": 38.27,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 38.27,
+      "avg": 38.27,
+      "max": 38.27,
+      "count": 1
+     }
+    }
+   }
+  }
+ }
+}
