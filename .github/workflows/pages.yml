@@ -35,6 +35,9 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Build static site
         run: pnpm build
+      - name: Create plan.html
+        run: cp out/plan/index.html out/plan.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

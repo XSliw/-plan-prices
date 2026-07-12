@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<title>План Прорыва 2026</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="plan_data.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:var(--tg-theme-secondary-bg-color,#eef1f6);
+  --card:var(--tg-theme-bg-color,#fff);
+  --text:var(--tg-theme-text-color,#151a21);
+  --hint:var(--tg-theme-hint-color,#8b93a1);
+  --accent:var(--tg-theme-button-color,#2ea6ff);
+  --atext:var(--tg-theme-button-text-color,#fff);
+  --track:rgba(128,136,150,.18);
+  --ok:#31b545;--warn:#f5a623;--bad:#e64545;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--text);padding-bottom:80px}
+.hidden{display:none!important}
+header{padding:16px 14px 6px;display:flex;gap:12px;align-items:center}
+.ring{width:72px;height:72px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;background:conic-gradient(var(--accent) calc(var(--p,0)*1%),var(--track) 0);transition:.4s}
+.ring>div{width:52px;height:52px;border-radius:50%;background:var(--card);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
+h1{font-size:18px;line-height:1.25}
+.sub{color:var(--hint);font-size:12px;margin-top:2px}
+.badge-owner{display:inline-flex;align-items:center;gap:4px;background:rgba(49,181,69,.13);color:var(--ok);font-size:11px;font-weight:700;border-radius:12px;padding:2px 8px;margin-top:5px}
+section.tab{padding:0 11px;display:none}
+section.tab.active{display:block}
+.card{background:var(--card);border-radius:15px;padding:13px;margin:9px 0;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+h3{font-size:14px;margin-bottom:9px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.stat{background:var(--card);border-radius:15px;padding:11px 13px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.stat .num{font-size:19px;font-weight:800}
+.stat .lbl{font-size:11px;color:var(--hint);margin-top:2px}
+.today{display:block;width:100%;border:0;border-radius:15px;padding:13px;margin:9px 0;font-size:14px;font-weight:700;background:var(--accent);color:var(--atext);text-align:left}
+.today.done{background:var(--ok)}
+#heat{display:grid;grid-template-columns:repeat(8,1fr);gap:5px}
+#heat .cell{aspect-ratio:1;border-radius:7px;background:var(--accent);color:#fff;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;cursor:pointer}
+#heat .cell.cur{outline:2px solid var(--accent);outline-offset:2px}
+.chips{display:flex;gap:7px;overflow-x:auto;padding:9px 0 2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:0;border-radius:18px;padding:7px 13px;font-size:12px;font-weight:600;background:var(--card);color:var(--text)}
+.chip.on{background:var(--accent);color:var(--atext)}
+.week.full{border:1.5px solid var(--ok)}
+.whead{display:flex;justify-content:space-between;align-items:center;font-size:14px}
+.whead .ok{color:var(--ok);font-weight:700}
+.focus{font-size:12px;color:var(--hint);margin:3px 0 7px}
+.bar{height:5px;border-radius:3px;background:var(--track);overflow:hidden;margin-bottom:5px}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:3px;transition:width .3s}
+.drow{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-top:1px solid var(--track);cursor:pointer}
+.check{flex:none;width:24px;height:24px;border-radius:50%;border:2px solid var(--track);position:relative;transition:.2s;margin-top:1px}
+.check.on{background:var(--ok);border-color:var(--ok)}
+.check.on::after{content:"\2713";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:800}
+.dname{font-size:13px;font-weight:600}
+.dname.strike{text-decoration:line-through;color:var(--hint)}
+.ddet{font-size:11px;color:var(--hint);margin-top:2px;line-height:1.3}
+.badge{background:var(--track);border-radius:11px;padding:1px 7px;font-size:11px;font-weight:700;margin-left:5px}
+summary{font-size:14px;font-weight:700;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;padding:2px 0}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"\203a";font-size:19px;color:var(--hint);transform:rotate(90deg);display:inline-block;transition:.2s}
+details[open] summary::after{transform:rotate(-90deg)}
+.prio{font-size:10px;font-weight:700;border-radius:7px;padding:1px 5px}
+.pA{background:rgba(230,69,69,.15);color:var(--bad)}
+.pB{background:rgba(245,166,35,.15);color:var(--warn)}
+.pC{background:rgba(128,136,150,.15);color:var(--hint)}
+.mfc{font-size:12px;color:var(--hint);line-height:1.4}
+.gm{display:flex;gap:10px;padding:9px 0;border-top:1px solid var(--track)}
+.gm .mn{flex:none;width:32px;height:32px;border-radius:50%;background:var(--track);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px}
+.gm.past .mn{background:var(--ok);color:#fff}
+input[type=date]{border:1px solid var(--track);border-radius:9px;padding:7px 9px;font-size:13px;background:var(--card);color:var(--text);width:100%;outline:none;margin-top:5px}
+.searchbox{border:1px solid var(--track);border-radius:11px;padding:9px 11px;font-size:13px;background:var(--card);color:var(--text);width:100%;margin:9px 0 2px;outline:none}
+.titem{padding:9px 0 3px;border-top:1px solid var(--track);margin-top:7px}
+.srcbtns{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.srcbtn{border:1px solid var(--track);border-radius:13px;padding:4px 9px;font-size:11px;font-weight:600;color:var(--accent);background:none}
+.variant{display:flex;align-items:flex-start;gap:7px;padding:7px 0 0;font-size:12px}
+.vprice{font-weight:800}
+.pstats{background:rgba(128,136,150,.08);border-radius:11px;padding:8px 10px;margin:7px 0 3px;font-size:11px}
+.pstats .prow{display:flex;justify-content:space-between;gap:8px;padding:3px 0;line-height:1.35}
+.pstats .prow+.prow{border-top:1px solid var(--track)}
+.pstats .plabel{font-weight:700;flex:none}
+.pstats .pval{color:var(--hint);text-align:right}
+.pstats .pval b{color:var(--text)}
+.pstats .pall{font-weight:800}
+.topttl{font-size:11px;font-weight:700;color:var(--hint);margin:8px 0 2px}
+.vsize{font-size:10px;font-weight:700;color:var(--accent);margin-left:4px}
+.vdel{color:var(--bad);font-weight:800;padding:0 5px;cursor:pointer}
+.tag-ok{font-size:10px;font-weight:700;color:var(--ok);margin-left:3px}
+.tag-bad{font-size:10px;font-weight:700;color:var(--bad);margin-left:3px}
+.vi{width:100%;border:1px solid var(--track);border-radius:9px;padding:8px 9px;font-size:13px;background:var(--card);color:var(--text);margin-top:5px;outline:none}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--card);border-top:1px solid var(--track);padding:5px 3px calc(5px + env(safe-area-inset-bottom))}
+nav button{flex:1;border:0;background:none;color:var(--hint);font-size:9px;font-weight:600;padding:3px 1px}
+nav button .ico{display:block;font-size:18px;margin-bottom:1px}
+nav button.on{color:var(--accent)}
+canvas{max-height:190px}
+</style>
+</head>
+<body>
+<header>
+  <div class="ring"><div id="rp">0%</div></div>
+  <div>
+    <h1>🎯 План Прорыва 2026</h1>
+    <div class="sub" id="sub"></div>
+    <div class="badge-owner">🔒 Личный трекер</div>
+  </div>
+</header>
+
+<section class="tab active" id="tab-dash">
+  <button class="today" style="background:#7c5cff;margin-bottom:8px" onclick="location.href='plan.html'">📅 Открыть План 4.1 (новый)</button>
+  <button class="today hidden" id="todayBtn"></button>
+  <div class="grid" id="stats"></div>
+  <div class="card"><h3>🗓 24 недели</h3><div id="heat"></div></div>
+  <div class="card"><h3>📊 Тренировки по месяцам</h3><canvas id="mchart"></canvas></div>
+  <div class="card">
+    <h3>⚙️ Начало плана</h3>
+    <input type="date" id="sdate"/>
+    <div class="mfc" style="margin-top:7px">От неё считается текущая неделя и пропуски.</div>
+  </div>
+</section>
+
+<section class="tab" id="tab-train">
+  <div class="chips" id="months"></div>
+  <div class="card mfc" id="mfc"></div>
+  <div id="weeks"></div>
+</section>
+
+<section class="tab" id="tab-shop">
+  <div class="card" id="shopSum"></div>
+  <div class="chips" id="shopFilters"></div>
+  <div id="cats"></div>
+</section>
+
+<section class="tab" id="tab-track">
+  <div class="card mfc" id="trackInfo"></div>
+  <input class="searchbox" id="trackSearch" placeholder="🔍 Поиск товара..."/>
+  <div id="trackList"></div>
+</section>
+
+<section class="tab" id="tab-goals">
+  <div class="card" id="goalsBox"></div>
+  <div class="card"><h3>📈 Ожидаемые результаты</h3><div id="forecast"></div></div>
+</section>
+
+<nav>
+  <button class="on" data-tab="dash" onclick="showTab('dash')"><span class="ico">🏠</span>Главная</button>
+  <button data-tab="train" onclick="showTab('train')"><span class="ico">💪</span>Тренир</button>
+  <button data-tab="shop" onclick="showTab('shop')"><span class="ico">🛒</span>Покупки</button>
+  <button data-tab="track" onclick="showTab('track')"><span class="ico">💰</span>Цены</button>
+  <button data-tab="goals" onclick="showTab('goals')"><span class="ico">🎯</span>Цели</button>
+</nav>
+
+<script>
+const LS='plan2026';
+function load(){try{return JSON.parse(localStorage.getItem(LS)||'null')||{};}catch(e){return{};}}
+function save(s){localStorage.setItem(LS,JSON.stringify(s));}
+let S=load();
+if(!S.weeks)S.weeks={};
+if(!S.bought)S.bought=[];
+if(!S.variants)S.variants=[];
+if(!S.varNext)S.varNext=1;
+if(!S.start_date)S.start_date=new Date().toISOString().slice(0,10);
+
+const tg=window.Telegram&&window.Telegram.WebApp;
+if(tg){tg.ready();tg.expand();}
+function openUrl(u){try{tg.openLink(u);}catch(e){window.open(u,'_blank');}}
+function haptic(t){try{if(t==='ok')tg.HapticFeedback.notificationOccurred('success');else tg.HapticFeedback.impactOccurred('light');}catch(e){}}
+
+function curWeek(){const d=Math.floor((Date.now()-new Date(S.start_date).getTime())/86400000);return Math.max(1,Math.min(24,Math.floor(d/7)+1));}
+function doneSet(w){return new Set(S.weeks[w]||[]);}
+function weekDone(w){return doneSet(w).size;}
+function fullWeek(w){return weekDone(w)===6;}
+function totalDone(){let t=0;for(let w=1;w<=24;w++)t+=weekDone(w);return t;}
+function blockOf(w){return w<=8?1:(w<=16?2:3);}
+function streak(){let w=curWeek();if(!fullWeek(w))w--;let s=0;while(w>=1&&fullWeek(w)){s++;w--;}return s;}
+function missed(){let m=0;for(let w=1;w<curWeek();w++)m+=6-weekDone(w);return m;}
+function allItems(){const out=[];PLAN.purchases.forEach((c,ci)=>c.items.forEach((it,ii)=>out.push({id:ci+':'+ii,cat:c.cat,name:it[0],price:it[1],purpose:it[2],desc:it[3],prio:it[4]})));return out;}
+function pc(p){return p==='Обязательно'?'pA':(p==='Желательно'?'pB':'pC');}
+
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+
+let month=1,shopFilter='Все',monthChart=null,trackQ='',addFormFor=null;
+const openCats=new Set([0]),trackOpen=new Set([0]);
+
+function toggleDay(w,d){haptic();const was=fullWeek(w);const set=new Set(S.weeks[w]||[]);if(set.has(d))set.delete(d);else set.add(d);S.weeks[w]=[...set];save(S);renderAll();if(!was&&fullWeek(w)){haptic('ok');try{confetti({particleCount:120,spread:70,origin:{y:.7}});}catch(e){}}}
+function toggleBuy(id){haptic();const s=new Set(S.bought);if(s.has(id))s.delete(id);else s.add(id);S.bought=[...s];save(S);renderShop();renderDash();}
+function setMonth(m2){month=m2;renderTrain();}
+function setFilter(f){shopFilter=f;renderShop();}
+function catToggle(ev,ci){if(ev.target.closest('details').open)openCats.add(ci);else openCats.delete(ci);}
+function trackToggle(ev,ci){if(ev.target.closest('details').open)trackOpen.add(ci);else trackOpen.delete(ci);}
+function showAddForm(id){addFormFor=(addFormFor===id?null:id);renderTrack();}
+function openWeek(w){month=Math.ceil(w/4);renderTrain();showTab('train');setTimeout(()=>{const el=$('wk'+w);if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},60);}
+function showTab(t){document.querySelectorAll('section.tab').forEach(s=>s.classList.toggle('active',s.id==='tab-'+t));document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.tab===t));window.scrollTo(0,0);}
+
+function renderDash(){
+  const cw=curWeek(),total=totalDone(),pct=Math.round(total/144*100);
+  document.documentElement.style.setProperty('--p',pct);
+  $('rp').textContent=pct+'%';
+  $('sub').textContent='Неделя '+cw+'/24 · '+PLAN.block_names[blockOf(cw)];
+  const bought=new Set(S.bought),items=allItems();
+  const spent=items.filter(i=>bought.has(i.id)).reduce((a,b)=>a+b.price,0);
+  $('stats').innerHTML=
+    `<div class="stat"><div class="num">🔥${streak()}</div><div class="lbl">недель подряд</div></div>`+
+    `<div class="stat"><div class="num">${total}/144</div><div class="lbl">тренировок</div></div>`+
+    `<div class="stat"><div class="num">${missed()}</div><div class="lbl">пропущено</div></div>`+
+    `<div class="stat"><div class="num">${spent}</div><div class="lbl">потрачено BYN</div></div>`;
+  const jd=(new Date().getDay()+6)%7;
+  const tb=$('todayBtn');
+  if(jd<6){
+    const done=doneSet(cw).has(jd);
+    tb.className='today'+(done?' done':'');
+    tb.textContent=(done?'✅ ':'⬜ ')+PLAN.days[jd];
+    tb.onclick=()=>toggleDay(cw,jd);
+  }else{tb.className='today done';tb.textContent='😴 Воскресенье — отдых';tb.onclick=null;}
+  $('heat').innerHTML=Array.from({length:24},(_,i)=>{const w=i+1,d=weekDone(w);return`<div class="cell${w===cw?' cur':''}" style="opacity:${d===0?.15:.3+d/6*.7}" onclick="openWeek(${w})">${w}</div>`;}).join('');
+  const md=[1,2,3,4,5,6].map(m=>{let t=0;for(let w=(m-1)*4+1;w<=m*4;w++)t+=weekDone(w);return t;});
+  const ac=(getComputedStyle(document.documentElement).getPropertyValue('--accent')||'#2ea6ff').trim();
+  if(monthChart)monthChart.destroy();
+  monthChart=new Chart($('mchart'),{type:'bar',data:{labels:['М1','М2','М3','М4','М5','М6'],datasets:[{data:md,backgroundColor:ac,borderRadius:5}]},options:{plugins:{legend:{display:false}},scales:{y:{max:24,beginAtZero:true,ticks:{stepSize:6}}}}});
+  $('sdate').value=S.start_date;
+}
+
+function renderTrain(){
+  $('months').innerHTML=[1,2,3,4,5,6].map(m=>`<button class="chip${m===month?' on':''}" onclick="setMonth(${m})">М${m}</button>`).join('');
+  $('mfc').innerHTML=`<b>📈 К концу месяца ${month}:</b> ${esc(PLAN.month_forecast[month])}`;
+  const ws=[];for(let w=(month-1)*4+1;w<=month*4;w++)ws.push(w);
+  const cw=curWeek();
+  $('weeks').innerHTML=ws.map(w=>{
+    const ds=doneSet(w),n=ds.size,pct=Math.round(n/6*100),blk=blockOf(w);
+    return`<div class="card week${n===6?' full':''}" id="wk${w}"><div class="whead"><b>Неделя ${w}${w===cw?' (сейчас)':''}</b><span class="${n===6?'ok':''}">${n===6?'🏆 100%':n+'/6 · '+pct+'%'}</span></div><div class="focus">${esc(PLAN.week_focus[w])}</div><div class="bar"><i style="width:${pct}%"></i></div>${PLAN.days.map((day,i)=>`<div class="drow" onclick="toggleDay(${w},${i})"><span class="check${ds.has(i)?' on':''}"></span><div><div class="dname${ds.has(i)?' strike':''}">${esc(day)}</div><div class="ddet">${esc(PLAN.day_detail[blk][i])}</div></div></div>`).join('')}</div>`;
+  }).join('');
+}
+
+function renderShop(){
+  const bought=new Set(S.bought),items=allItems();
+  const spent=items.filter(i=>bought.has(i.id)).reduce((a,b)=>a+b.price,0);
+  const total=items.reduce((a,b)=>a+b.price,0);
+  const must=items.filter(i=>i.prio==='Обязательно');
+  const mustDone=must.filter(i=>bought.has(i.id)).length;
+  $('shopSum').innerHTML=`<h3>🛒 Экипировка</h3><div style="font-size:13px">Потрачено: <b>${spent}</b> из ${total} BYN · <b>${bought.size}/${items.length}</b></div><div class="bar" style="margin-top:7px"><i style="width:${Math.round(spent/total*100)}%"></i></div><div style="font-size:12px;margin-top:7px">❗ Обязательные: <b>${mustDone}/${must.length}</b></div><div class="bar" style="margin-top:5px"><i style="width:${Math.round(mustDone/must.length*100)}%;background:var(--bad)"></i></div>`;
+  $('shopFilters').innerHTML=['Все','Обязательно','Желательно','Опционально'].map(f=>`<button class="chip${f===shopFilter?' on':''}" onclick="setFilter('${f}')">${f}</button>`).join('');
+  $('cats').innerHTML=PLAN.purchases.map((cat,ci)=>{
+    const its=cat.items.map((it,ii)=>({id:ci+':'+ii,name:it[0],price:it[1],purpose:it[2],desc:it[3],prio:it[4]})).filter(i=>shopFilter==='Все'||i.prio===shopFilter);
+    if(!its.length)return'';
+    const b=its.filter(i=>bought.has(i.id)).length;
+    return`<details class="card"${openCats.has(ci)?' open':''} ontoggle="catToggle(event,${ci})"><summary><span>${esc(cat.cat)}<span class="badge">${b}/${its.length}</span></span></summary>${its.map(i=>`<div class="drow" onclick="toggleBuy('${i.id}')"><span class="check${bought.has(i.id)?' on':''}"></span><div style="flex:1"><div class="dname${bought.has(i.id)?' strike':''}">${esc(i.name)} — ${i.price} BYN <span class="prio ${pc(i.prio)}">${i.prio}</span></div><div class="ddet">🎯 ${esc(i.purpose)}<br>${esc(i.desc)}</div></div></div>`).join('')}</details>`;
+  }).join('');
+}
+
+const SOURCES=[
+  {n:'🔵 Куфар',u:q=>'https://www.kufar.by/l?query='+encodeURIComponent(q)},
+  {n:'🟢 Onliner',u:q=>'https://catalog.onliner.by/search?query='+encodeURIComponent(q)},
+  {n:'⚫ Lamoda',u:q=>'https://www.lamoda.by/catalogsearch/result/?q='+encodeURIComponent(q)},
+  {n:'🟣 WB',u:q=>'https://www.wildberries.by/catalog/0/search.aspx?search='+encodeURIComponent(q)},
+  {n:'🟠 21vek',u:q=>'https://www.21vek.by/search/?query='+encodeURIComponent(q)},
+  {n:'🟠 Ozon',u:q=>'https://www.ozon.by/search/?text='+encodeURIComponent(q)},
+  {n:'🔴 AliExpress',u:q=>'https://aliexpress.ru/wholesale?SearchText='+encodeURIComponent(q)},
+  {n:'🟡 Я.Маркет',u:q=>'https://market.yandex.by/search?text='+encodeURIComponent(q)},
+  {n:'🔵 Спортмастер',u:q=>'https://www.sportmaster.by/search/?q='+encodeURIComponent(q)},
+  {n:'🟢 Onliner барахолка',u:q=>'https://baraholka.onliner.by/search.php?keywords='+encodeURIComponent(q)},
+  {n:'🌐 Google',u:q=>'https://www.google.com/search?q='+encodeURIComponent(q+' купить')}
+];
+
+const SRC_ICO={Wildberries:'🟣','Куфар':'🔵',Lamoda:'⚫',Onliner:'🟢'};
+function fmtByn(x){return (Math.round(x*100)/100).toLocaleString('ru-RU')+' BYN';}
+function statsHtml(st){
+  if(!st||!st.overall)return'';
+  const o=st.overall;
+  let rows=`<div class="prow"><span class="plabel pall">📊 Все площадки</span>`+
+    `<span class="pval">мин <b>${fmtByn(o.min)}</b> · сред <b>${fmtByn(o.avg)}</b> · макс <b>${fmtByn(o.max)}</b> · n=${o.count}</span></div>`;
+  const bs=st.by_source||{};
+  Object.keys(bs).sort((a,b)=>bs[a].min-bs[b].min).forEach(s=>{
+    const a=bs[s];if(!a)return;
+    rows+=`<div class="prow"><span class="plabel">${SRC_ICO[s]||'▫️'} ${esc(s)}</span>`+
+      `<span class="pval">мин <b>${fmtByn(a.min)}</b> · сред ${fmtByn(a.avg)} · макс ${fmtByn(a.max)} · n=${a.count}</span></div>`;
+  });
+  return`<div class="pstats">${rows}</div>`;
+}
+
+const PRICES_URL='prices.json';
+function isRel(q,name){const nl=(name||'').toLowerCase();const toks=(q.toLowerCase().match(/[a-z0-9\u0430-\u044f\u0451]+/g)||[]).filter(t=>t.length>2||/\d/.test(t));if(!toks.length)return true;const nt=new Set(nl.match(/[a-z0-9\u0430-\u044f\u0451]+/g)||[]);const dig=toks.filter(t=>/\d/.test(t)),word=toks.filter(t=>!/\d/.test(t));for(const t of dig)if(!nt.has(t))return false;if(!word.length)return true;let hits=0;for(const t of word)if(nt.has(t)||(t.length>=4&&nl.includes(t)))hits++;return hits>=Math.max(1,Math.round(word.length*0.6));}
+let AUTO_PRICES=null,pricesLoading=false;
+async function loadAutoPrices(){
+  if(pricesLoading)return;
+  pricesLoading=true;renderTrack();
+  try{const r=await fetch(PRICES_URL+'?_='+Date.now());AUTO_PRICES=r.ok?await r.json():{};}
+  catch(e){AUTO_PRICES={};}
+  pricesLoading=false;renderTrack();
+}
+
+const GH_REPO='XSliw/-plan-prices';
+let refreshBusy=false,refreshMsg='';
+function setRefreshMsg(m){refreshMsg=m;renderTrack();}
+async function refreshPrices(){
+  if(pricesLoading||refreshBusy)return;
+  let tok=(localStorage.getItem('ghToken')||'').trim();
+  if(!tok){
+    tok=(prompt('Запуск парсера на GitHub.\n\nНужен GitHub токен (Settings → Developer settings → Fine-grained tokens) с доступом к репозиторию '+GH_REPO+' и правом Actions: Read and write. Токен сохранится только в этом браузере.\n\nОставь поле пустым — тогда просто перечитаю уже собранные цены.')||'').trim();
+    if(tok)localStorage.setItem('ghToken',tok);
+  }
+  if(!tok){loadAutoPrices();return;}
+  refreshBusy=true;
+  try{
+    setRefreshMsg('⏳ Запускаю парсер на GitHub…');
+    const h={'Authorization':'Bearer '+tok,'Accept':'application/vnd.github+json'};
+    const wr=await fetch('https://api.github.com/repos/'+GH_REPO+'/actions/workflows',{headers:h});
+    if(wr.status===401){localStorage.removeItem('ghToken');throw new Error('токен не подошёл (401). Нажми 🔄 ещё раз и введи новый.');}
+    if(!wr.ok)throw new Error('GitHub API: '+wr.status);
+    const wfs=((await wr.json()).workflows)||[];
+    const wf=wfs.find(w=>/pars|scrap|price|цен/i.test((w.name||'')+' '+(w.path||'')))||wfs[0];
+    if(!wf)throw new Error('в репозитории не найден workflow парсера');
+    const before=(AUTO_PRICES&&AUTO_PRICES.updated)||'';
+    const dr=await fetch('https://api.github.com/repos/'+GH_REPO+'/actions/workflows/'+wf.id+'/dispatches',{method:'POST',headers:{...h,'Content-Type':'application/json'},body:JSON.stringify({ref:'main'})});
+    if(dr.status!==204)throw new Error('не удалось запустить ('+dr.status+'). Проверь права токена (Actions: write) и что в workflow есть workflow_dispatch.');
+    setRefreshMsg('🔎 Парсер запущен, ищет объявления. Обычно 5–15 мин — страница обновится сама.');
+    const t0=Date.now();
+    while(Date.now()-t0<25*60*1000){
+      await new Promise(res=>setTimeout(res,30000));
+      try{
+        const r=await fetch(PRICES_URL+'?_='+Date.now());
+        if(r.ok){
+          const j=await r.json();
+          if(j&&j.updated&&j.updated!==before){AUTO_PRICES=j;refreshBusy=false;setRefreshMsg('✅ Цены обновлены: '+j.updated);return;}
+        }
+      }catch(e){}
+      setRefreshMsg('🔎 Парсер работает… прошло '+Math.round((Date.now()-t0)/60000)+' мин');
+    }
+    setRefreshMsg('⚠ Не дождался результата за 25 мин. Проверь вкладку Actions в репозитории.');
+  }catch(e){setRefreshMsg('⚠ '+((e&&e.message)||e));}
+  refreshBusy=false;
+}
+
+function renderTrack(){
+  const q=trackQ.toLowerCase();
+  const vmap={};S.variants.forEach(v=>{(vmap[v.item_id]=vmap[v.item_id]||[]).push(v);});
+  const ap=(AUTO_PRICES&&AUTO_PRICES.prices)||null;
+  const upd=ap&&AUTO_PRICES.updated?' · <span style="font-size:10px">обновлено '+AUTO_PRICES.updated+'</span>':'';
+  const loadMsg=pricesLoading?' <span>⏳</span>':(refreshBusy?'':' <button class="srcbtn" onclick="refreshPrices()">🔄 Обновить</button>');
+  const rmsg=refreshMsg?`<div style="font-size:11px;margin-top:4px">${refreshMsg}</div>`:'';
+  $('trackInfo').innerHTML=`<b>💰 Мониторинг цен.</b> Тап по источнику — готовый поиск. Сохранено: <b>${S.variants.length}</b>${upd}${loadMsg}${rmsg}`;
+  $('trackList').innerHTML=PLAN.purchases.map((cat,ci)=>{
+    const its=cat.items.map((it,ii)=>({id:ci+':'+ii,name:it[0],price:it[1],q:it[5]||it[0]})).filter(i=>!q||i.name.toLowerCase().includes(q));
+    if(!its.length)return'';
+    const cnt=its.reduce((a,i)=>a+(vmap[i.id]||[]).length+((ap&&ap[i.id]&&ap[i.id].variants)||[]).length,0);
+    return`<details class="card"${q||trackOpen.has(ci)?' open':''} ontoggle="trackToggle(event,${ci})"><summary><span>${esc(cat.cat)}<span class="badge">💾 ${cnt}</span></span></summary>${its.map(i=>{
+      const manualVs=(vmap[i.id]||[]).slice();
+      const auto=(ap&&ap[i.id])||null;
+      const autoVs=((auto&&auto.variants)||[]).filter(v=>isRel(i.q||i.name,v.name||''));
+      const allVs=[...autoVs.map(v=>({...v,auto:true})),...manualVs].sort((a,b)=>a.price-b.price);
+      const lo=Math.round(i.price*.5),hi=Math.round(i.price*.7);
+      const stats=statsHtml(auto&&auto.stats);
+      const topTtl=allVs.length?`<div class="topttl">🏆 Топ предложений (${allVs.length})</div>`:'';
+      return`<div class="titem"><div class="dname">${esc(i.name)}</div><div class="ddet">Новая: <b>${i.price} BYN</b> · адекватная б/у: <b>${lo}–${hi} BYN</b></div>${stats}<div class="srcbtns">${SOURCES.map(s=>`<button class="srcbtn" onclick="openUrl('${s.u(i.q||i.name).replace(/'/g,"\\'")}')">${s.n}</button>`).join('')}</div>${topTtl}${allVs.map((v,vi)=>{
+        const tag=v.price<=hi?'<span class="tag-ok">выгодно ✅</span>':(v.price>i.price?'<span class="tag-bad">дороже новой!</span>':'');
+        const buy=v.url?`<button class="srcbtn" style="margin-left:3px" onclick="openUrl('${String(v.url).replace(/'/g,"\\'")}')">Купить →</button>`:'';
+        const del=v.auto?'':`<span class="vdel" onclick="delVariant(${v.id})">✕</span>`;
+        const sz=v.size?`<span class="vsize">р.${esc(v.size)}</span>`:'';
+        const rg=v.region?` · ${esc(v.region)}`:'';
+        return`<div class="variant"><span>${vi===0?'🏆':(SRC_ICO[v.source]||'▫️')}</span><div style="flex:1"><b>${esc(v.source)}</b> — <span class="vprice">${fmtByn(v.price)}</span>${sz}${tag}${buy}<br><span style="font-size:10px;color:var(--hint)">${esc(v.name||'')}${rg}</span></div>${del}</div>`;
+      }).join('')}${addFormFor===i.id?`<div><input class="vi" id="vsrc" placeholder="Источник"/><input class="vi" id="vprice" placeholder="Цена BYN" inputmode="decimal"/><input class="vi" id="vurl" placeholder="Ссылка (необязательно)"/><button class="today" style="margin:7px 0 0" onclick="saveVariant('${i.id}')">💾 Сохранить</button></div>`:`<button class="srcbtn" style="margin-top:7px" onclick="showAddForm('${i.id}')">➕ Свой вариант</button>`}</div>`;
+    }).join('')}</details>`;
+  }).join('');
+}
+
+function saveVariant(itemId){
+  const src=($('vsrc').value||'').trim()||'Куфар';
+  const price=parseFloat(($('vprice').value||'').replace(',','.'));
+  const url=($('vurl').value||'').trim();
+  if(!(price>0)){$('vprice').style.borderColor='var(--bad)';return;}
+  haptic('ok');
+  S.variants.push({id:S.varNext++,item_id:itemId,source:src,price:price,url:url,name:''});
+  save(S);addFormFor=null;renderTrack();
+}
+function delVariant(vid){haptic();S.variants=S.variants.filter(v=>v.id!==vid);save(S);renderTrack();}
+
+function renderGoals(){
+  $('goalsBox').innerHTML=PLAN.goals.replace(/\n/g,'<br>');
+  const curM=Math.ceil(curWeek()/4);
+  $('forecast').innerHTML=[1,2,3,4,5,6].map(m=>`<div class="gm${m<curM?' past':''}"><div class="mn">${m<curM?'\u2713':m}</div><div><div style="font-size:12px;font-weight:700">Месяц ${m}</div><div class="mfc">${esc(PLAN.month_forecast[m])}</div></div></div>`).join('');
+}
+
+function renderAll(){renderDash();renderTrain();renderShop();renderTrack();renderGoals();}
+$('sdate').onchange=e=>{S.start_date=e.target.value;save(S);renderAll();};
+$('trackSearch').oninput=e=>{trackQ=e.target.value;renderTrack();};
+
+month=Math.ceil(curWeek()/4);
+document.getElementById('todayBtn').classList.remove('hidden');
+renderAll();
+loadAutoPrices();
+</script>
+</body>
+</html>
