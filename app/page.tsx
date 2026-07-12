@@ -1,15 +1,16 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
-import { CalendarDays, Check, ChevronDown, CircleHelp, Crosshair, Dumbbell, Gauge, Search, Target } from "lucide-react"
+import { useEffect, useMemo, useState, type CSSProperties } from "react"
+import { Activity, CalendarDays, Check, ChevronDown, CircleHelp, Crosshair, Gauge, LayoutDashboard, Search, Target, TrendingUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { glossary, trainingDays, type TrainingDay, weekKm } from "@/lib/training-plan"
 
-type Tab = "today" | "weeks" | "months" | "goals"
+type Tab = "overview" | "today" | "weeks" | "months" | "goals"
 const tabs: { id: Tab; label: string; icon: typeof Target }[] = [
-  { id: "today", label: "Сегодня", icon: Gauge }, { id: "weeks", label: "Недели", icon: CalendarDays },
-  { id: "months", label: "Месяцы", icon: Crosshair }, { id: "goals", label: "Цели", icon: Target },
+  { id: "overview", label: "Обзор", icon: LayoutDashboard }, { id: "today", label: "Сегодня", icon: Gauge },
+  { id: "weeks", label: "Недели", icon: CalendarDays }, { id: "months", label: "Месяцы", icon: Crosshair },
+  { id: "goals", label: "Цели", icon: Target },
 ]
 const categoryLabel: Record<TrainingDay["category"], string> = { бег: "Бег", силовая: "Силовая", техника: "Техника", восстановление: "Восстановление" }
 
@@ -47,6 +48,40 @@ function DayCard({ day, done, onToggle, defaultOpen = false }: { day: TrainingDa
   )
 }
 
+function currentDayIndex() {
+  const today = new Date()
+  const found = trainingDays.findIndex(day => day.date.toDateString() === today.toDateString())
+  return found >= 0 ? found : today < trainingDays[0].date ? 0 : trainingDays.length - 1
+}
+
+function OverviewView({ done, goToday, goWeek }: { done: Set<string>; goToday: () => void; goWeek: (week: number) => void }) {
+  const index = currentDayIndex()
+  const current = trainingDays[index]
+  const eligible = trainingDays.slice(0, index + 1)
+  const completed = trainingDays.filter(day => done.has(day.id)).length
+  const missed = eligible.filter(day => !done.has(day.id)).length
+  const percent = Math.round(completed / trainingDays.length * 100)
+  const weekCounts = Array.from({ length: 33 }, (_, i) => trainingDays.filter(day => day.week === i + 1 && done.has(day.id)).length)
+  let streak = 0
+  for (let week = current.week - 1; week >= 1; week--) { if (weekCounts[week - 1] === 7) streak += 1; else break }
+  const monthKeys = Array.from(new Set(trainingDays.map(day => `${day.date.getFullYear()}-${day.date.getMonth()}`)))
+  const monthData = monthKeys.map(key => { const [year, month] = key.split("-").map(Number); return { label: new Intl.DateTimeFormat("ru-RU", { month: "short" }).format(new Date(year, month, 1)).replace(".", ""), value: trainingDays.filter(day => `${day.date.getFullYear()}-${day.date.getMonth()}` === key && done.has(day.id)).length } })
+  const maxMonth = Math.max(1, ...monthData.map(item => item.value))
+  const phase = current.week <= 7 ? "Подготовка и восстановление" : current.week <= 15 ? "Возврат к бегу" : current.week <= 27 ? "Основной блок" : current.week <= 31 ? "Специальная подготовка" : "Подводка"
+  return <div className="flex flex-col gap-5">
+    <header className="overview-hero"><div><p className="eyebrow">План подготовки 4.2</p><h1>Твой прогресс</h1><p>Неделя {current.week} из 33 · {phase}</p></div><div className="progress-ring" style={{ "--progress": `${percent * 3.6}deg` } as CSSProperties}><strong>{percent}%</strong><span>выполнено</span></div></header>
+    <Button size="lg" className="min-h-14 w-full justify-between" onClick={goToday}><span>Открыть тренировку на сегодня</span><ChevronDown className="-rotate-90" aria-hidden="true" /></Button>
+    <section className="metric-grid" aria-label="Показатели прогресса">
+      <article><Activity aria-hidden="true"/><strong>{streak}</strong><span>полных недель подряд</span></article>
+      <article><Check aria-hidden="true"/><strong>{completed}<small> / {trainingDays.length}</small></strong><span>дней выполнено</span></article>
+      <article><CalendarDays aria-hidden="true"/><strong>{missed}</strong><span>прошедших не отмечено</span></article>
+      <article><TrendingUp aria-hidden="true"/><strong>{weekCounts[current.week - 1]}<small> / 7</small></strong><span>текущая неделя</span></article>
+    </section>
+    <section className="dashboard-card"><div className="dashboard-heading"><div><p className="eyebrow">Календарь цикла</p><h2>33 недели</h2></div><span>{completed} отметок</span></div><div className="week-matrix">{weekCounts.map((count, i) => { const week = i + 1; return <button key={week} onClick={() => goWeek(week)} className={cn(count === 7 && "complete", week === current.week && "current", week < current.week && count < 7 && "missed")} aria-label={`Неделя ${week}: ${count} из 7 выполнено`}><strong>{week}</strong><span>{count}/7</span></button> })}</div></section>
+    <section className="dashboard-card"><div className="dashboard-heading"><div><p className="eyebrow">Ритм работы</p><h2>Активность по месяцам</h2></div></div><div className="month-chart">{monthData.map(item => <div key={item.label}><div className="bar-track"><span style={{ height: `${Math.max(4, item.value / maxMonth * 100)}%` }} /></div><strong>{item.value}</strong><small>{item.label}</small></div>)}</div></section>
+  </div>
+}
+
 function TodayView({ done, toggle }: { done: Set<string>; toggle: (id: string) => void }) {
   const today = new Date()
   let index = trainingDays.findIndex(day => day.date.toDateString() === today.toDateString())
@@ -64,10 +99,10 @@ function TodayView({ done, toggle }: { done: Set<string>; toggle: (id: string) =
 
 function Glossary() { return <details className="rounded-2xl border bg-card p-4"><summary className="flex cursor-pointer items-center gap-2 font-semibold"><CircleHelp aria-hidden="true" /> Словарь новичка</summary><dl className="mt-4 grid gap-3">{glossary.map(([term, meaning]) => <div key={term}><dt>{term}</dt><dd>{meaning}</dd></div>)}</dl></details> }
 
-function WeeksView({ done, toggle }: { done: Set<string>; toggle: (id: string) => void }) {
+function WeeksView({ done, toggle, selectedWeek }: { done: Set<string>; toggle: (id: string) => void; selectedWeek: number }) {
   const [query, setQuery] = useState("")
   const [filter, setFilter] = useState("все")
-  const [openWeek, setOpenWeek] = useState(1)
+  const [openWeek, setOpenWeek] = useState(selectedWeek)
   return <div className="flex flex-col gap-5"><header><p className="eyebrow">Полный календарь</p><h1>33 недели · 231 день</h1><p className="mt-2 text-muted-foreground">Каждый день расписан полностью: от первой минуты разминки до заминки.</p></header>
     <label className="search-box"><Search aria-hidden="true" /><span className="sr-only">Поиск упражнения</span><input value={query} onChange={event => setQuery(event.target.value)} placeholder="Найти: гиря, КСУ, 800 м…" /></label>
     <div className="filter-row">{["все", "бег", "силовая", "техника", "восстановление"].map(item => <button key={item} onClick={() => setFilter(item)} className={cn(filter === item && "active")}>{item === "все" ? "Все" : categoryLabel[item as TrainingDay["category"]]}</button>)}</div>
@@ -88,10 +123,12 @@ function GoalsView() { const goals = ["5 км — около 17:00", "3 км —
   return <div className="flex flex-col gap-5"><header><p className="eyebrow">Контроль 15 февраля 2027</p><h1>Все цели одновременно</h1><p className="mt-2 text-muted-foreground">План повышает вероятность результата, но не является медицинской или физиологической гарантией.</p></header><div className="goal-grid">{goals.map((goal, index) => <article key={goal}><span>{String(index + 1).padStart(2, "0")}</span><p>{goal}</p></article>)}</div><aside className="finish-note"><strong>Правило прогрессии</strong><p>Не догоняй пропущенную работу. Увеличивай нагрузку только после двух недель без боли, отёка, подкашивания и ухудшения на следующее утро. Бег и прыжки выполняются только после допуска профильного врача.</p></aside><Glossary /></div> }
 
 export default function Page() {
-  const [tab, setTab] = useState<Tab>("today")
+  const [tab, setTab] = useState<Tab>("overview")
+  const [selectedWeek, setSelectedWeek] = useState(1)
   const [done, setDone] = useState<Set<string>>(new Set())
   useEffect(() => { try { const stored = localStorage.getItem("training-plan-v4-progress"); if (stored) setDone(new Set(JSON.parse(stored))) } catch {} }, [])
   const toggle = (id: string) => setDone(previous => { const next = new Set(previous); next.has(id) ? next.delete(id) : next.add(id); localStorage.setItem("training-plan-v4-progress", JSON.stringify([...next])); return next })
-  const content = useMemo(() => tab === "today" ? <TodayView done={done} toggle={toggle} /> : tab === "weeks" ? <WeeksView done={done} toggle={toggle} /> : tab === "months" ? <MonthsView done={done} /> : <GoalsView />, [tab, done])
+  const openWeek = (week: number) => { setSelectedWeek(week); setTab("weeks") }
+  const content = useMemo(() => tab === "overview" ? <OverviewView done={done} goToday={() => setTab("today")} goWeek={openWeek} /> : tab === "today" ? <TodayView done={done} toggle={toggle} /> : tab === "weeks" ? <WeeksView key={selectedWeek} done={done} toggle={toggle} selectedWeek={selectedWeek} /> : tab === "months" ? <MonthsView done={done} /> : <GoalsView />, [tab, done, selectedWeek])
   return <main className="min-h-screen bg-background pb-28 text-foreground"><div className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-3 py-5 sm:px-5">{content}</div><nav className="bottom-nav" aria-label="Основная навигация">{tabs.map(item => { const Icon = item.icon; return <button key={item.id} onClick={() => setTab(item.id)} className={cn(tab === item.id && "active")} aria-current={tab === item.id ? "page" : undefined}><Icon aria-hidden="true" /><span>{item.label}</span></button> })}</nav></main>
 }

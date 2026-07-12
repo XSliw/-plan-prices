@@ -34,24 +34,24 @@
 
 html.training-theme {
   color-scheme: dark;
-  --background: oklch(.125 .008 250);
-  --foreground: oklch(.96 .008 95);
-  --card: oklch(.17 .01 250);
-  --card-foreground: oklch(.96 .008 95);
-  --popover: oklch(.17 .01 250);
-  --popover-foreground: oklch(.96 .008 95);
-  --primary: oklch(.82 .17 151);
-  --primary-foreground: oklch(.13 .01 250);
-  --secondary: oklch(.225 .012 250);
-  --secondary-foreground: oklch(.93 .008 95);
-  --muted: oklch(.225 .012 250);
-  --muted-foreground: oklch(.7 .012 250);
-  --accent: oklch(.72 .14 66);
-  --accent-foreground: oklch(.13 .01 250);
-  --destructive: oklch(.67 .19 27);
-  --border: oklch(.31 .012 250);
-  --input: oklch(.25 .012 250);
-  --ring: oklch(.82 .17 151);
+  --background: oklch(.13 .006 255);
+  --foreground: oklch(.95 .004 255);
+  --card: oklch(.175 .006 255);
+  --card-foreground: oklch(.95 .004 255);
+  --popover: oklch(.175 .006 255);
+  --popover-foreground: oklch(.95 .004 255);
+  --primary: oklch(.72 .06 245);
+  --primary-foreground: oklch(.12 .006 255);
+  --secondary: oklch(.225 .007 255);
+  --secondary-foreground: oklch(.91 .004 255);
+  --muted: oklch(.225 .007 255);
+  --muted-foreground: oklch(.66 .008 255);
+  --accent: oklch(.62 .025 245);
+  --accent-foreground: oklch(.12 .006 255);
+  --destructive: oklch(.64 .12 25);
+  --border: oklch(.295 .008 255);
+  --input: oklch(.245 .007 255);
+  --ring: oklch(.72 .06 245);
   --radius: .8rem;
 }
 
@@ -76,9 +76,9 @@ html.training-theme {
 .section-heading > span { @apply rounded-full bg-secondary px-3 py-1 font-mono text-xs; }
 .tag { @apply rounded-full border px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider; }
 .tag-бег { @apply border-primary/40 text-primary; }
-.tag-силовая { @apply border-accent/50 text-accent; }
-.tag-техника { @apply border-foreground/30 text-foreground; }
-.tag-восстановление { @apply border-muted-foreground/40 text-muted-foreground; }
+.tag-силовая { @apply border-foreground/25 text-foreground; }
+.tag-техника { @apply border-muted-foreground/50 text-muted-foreground; }
+.tag-восстановление { @apply border-border bg-secondary text-muted-foreground; }
 .summary-grid { @apply grid gap-px overflow-hidden rounded-xl border bg-border sm:grid-cols-2; }
 .summary-grid > div { @apply flex flex-col gap-1 bg-secondary p-3; }
 .summary-grid span { @apply font-mono text-[10px] uppercase tracking-widest text-muted-foreground; }
@@ -124,8 +124,37 @@ details dd { @apply mt-1 text-sm leading-relaxed text-muted-foreground; }
 .goal-grid article { @apply flex items-start gap-3 rounded-xl border bg-card p-4; }
 .goal-grid span { @apply font-mono text-sm text-primary; }
 .goal-grid p { @apply font-medium leading-relaxed; }
-.bottom-nav { @apply fixed inset-x-0 bottom-0 mx-auto flex h-20 max-w-xl items-center justify-around border-t bg-background/95 px-2 backdrop-blur; padding-bottom: env(safe-area-inset-bottom); }
-.bottom-nav button { @apply flex min-h-14 min-w-16 flex-col items-center justify-center gap-1 rounded-xl text-[11px] text-muted-foreground; }
+.overview-hero { @apply flex items-center justify-between gap-4 rounded-2xl border bg-card p-5; }
+.overview-hero > div:first-child { @apply flex min-w-0 flex-col gap-2; }
+.overview-hero > div:first-child > p:last-child { @apply text-sm text-muted-foreground; }
+.progress-ring { @apply flex size-28 shrink-0 flex-col items-center justify-center rounded-full; background: radial-gradient(circle, var(--card) 61%, transparent 63%), conic-gradient(var(--primary) var(--progress), var(--secondary) 0deg); }
+.progress-ring strong { @apply font-mono text-2xl; }
+.progress-ring span { @apply text-[10px] text-muted-foreground; }
+.metric-grid { @apply grid grid-cols-2 gap-3; }
+.metric-grid article { @apply flex min-h-32 flex-col items-start justify-between rounded-2xl border bg-card p-4; }
+.metric-grid svg { @apply text-muted-foreground; }
+.metric-grid strong { @apply font-mono text-3xl font-medium; }
+.metric-grid strong small { @apply text-base text-muted-foreground; }
+.metric-grid span { @apply text-sm leading-snug text-muted-foreground; }
+.dashboard-card { @apply flex flex-col gap-5 rounded-2xl border bg-card p-4; }
+.dashboard-heading { @apply flex items-end justify-between gap-3; }
+.dashboard-heading > div { @apply flex flex-col gap-1; }
+.dashboard-heading > span { @apply font-mono text-xs text-muted-foreground; }
+.week-matrix { @apply grid grid-cols-6 gap-2 sm:grid-cols-8; }
+.week-matrix button { @apply flex aspect-square min-w-0 flex-col items-center justify-center rounded-xl border bg-secondary text-muted-foreground; }
+.week-matrix button strong { @apply font-mono text-sm font-medium; }
+.week-matrix button span { @apply text-[9px]; }
+.week-matrix button.complete { @apply border-primary/50 bg-primary/15 text-primary; }
+.week-matrix button.current { @apply border-primary text-foreground ring-1 ring-primary; }
+.week-matrix button.missed { @apply border-dashed opacity-65; }
+.month-chart { @apply flex h-56 items-end gap-2 overflow-x-auto; }
+.month-chart > div { @apply flex h-full min-w-10 flex-1 flex-col items-center gap-2; }
+.bar-track { @apply flex min-h-0 w-full flex-1 items-end overflow-hidden rounded-md bg-secondary; }
+.bar-track span { @apply block w-full bg-primary; }
+.month-chart strong { @apply font-mono text-xs; }
+.month-chart small { @apply text-[10px] capitalize text-muted-foreground; }
+.bottom-nav { @apply fixed inset-x-0 bottom-0 mx-auto flex h-20 max-w-xl items-center justify-around border-t bg-background/95 px-1 backdrop-blur; padding-bottom: env(safe-area-inset-bottom); }
+.bottom-nav button { @apply flex min-h-14 min-w-0 flex-1 flex-col items-center justify-center gap-1 rounded-xl text-[10px] text-muted-foreground; }
 .bottom-nav button svg { @apply size-5; }
 .bottom-nav button.active { @apply bg-secondary text-primary; }
 
@@ -133,5 +162,8 @@ details dd { @apply mt-1 text-sm leading-relaxed text-muted-foreground; }
   h1 { @apply text-2xl; }
   .hero-panel { @apply items-start; }
   .week-score { @apply hidden; }
-  .bottom-nav button { @apply min-w-14; }
+  .overview-hero { @apply items-start; }
+  .progress-ring { @apply size-24; }
+  .week-matrix { @apply grid-cols-5; }
+  .bottom-nav button { @apply text-[9px]; }
 }
