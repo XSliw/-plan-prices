@@ -5,159 +5,133 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
-  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
   --color-background: var(--background);
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) * .65);
+  --radius-md: calc(var(--radius) * .82);
   --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: calc(var(--radius) * 1.8);
-  --radius-3xl: calc(var(--radius) * 2.2);
-  --radius-4xl: calc(var(--radius) * 2.6);
+  --radius-xl: calc(var(--radius) * 1.35);
+  --radius-2xl: calc(var(--radius) * 1.7);
 }
 
-:root {
-  color-scheme: light;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
-
-.dark {
+html.training-theme {
   color-scheme: dark;
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not(.light) {
-    color-scheme: dark;
-    --background: oklch(0.145 0 0);
-    --foreground: oklch(0.985 0 0);
-    --card: oklch(0.205 0 0);
-    --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.205 0 0);
-    --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.922 0 0);
-    --primary-foreground: oklch(0.205 0 0);
-    --secondary: oklch(0.269 0 0);
-    --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.269 0 0);
-    --muted-foreground: oklch(0.708 0 0);
-    --accent: oklch(0.269 0 0);
-    --accent-foreground: oklch(0.985 0 0);
-    --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
-    --input: oklch(1 0 0 / 15%);
-    --ring: oklch(0.556 0 0);
-    --chart-1: oklch(0.87 0 0);
-    --chart-2: oklch(0.556 0 0);
-    --chart-3: oklch(0.439 0 0);
-    --chart-4: oklch(0.371 0 0);
-    --chart-5: oklch(0.269 0 0);
-    --sidebar: oklch(0.205 0 0);
-    --sidebar-foreground: oklch(0.985 0 0);
-    --sidebar-primary: oklch(0.488 0.243 264.376);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.269 0 0);
-    --sidebar-accent-foreground: oklch(0.985 0 0);
-    --sidebar-border: oklch(1 0 0 / 10%);
-    --sidebar-ring: oklch(0.556 0 0);
-  }
+  --background: oklch(.125 .008 250);
+  --foreground: oklch(.96 .008 95);
+  --card: oklch(.17 .01 250);
+  --card-foreground: oklch(.96 .008 95);
+  --popover: oklch(.17 .01 250);
+  --popover-foreground: oklch(.96 .008 95);
+  --primary: oklch(.82 .17 151);
+  --primary-foreground: oklch(.13 .01 250);
+  --secondary: oklch(.225 .012 250);
+  --secondary-foreground: oklch(.93 .008 95);
+  --muted: oklch(.225 .012 250);
+  --muted-foreground: oklch(.7 .012 250);
+  --accent: oklch(.72 .14 66);
+  --accent-foreground: oklch(.13 .01 250);
+  --destructive: oklch(.67 .19 27);
+  --border: oklch(.31 .012 250);
+  --input: oklch(.25 .012 250);
+  --ring: oklch(.82 .17 151);
+  --radius: .8rem;
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+  * { @apply border-border outline-ring/50; }
+  html { @apply bg-background; }
+  body { @apply bg-background text-foreground font-sans; }
+  button, summary { -webkit-tap-highlight-color: transparent; }
+  h1 { @apply text-3xl font-semibold tracking-tight sm:text-4xl; }
+  h2 { @apply text-2xl font-semibold tracking-tight; }
+}
+
+.eyebrow { @apply font-mono text-[11px] font-semibold uppercase tracking-[.16em] text-primary; }
+.hero-panel { @apply flex items-end justify-between gap-4 rounded-2xl border bg-card p-5; }
+.hero-panel > div:first-child { @apply flex min-w-0 flex-col gap-2; }
+.hero-panel > div:first-child > p:last-child { @apply text-sm text-muted-foreground; }
+.week-score { @apply flex shrink-0 flex-col items-end; }
+.week-score strong { @apply font-mono text-2xl text-primary; }
+.week-score span { @apply text-xs text-muted-foreground; }
+.section-heading { @apply flex items-end justify-between gap-3 px-1; }
+.section-heading > div { @apply flex flex-col gap-1; }
+.section-heading > span { @apply rounded-full bg-secondary px-3 py-1 font-mono text-xs; }
+.tag { @apply rounded-full border px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider; }
+.tag-бег { @apply border-primary/40 text-primary; }
+.tag-силовая { @apply border-accent/50 text-accent; }
+.tag-техника { @apply border-foreground/30 text-foreground; }
+.tag-восстановление { @apply border-muted-foreground/40 text-muted-foreground; }
+.summary-grid { @apply grid gap-px overflow-hidden rounded-xl border bg-border sm:grid-cols-2; }
+.summary-grid > div { @apply flex flex-col gap-1 bg-secondary p-3; }
+.summary-grid span { @apply font-mono text-[10px] uppercase tracking-widest text-muted-foreground; }
+.summary-grid p { @apply text-sm leading-relaxed; }
+.block-card { @apply overflow-hidden rounded-xl border bg-background; }
+.block-card header { @apply flex items-center gap-3 border-b bg-secondary p-3; }
+.block-card header > span { @apply font-mono text-2xl font-semibold text-primary; }
+.block-card header div { @apply flex flex-col gap-0.5; }
+.block-card header h3 { @apply font-semibold; }
+.block-card header p { @apply font-mono text-xs text-muted-foreground; }
+.block-card ol { @apply flex flex-col; }
+.block-card li { @apply flex gap-3 border-b p-3 last:border-b-0; }
+.block-card li > span { @apply flex size-6 shrink-0 items-center justify-center rounded-full bg-secondary font-mono text-xs text-muted-foreground; }
+.block-card li p { @apply text-sm leading-relaxed; }
+.transition-note { @apply border-t bg-primary/10 p-3 text-sm leading-relaxed text-primary; }
+.finish-note { @apply flex flex-col gap-1 rounded-xl border border-destructive/40 bg-destructive/10 p-4; }
+.finish-note strong { @apply text-sm text-destructive; }
+.finish-note p { @apply text-sm leading-relaxed; }
+details summary { list-style: none; }
+details summary::-webkit-details-marker { display: none; }
+details dl div { @apply rounded-lg bg-secondary p-3; }
+details dt { @apply font-mono text-xs font-semibold text-primary; }
+details dd { @apply mt-1 text-sm leading-relaxed text-muted-foreground; }
+.search-box { @apply flex min-h-12 items-center gap-3 rounded-xl border bg-card px-4; }
+.search-box svg { @apply shrink-0 text-muted-foreground; }
+.search-box input { @apply min-w-0 flex-1 bg-transparent text-sm outline-none placeholder:text-muted-foreground; }
+.filter-row { @apply flex gap-2 overflow-x-auto pb-1; scrollbar-width: none; }
+.filter-row button { @apply min-h-9 shrink-0 rounded-full border px-4 text-sm text-muted-foreground; }
+.filter-row button.active { @apply border-primary bg-primary text-primary-foreground; }
+.week-card { @apply overflow-hidden rounded-2xl border bg-card; }
+.week-card > button { @apply flex min-h-16 w-full items-center justify-between gap-3 p-4 text-left; }
+.week-card > button div { @apply flex flex-col gap-1; }
+.week-card > button span { @apply text-lg font-semibold; }
+.week-card > button strong { @apply font-mono text-xs font-normal text-muted-foreground; }
+.week-card svg { @apply transition-transform; }
+.month-card { @apply flex flex-col gap-3 rounded-2xl border bg-card p-5; }
+.month-card > p { @apply capitalize text-sm text-muted-foreground; }
+.month-card > strong { @apply text-xl; }
+.month-card > div { @apply h-2 overflow-hidden rounded-full bg-secondary; }
+.month-card > div span { @apply block h-full bg-primary; }
+.month-card small { @apply text-sm text-muted-foreground; }
+.goal-grid { @apply grid gap-3 sm:grid-cols-2; }
+.goal-grid article { @apply flex items-start gap-3 rounded-xl border bg-card p-4; }
+.goal-grid span { @apply font-mono text-sm text-primary; }
+.goal-grid p { @apply font-medium leading-relaxed; }
+.bottom-nav { @apply fixed inset-x-0 bottom-0 mx-auto flex h-20 max-w-xl items-center justify-around border-t bg-background/95 px-2 backdrop-blur; padding-bottom: env(safe-area-inset-bottom); }
+.bottom-nav button { @apply flex min-h-14 min-w-16 flex-col items-center justify-center gap-1 rounded-xl text-[11px] text-muted-foreground; }
+.bottom-nav button svg { @apply size-5; }
+.bottom-nav button.active { @apply bg-secondary text-primary; }
+
+@media (max-width: 360px) {
+  h1 { @apply text-2xl; }
+  .hero-panel { @apply items-start; }
+  .week-score { @apply hidden; }
+  .bottom-nav button { @apply min-w-14; }
 }

@@ -1,35 +1,97 @@
-import { Download, FileText } from "lucide-react"
+"use client"
+
+import { useEffect, useMemo, useState } from "react"
+import { CalendarDays, Check, ChevronDown, CircleHelp, Crosshair, Dumbbell, Gauge, Search, Target } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
+import { glossary, trainingDays, type TrainingDay, weekKm } from "@/lib/training-plan"
+
+type Tab = "today" | "weeks" | "months" | "goals"
+const tabs: { id: Tab; label: string; icon: typeof Target }[] = [
+  { id: "today", label: "Сегодня", icon: Gauge }, { id: "weeks", label: "Недели", icon: CalendarDays },
+  { id: "months", label: "Месяцы", icon: Crosshair }, { id: "goals", label: "Цели", icon: Target },
+]
+const categoryLabel: Record<TrainingDay["category"], string> = { бег: "Бег", силовая: "Силовая", техника: "Техника", восстановление: "Восстановление" }
+
+const dateText = (date: Date) => new Intl.DateTimeFormat("ru-RU", { day: "numeric", month: "long" }).format(date)
+const fullDate = (date: Date) => new Intl.DateTimeFormat("ru-RU", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(date)
+
+function DayCard({ day, done, onToggle, defaultOpen = false }: { day: TrainingDay; done: boolean; onToggle: () => void; defaultOpen?: boolean }) {
+  const [open, setOpen] = useState(defaultOpen)
+  return (
+    <article className={cn("overflow-hidden rounded-2xl border bg-card", done && "border-primary/50")}>
+      <button className="flex w-full items-start gap-3 p-4 text-left" onClick={() => setOpen(!open)} aria-expanded={open}>
+        <span className={cn("mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-xl bg-secondary text-sm font-bold", done && "bg-primary text-primary-foreground")}>{done ? <Check aria-hidden="true" /> : day.date.getDate()}</span>
+        <span className="flex min-w-0 flex-1 flex-col gap-1">
+          <span className="flex flex-wrap items-center gap-2"><strong className="text-pretty">{day.dayName}: {day.title}</strong><span className={`tag tag-${day.category}`}>{categoryLabel[day.category]}</span></span>
+          <span className="text-sm text-muted-foreground">{dateText(day.date)} · {day.duration}</span>
+        </span>
+        <ChevronDown aria-hidden="true" className={cn("mt-2 shrink-0 transition-transform", open && "rotate-180")} />
+      </button>
+      {open && <div className="flex flex-col gap-5 border-t p-4">
+        <section className="summary-grid">
+          <div><span>Цель</span><p>{day.goal}</p></div><div><span>Интенсивность</span><p>{day.intensity}</p></div>
+          <div><span>Оборудование</span><p>{day.equipment}</p></div><div><span>Порядок</span><p>{day.order}</p></div>
+        </section>
+        <div className="flex flex-col gap-3">
+          {day.blocks.map((trainingBlock, blockIndex) => <section className="block-card" key={`${day.id}-${blockIndex}`}>
+            <header><span>{String(blockIndex + 1).padStart(2, "0")}</span><div><h3>{trainingBlock.title}</h3><p>{trainingBlock.time}</p></div></header>
+            <ol>{trainingBlock.steps.map((step, index) => <li key={index}><span>{index + 1}</span><p>{step}</p></li>)}</ol>
+            <p className="transition-note"><strong>Переход:</strong> {trainingBlock.restAfter}</p>
+          </section>)}
+        </div>
+        <aside className="finish-note"><strong>Когда остановиться</strong><p>{day.finish}</p></aside>
+        <Button onClick={onToggle} variant={done ? "outline" : "default"} size="lg" className="min-h-11 w-full">{done ? "Снять отметку" : "Отметить тренировку выполненной"}</Button>
+      </div>}
+    </article>
+  )
+}
+
+function TodayView({ done, toggle }: { done: Set<string>; toggle: (id: string) => void }) {
+  const today = new Date()
+  let index = trainingDays.findIndex(day => day.date.toDateString() === today.toDateString())
+  if (index < 0) index = today < trainingDays[0].date ? 0 : trainingDays.length - 1
+  const current = trainingDays[index]
+  const tomorrow = trainingDays[Math.min(index + 1, trainingDays.length - 1)]
+  const weekDone = trainingDays.filter(day => day.week === current.week && done.has(day.id)).length
+  return <div className="flex flex-col gap-5">
+    <section className="hero-panel"><div><p className="eyebrow">План 4.2 · Неделя {current.week}</p><h1 className="text-balance">Тренировка без догадок</h1><p>{fullDate(current.date)}</p></div><div className="week-score"><strong>{weekDone}/7</strong><span>дней недели</span></div></section>
+    <section className="flex flex-col gap-3"><div className="section-heading"><div><p className="eyebrow">Основное</p><h2>Сегодня</h2></div><span>{weekKm[current.week - 1]} км / нед.</span></div><DayCard day={current} done={done.has(current.id)} onToggle={() => toggle(current.id)} defaultOpen /></section>
+    {tomorrow.id !== current.id && <section className="flex flex-col gap-3"><div className="section-heading"><div><p className="eyebrow">Подготовься заранее</p><h2>Завтра</h2></div></div><DayCard day={tomorrow} done={done.has(tomorrow.id)} onToggle={() => toggle(tomorrow.id)} /></section>}
+    <Glossary />
+  </div>
+}
+
+function Glossary() { return <details className="rounded-2xl border bg-card p-4"><summary className="flex cursor-pointer items-center gap-2 font-semibold"><CircleHelp aria-hidden="true" /> Словарь новичка</summary><dl className="mt-4 grid gap-3">{glossary.map(([term, meaning]) => <div key={term}><dt>{term}</dt><dd>{meaning}</dd></div>)}</dl></details> }
+
+function WeeksView({ done, toggle }: { done: Set<string>; toggle: (id: string) => void }) {
+  const [query, setQuery] = useState("")
+  const [filter, setFilter] = useState("все")
+  const [openWeek, setOpenWeek] = useState(1)
+  return <div className="flex flex-col gap-5"><header><p className="eyebrow">Полный календарь</p><h1>33 недели · 231 день</h1><p className="mt-2 text-muted-foreground">Каждый день расписан полностью: от первой минуты разминки до заминки.</p></header>
+    <label className="search-box"><Search aria-hidden="true" /><span className="sr-only">Поиск упражнения</span><input value={query} onChange={event => setQuery(event.target.value)} placeholder="Найти: гиря, КСУ, 800 м…" /></label>
+    <div className="filter-row">{["все", "бег", "силовая", "техника", "восстановление"].map(item => <button key={item} onClick={() => setFilter(item)} className={cn(filter === item && "active")}>{item === "все" ? "Все" : categoryLabel[item as TrainingDay["category"]]}</button>)}</div>
+    <div className="flex flex-col gap-3">{Array.from({ length: 33 }, (_, i) => i + 1).map(week => {
+      const days = trainingDays.filter(day => day.week === week).filter(day => filter === "все" || day.category === filter).filter(day => !query || JSON.stringify(day).toLowerCase().includes(query.toLowerCase()))
+      if (!days.length) return null
+      const count = trainingDays.filter(day => day.week === week && done.has(day.id)).length
+      return <section className="week-card" key={week}><button onClick={() => setOpenWeek(openWeek === week ? 0 : week)}><div><span>Неделя {week}</span><strong>{weekKm[week - 1]} км · {count}/7 выполнено</strong></div><ChevronDown aria-hidden="true" className={cn(openWeek === week && "rotate-180")} /></button>{openWeek === week && <div className="flex flex-col gap-3 border-t p-3">{days.map(day => <DayCard key={day.id} day={day} done={done.has(day.id)} onToggle={() => toggle(day.id)} />)}</div>}</section>
+    })}</div><Glossary /></div>
+}
+
+function MonthsView({ done }: { done: Set<string> }) {
+  const months = Array.from(new Set(trainingDays.map(day => `${day.date.getFullYear()}-${day.date.getMonth()}`)))
+  return <div className="flex flex-col gap-5"><header><p className="eyebrow">Контроль нагрузки</p><h1>Месяцы и этапы</h1></header><div className="grid gap-3 md:grid-cols-2">{months.map(key => { const [year, month] = key.split("-").map(Number); const days = trainingDays.filter(day => day.date.getFullYear() === year && day.date.getMonth() === month); const complete = days.filter(day => done.has(day.id)).length; return <article className="month-card" key={key}><p>{new Intl.DateTimeFormat("ru-RU", { month: "long", year: "numeric" }).format(new Date(year, month, 1))}</p><strong>{days[0].week}–{days.at(-1)?.week} недели</strong><div><span style={{ width: `${complete / days.length * 100}%` }} /></div><small>{complete} из {days.length} дней · бег до {Math.max(...days.map(day => weekKm[day.week - 1]))} км/нед.</small></article> })}</div></div>
+}
+
+function GoalsView() { const goals = ["5 км — около 17:00", "3 км — менее 10:00", "40 подтягиваний", "90 отжиманий на брусьях", "20 КСУ", "+16 кг: 17 подтягиваний и 25 брусьев", "Рывок 24 кг — 60 повторений", "Мяч 5 кг — сумма 38 м", "Челноки: 10×10 м за 25–26 с; 4×10 м за 9,0 с", "Спецкросс 2 км — около 10 минут"]
+  return <div className="flex flex-col gap-5"><header><p className="eyebrow">Контроль 15 февраля 2027</p><h1>Все цели одновременно</h1><p className="mt-2 text-muted-foreground">План повышает вероятность результата, но не является медицинской или физиологической гарантией.</p></header><div className="goal-grid">{goals.map((goal, index) => <article key={goal}><span>{String(index + 1).padStart(2, "0")}</span><p>{goal}</p></article>)}</div><aside className="finish-note"><strong>Правило прогрессии</strong><p>Не догоняй пропущенную работу. Увеличивай нагрузку только после двух недель без боли, отёка, подкашивания и ухудшения на следующее утро. Бег и прыжки выполняются только после допуска профильного врача.</p></aside><Glossary /></div> }
 
 export default function Page() {
-  return (
-    <main className="flex min-h-screen items-center justify-center bg-background p-6 text-foreground">
-      <section className="flex w-full max-w-md flex-col items-center gap-6 rounded-2xl border border-border bg-card p-8 text-center shadow-sm">
-        <span className="flex size-16 items-center justify-center rounded-full bg-primary text-primary-foreground">
-          <FileText aria-hidden="true" className="size-8" />
-        </span>
-        <div className="flex flex-col gap-2">
-          <h1 className="text-balance text-2xl font-semibold">Итоговый план тренировок</h1>
-          <p className="text-pretty leading-relaxed text-muted-foreground">
-            Подробная программа подготовки на 2026–2027 год в формате PDF.
-          </p>
-        </div>
-        <a
-          className="flex min-h-11 w-full items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 font-medium text-primary-foreground transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-          href="/training-plan-2026-2027.pdf"
-          download="training-plan-2026-2027.pdf"
-        >
-          <Download aria-hidden="true" className="size-5" />
-          Скачать PDF
-        </a>
-        <a
-          className="text-sm font-medium text-primary underline underline-offset-4"
-          href="/training-plan-2026-2027.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Открыть PDF в новой вкладке
-        </a>
-      </section>
-    </main>
-  )
+  const [tab, setTab] = useState<Tab>("today")
+  const [done, setDone] = useState<Set<string>>(new Set())
+  useEffect(() => { try { const stored = localStorage.getItem("training-plan-v4-progress"); if (stored) setDone(new Set(JSON.parse(stored))) } catch {} }, [])
+  const toggle = (id: string) => setDone(previous => { const next = new Set(previous); next.has(id) ? next.delete(id) : next.add(id); localStorage.setItem("training-plan-v4-progress", JSON.stringify([...next])); return next })
+  const content = useMemo(() => tab === "today" ? <TodayView done={done} toggle={toggle} /> : tab === "weeks" ? <WeeksView done={done} toggle={toggle} /> : tab === "months" ? <MonthsView done={done} /> : <GoalsView />, [tab, done])
+  return <main className="min-h-screen bg-background pb-28 text-foreground"><div className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-3 py-5 sm:px-5">{content}</div><nav className="bottom-nav" aria-label="Основная навигация">{tabs.map(item => { const Icon = item.icon; return <button key={item.id} onClick={() => setTab(item.id)} className={cn(tab === item.id && "active")} aria-current={tab === item.id ? "page" : undefined}><Icon aria-hidden="true" /><span>{item.label}</span></button> })}</nav></main>
 }
