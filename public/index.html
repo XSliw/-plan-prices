@@ -96,6 +96,26 @@ nav button{flex:1;border:0;background:none;color:var(--hint);font-size:9px;font-
 nav button .ico{display:block;font-size:18px;margin-bottom:1px}
 nav button.on{color:var(--accent)}
 canvas{max-height:190px}
+.thead{display:flex;gap:9px;align-items:flex-start;margin-bottom:3px}
+.timg{width:44px;height:44px;border-radius:12px;flex:none;display:flex;align-items:center;justify-content:center;color:#fff}
+.timg svg{width:24px;height:24px}
+.timg.sm{width:28px;height:28px;border-radius:8px}
+.timg.sm svg{width:16px;height:16px}
+.cchips{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}
+.cchip{border:1px solid var(--track);background:transparent;color:var(--text);border-radius:14px;padding:5px 10px;font-size:11px}
+.cchip.on{background:var(--accent);color:var(--atext);border-color:var(--accent)}
+.citem{padding:10px 0;border-top:1px solid var(--track)}
+.cwhy{font-size:11px;color:var(--hint);margin-top:4px;line-height:1.5}
+.timg{cursor:pointer}
+.timg img{width:44px;height:44px;object-fit:cover;border-radius:12px}
+.timg.br{background:#fff;border:1px solid var(--track)}
+#imgView{position:fixed;inset:0;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;z-index:99;padding:18px}
+.ivbox{background:var(--card);border-radius:16px;padding:14px;max-width:92vw}
+.ivbox img{width:min(78vw,430px);max-height:56vh;object-fit:contain;border-radius:12px;background:#fff;display:block;margin:0 auto}
+.ivname{font-size:13px;font-weight:600;margin:10px 4px;text-align:center}
+.ivbtns{display:flex;gap:8px;justify-content:center}
+.ivb{border:1px solid var(--track);background:transparent;color:var(--text);border-radius:10px;padding:9px 14px;font-size:12px}
+.ivb1{background:var(--accent);color:var(--atext);border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -137,6 +157,8 @@ canvas{max-height:190px}
   <div class="card mfc" id="trackInfo"></div>
   <input class="searchbox" id="trackSearch" placeholder="🔍 Поиск товара..."/>
   <div id="trackList"></div>
+  <div class="card mfc" id="catInfo"></div>
+  <div id="catList"></div>
 </section>
 
 <section class="tab" id="tab-goals">
@@ -353,7 +375,7 @@ function renderTrack(){
       const lo=Math.round(i.price*.5),hi=Math.round(i.price*.7);
       const stats=statsHtml(auto&&auto.stats);
       const topTtl=allVs.length?`<div class="topttl">🏆 Топ предложений (${allVs.length})</div>`:'';
-      return`<div class="titem"><div class="dname">${esc(i.name)}</div><div class="ddet">Новая: <b>${i.price} BYN</b> · адекватная б/у: <b>${lo}–${hi} BYN</b></div>${stats}<div class="srcbtns">${SOURCES.map(s=>`<button class="srcbtn" onclick="openUrl('${s.u(i.q||i.name).replace(/'/g,"\\'")}')">${s.n}</button>`).join('')}</div>${topTtl}${allVs.map((v,vi)=>{
+      return`<div class="titem"><div class="thead">${icoTile(cat.cat,i.name)}<div><div class="dname">${esc(i.name)}</div><div class="ddet">Новая: <b>${i.price} BYN</b> · адекватная б/у: <b>${lo}–${hi} BYN</b></div></div></div>${stats}<div class="srcbtns">${SOURCES.map(s=>`<button class="srcbtn" onclick="openUrl('${s.u(i.q||i.name).replace(/'/g,"\\'")}')">${s.n}</button>`).join('')}</div>${topTtl}${allVs.map((v,vi)=>{
         const tag=v.price<=hi?'<span class="tag-ok">выгодно ✅</span>':(v.price>i.price?'<span class="tag-bad">дороже новой!</span>':'');
         const buy=v.url?`<button class="srcbtn" style="margin-left:3px" onclick="openUrl('${String(v.url).replace(/'/g,"\\'")}')">Купить →</button>`:'';
         const del=v.auto?'':`<span class="vdel" onclick="delVariant(${v.id})">✕</span>`;
@@ -381,6 +403,485 @@ function renderGoals(){
   const curM=Math.ceil(curWeek()/4);
   $('forecast').innerHTML=[1,2,3,4,5,6].map(m=>`<div class="gm${m<curM?' past':''}"><div class="mn">${m<curM?'\u2713':m}</div><div><div style="font-size:12px;font-weight:700">Месяц ${m}</div><div class="mfc">${esc(PLAN.month_forecast[m])}</div></div></div>`).join('');
 }
+
+/* === КАТАЛОГ ИЗ PDF + КАРТИНКИ ТОВАРОВ === */
+const ICOSA='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">';
+const ICO={ };
+ICO.pack=ICOSA+'<path d="M9 6V5a3 3 0 0 1 6 0v1"/><rect x="5" y="6" width="14" height="15" rx="3"/><path d="M5 12h14"/><path d="M9 21v-4h6v4"/></svg>';
+ICO.shoe=ICOSA+'<path d="M3 17h18v-2c-3-1-5.5-1.2-7.5-3l-3-2.7c-1.8 1.7-3.7 1.9-5.7 1z"/><path d="M12 12l1.4-1.4"/></svg>';
+ICO.bike=ICOSA+'<circle cx="6" cy="17" r="4"/><circle cx="18" cy="17" r="4"/><path d="M6 17l3-8h6l3 8"/><path d="M9 9L7.5 5H10"/><path d="M15 9h-4.5"/></svg>';
+ICO.tri=ICOSA+'<path d="M8 3 12 6 16 3l1 5-2 1v12H9V9L7 8z"/></svg>';
+ICO.cap=ICOSA+'<path d="M4 14a8 8 0 0 1 16 0v1H4z"/><path d="M20 15c1.6.4 2.3 1.4 1.4 2.9-2.9-.8-4.7-1.7-5.7-2.9"/></svg>';
+ICO.glasses=ICOSA+'<circle cx="7" cy="14" r="4"/><circle cx="17" cy="14" r="4"/><path d="M11 14h2"/><path d="M3 13 2 7"/><path d="M21 13l1-6"/></svg>';
+ICO.watch=ICOSA+'<circle cx="12" cy="12" r="6"/><path d="M12 9v3l2 2"/><path d="M9 3h6"/><path d="M9 21h6"/></svg>';
+ICO.heart=ICOSA+'<path d="M2 12h4l3-7 4 14 3-7h6"/></svg>';
+ICO.swim=ICOSA+'<circle cx="16" cy="7" r="2"/><path d="M2 18c2-1.6 4-1.6 6 0s4 1.6 6 0 4-1.6 6 0"/><path d="M5 13l6-3.5 4 3"/></svg>';
+ICO.pill=ICOSA+'<rect x="3" y="8.5" width="18" height="7" rx="3.5"/><path d="M12 8.5v7"/></svg>';
+ICO.med=ICOSA+'<circle cx="12" cy="12" r="9"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>';
+ICO.gear=ICOSA+'<circle cx="12" cy="12" r="3"/><path d="M12 2v3"/><path d="M12 19v3"/><path d="M2 12h3"/><path d="M19 12h3"/><path d="M4.9 4.9l2.2 2.2"/><path d="M16.9 16.9l2.2 2.2"/><path d="M19.1 4.9l-2.2 2.2"/><path d="M4.9 19.1l2.2-2.2"/></svg>';
+const ICOBG={pack:'#c9824b',shoe:'#22a06b',bike:'#4787d6',tri:'#9a6dd7',cap:'#d66493',glasses:'#c9a227',watch:'#5a9aa8',heart:'#d65b5b',swim:'#3fa7c4',pill:'#7fac4f',med:'#c96a6a',gear:'#8b93a1'};
+function pickIco(t){
+  t=String(t).toLowerCase();
+  const M=[['кепк','cap'],['очки','glasses'],['🕶','glasses'],['кроссовк','shoe'],['👟','shoe'],['обув','shoe'],['часы','watch'],['⌚','watch'],['пульс','heart'],['датчик','heart'],['велосипед','bike'],['велостанок','bike'],['велоаксессуар','bike'],['🚴','bike'],['🔧','bike'],['гидрокостюм','tri'],['трисьют','tri'],['трисюит','tri'],['🩱','tri'],['плавание','swim'],['🥽','swim'],['🏊','tri'],['рюкзак','pack'],['спортпит','pill'],['💊','pill'],['медицин','med'],['🦷','med']];
+  for(const p of M){ if(t.indexOf(p[0])>-1) return p[1]; }
+  return 'gear';
+}
+function icoTileK(k,sm){ return '<div class="timg'+(sm?' sm':'')+'" style="background:'+(ICOBG[k]||ICOBG.gear)+'">'+(ICO[k]||ICO.gear)+'</div>'; }
+/* === РЕАЛЬНЫЕ ЛОГОТИПЫ БРЕНДОВ + ФОТО ПО ТАПУ === */
+const FAVB='ht'+'tps:'+'//www.google.com/s2/favicons?sz=64&domain=';
+const IMGQ='ht'+'tps:'+'//www.google.com/search?tbm=isch&q=';
+const TH1='ht'+'tps:'+'//tse1.mm.bing.net/th?q=';
+const TH2='ht'+'tps:'+'//tse2.mm.bing.net/th?q=';
+const SMP='&w=160&h=160&c=7&rs=1&p=0';
+const BIGP='&w=800&h=800&c=7&rs=1&p=0';
+const IMHINT={pack:'рюкзак',shoe:'кроссовки running',bike:'велосипед',tri:'trisuit триатлон',cap:'кепка беговая',glasses:'очки спортивные',watch:'спортивные часы',heart:'пульсометр',swim:'плавание',pill:'спортивное питание',med:'аптечка',gear:''};
+const BRANDS=[
+['onepolar',''],['west biking',''],['local lion',''],['mountaintop',''],
+['quechua','decathlon.com'],['kiprun','decathlon.com'],['decathlon','decathlon.com'],['triban','decathlon.com'],['kipsta','decathlon.com'],['aptonia','decathlon.com'],['btwin','decathlon.com'],
+['nike','nike.com'],['adidas','adidas.com'],['asics','asics.com'],['saucony','saucony.com'],['puma','puma.com'],['reebok','reebok.com'],['new balance','newbalance.com'],['hoka','hoka.com'],['brooks','brooksrunning.com'],['mizuno','mizuno.com'],['on cloud','on.com'],
+['osprey','osprey.com'],['deuter','deuter.com'],['gregory','gregorypacks.com'],['naturehike','naturehike.com'],['thule','thule.com'],['salomon','salomon.com'],['arc’teryx','arcteryx.com'],['arcteryx','arcteryx.com'],['rab ','rab.equipment'],['ortovox','ortovox.com'],['black diamond','blackdiamondequipment.com'],['mystery ranch','mysteryranch.com'],['klättermusen','klattermusen.com'],['fjällräven','fjallraven.com'],['tatonka','tatonka.com'],['ferrino','ferrino.it'],['lowe alpine','lowealpine.com'],['kingcamp','kingcamp.com'],
+['giant','giant-bicycles.com'],['merida','merida-bikes.com'],['trek','trekbikes.com'],['cannondale','cannondale.com'],['specialized','specialized.com'],['canyon','canyon.com'],['cervélo','cervelo.com'],['cervelo','cervelo.com'],['scott','scott-sports.com'],['orbea','orbea.com'],['bmc','bmc-switzerland.com'],['pinarello','pinarello.com'],['cube','cube.eu'],['polygon','polygonbikes.com'],['winspace','winspace.cc'],['shimano','shimano.com'],
+['zone3','zone3.com'],['tyr','tyr.com'],['castelli','castelli-cycling.com'],['orca','orca.com'],['zoot','zootsports.com'],['santini','santinicycling.com'],['huub','huubdesign.com'],['2xu','2xu.com'],['roka','roka.com'],['assos','assos.com'],['sls3','sls3.com'],
+['ciele','cieleathletics.com'],['headsweats','headsweats.com'],['fractel','fractel.com.au'],['compressport','compressport.com'],['patagonia','patagonia.com'],['under armour','underarmour.com'],['janji','janji.com'],['satisfy','satisfyrunning.com'],['nnormal','nnormal.com'],['district vision','districtvision.com'],['soar','soarrunning.com'],
+['tifosi','tifosioptics.com'],['oakley','oakley.com'],['julbo','julbo.com'],['rudy project','rudyproject.com'],['uvex','uvex-sports.com'],['alpina','alpina-sports.com'],['bliz','bliz.com'],['poc','pocsports.com'],['smith','smithoptics.com'],['bollé','bolle.com'],['bolle','bolle.com'],['bbb','bbbcycling.com'],['rockbros','rockbros.com'],['100%','100percent.com'],
+['garmin','garmin.com'],['tacx','garmin.com'],['polar','polar.com'],['coros','coros.com'],['suunto','suunto.com'],['wahoo','wahoofitness.com'],['arena','arenasport.com'],['speedo','speedo.com']
+];
+function brandDom(n){
+  n=String(n).toLowerCase();
+  for(const b of BRANDS){ if(n.indexOf(b[0])>-1) return b[1]; }
+  return '';
+}
+function imFail(el){
+  const p=el.parentNode;
+  if(!p) return;
+  const k=el.getAttribute('data-k')||'gear';
+  p.style.background=ICOBG[k]||ICOBG.gear;
+  p.style.border='none';
+  p.innerHTML=ICO[k]||ICO.gear;
+}
+function imgNext(el){
+  const srcs=(el.getAttribute('data-srcs')||'').split('|').filter(Boolean);
+  const i=parseInt(el.getAttribute('data-i')||'0',10)+1;
+  if(i<srcs.length){ el.setAttribute('data-i',String(i)); el.src=srcs[i]; }
+  else if(el.getAttribute('data-fin')==='hide'){ el.style.display='none'; }
+  else { imFail(el); }
+}
+function tileHtml(k,n){
+  n=String(n);
+  const hint=IMHINT[k]||'';
+  const q1=TH1+encodeURIComponent(hint?n+' '+hint:n)+SMP;
+  const q2=TH2+encodeURIComponent(n)+SMP;
+  const cands=[q1,q2];
+  const d=brandDom(n);
+  if(d) cands.push(FAVB+d);
+  return '<div class="timg br" data-n="'+esc(n)+'" data-k="'+k+'" onclick="imTap(this)" title="Нажми, чтобы рассмотреть"><img loading="lazy" alt="" data-i="0" data-k="'+k+'" data-srcs="'+cands.join('|')+'" src="'+cands[0]+'" onerror="imgNext(this)"></div>';
+}
+function imTap(el){
+  const n=el.getAttribute('data-n')||'';
+  const k=el.getAttribute('data-k')||'gear';
+  if(typeof haptic==='function') haptic();
+  showImg(n,k);
+}
+function showImg(n,k){
+  let ov=$('imgView');
+  if(!ov){
+    ov=document.createElement('div');
+    ov.id='imgView';
+    ov.setAttribute('onclick','if(event.target===this)imgClose()');
+    document.body.appendChild(ov);
+  }
+  const hint=IMHINT[k]||'';
+  const b1=TH1+encodeURIComponent(hint?n+' '+hint:n)+BIGP;
+  const b2=TH2+encodeURIComponent(n)+BIGP;
+  ov.innerHTML='<div class="ivbox"><img alt="" data-i="0" data-fin="hide" data-k="'+k+'" data-srcs="'+b1+'|'+b2+'" src="'+b1+'" onerror="imgNext(this)"><div class="ivname">'+esc(n)+'</div><div class="ivbtns"><button class="ivb ivb1" onclick="openUrl(\''+IMGQ+encodeURIComponent(n)+'\')">🔍 Больше фото</button><button class="ivb" onclick="imgClose()">✕ Закрыть</button></div></div>';
+  ov.style.display='flex';
+}
+function imgClose(){ const ov=$('imgView'); if(ov) ov.style.display='none'; }
+function icoTile(cat,name){ return tileHtml(pickIco(String(name)+' '+String(cat)),name); }
+
+
+
+const CATALOG=[
+{name:'🎒 Рюкзаки 20–45 л',kind:'pack',def:['','','',''],lists:{
+low:[
+['AI ONE Jason 30','100–180','AliExpress, Ozon','город, прогулки и лёгкие выезды','YKK, дождевик и низкая цена','слабый пояс под тяжёлым грузом'],
+['Decathlon Quechua NH Escape 500 23','120–210','Ozon, Kufar','город и ручная кладь','удобная организация и доступность','не походная подвеска'],
+['Mardingtop 28','140–230','AliExpress, Ozon','рыбалка и тактические задачи','прочная ткань и MOLLE','тяжёлый для объёма'],
+['Naturehike NH100 30','150–240','AliExpress, Ozon','походы выходного дня','рама и полезные карманы','средняя вентиляция'],
+['Quechua MH100 35','170–270','Ozon, Kufar','первые походы','понятная регулировка и гарантийность бренда','простые материалы'],
+['Mountaintop 40','180–290','AliExpress, Ozon','бюджетные походы 2–3 дня','много регулировок и дождевик','нестабильное качество партий'],
+['Local Lion 40','180–300','AliExpress, Ozon','путешествия и туризм','доступный объём и рама','тяжеловат'],
+['Onepolar 30','190–310','Ozon, AliExpress','город и однодневные маршруты','крепкая ткань и фурнитура','жаркая спина'],
+['Naturehike Rock 30','210–330','AliExpress, Ozon','лёгкие походы','хороший баланс веса и цены','пояс проще премиальных'],
+['Kipsta Intensif 25','130–220','Ozon, Kufar','спортзал и короткие поездки','удобные раздельные отделения','не годится под тяжёлую переноску']
+],
+mid:[
+['Naturehike Rock 40','260–430','AliExpress, Ozon, Onliner','походы на 1–3 дня','рама, вес и разумная цена','подвеска проще Osprey'],
+['Quechua MH500 38','280–450','Ozon, Kufar','универсальные походы','вентилируемая спина и дождевик','тяжелее ультралайта'],
+['3F UL Gear QiDian Pro 46+10','265–360','AliExpress','ультралайт до 5 дней','около 900 г и большой объём','комфортный груз до 10–12 кг'],
+['Deuter Speed Lite 25','330–500','Ozon, Kufar','быстрые однодневные маршруты','лёгкий и плотно сидит','минимальный пояс'],
+['Salomon Trailblazer 30','340–520','Ozon','хайкинг и путешествия','простая удобная посадка','мало организации'],
+['Thule AllTrail 35','380–560','Ozon, Kufar','походы и поездки','добротные материалы и доступ сбоку','вес выше среднего'],
+['Gregory Nano 30','390–590','Ozon, импорт','однодневные походы','удобная спина и карманы','пояс не грузовой'],
+['Deuter AC Lite 30','390–590','Беларусь, Ozon','жаркая погода','отличная вентиляция','центр тяжести дальше от спины'],
+['Osprey Hikelite 32','430–620','Ozon, Kufar','лёгкий хайкинг','AirSpeed и дождевик','тонкий пояс'],
+['3F UL Gear Tutor 38','350–520','AliExpress','лёгкие многодневки','лучше несёт вес, чем QiDian','нет локальной примерки']
+],
+high:[
+['Osprey Stratos 34','580–820','Ozon, Kufar','комфортные походы 1–2 дня','лучшая вентиляция и организация','вес около 1,4 кг'],
+['Osprey Talon 33','520–760','Ozon, Kufar','активный хайкинг и велосипед','точная посадка и много креплений','не под тяжёлый груз'],
+['Deuter Futura 32','560–790','Беларусь, Ozon','долгие маршруты в жару','Aircomfort и качественный пояс','тяжеловат'],
+['Gregory Zulu 35','620–850','Ozon, импорт','походы выходного дня','динамичная подвеска и вентиляция','дорогая доставка'],
+['Mystery Ranch Coulee 30','700–1000','Ozon, импорт','тяжёлые однодневные маршруты','очень прочный и удобный доступ','высокий вес'],
+['Arc’teryx Aerios 35','780–1150','импорт','быстрый техничный хайкинг','низкий вес и отличная посадка','цена и тонкая ткань'],
+['Black Diamond Pursuit 30','620–900','Ozon, импорт','скрэмблинг и быстрые походы','жилетная посадка и карманы','специфическая посадка'],
+['Ortovox Traverse 30','650–950','импорт','горы круглый год','прочность и удобство в горах','дорого'],
+['Rab Aeon 35','600–880','Ozon, импорт','техничные маршруты','стабильно сидит и хорошо регулируется','спина теплее сетчатой'],
+['Klättermusen Brimer 32','950–1400','импорт','премиальный горный туризм','износостойкость и ремонтопригодность','очень высокая цена']
+],
+best:[
+['Naturehike Rock 40','260–430','AliExpress, Ozon, Onliner','походы на 1–3 дня','рама, вес и разумная цена','подвеска проще Osprey'],
+['Quechua MH500 38','280–450','Ozon, Kufar','универсальные походы','вентилируемая спина и дождевик','тяжелее ультралайта'],
+['3F UL Gear QiDian Pro 46+10','265–360','AliExpress','ультралайт до 5 дней','около 900 г и большой объём','комфортный груз до 10–12 кг'],
+['Deuter Speed Lite 25','330–500','Ozon, Kufar','быстрые однодневные маршруты','лёгкий и плотно сидит','минимальный пояс'],
+['AI ONE Jason 30','100–180','AliExpress, Ozon','город, прогулки и лёгкие выезды','YKK, дождевик и низкая цена','слабый пояс под тяжёлым грузом'],
+['Decathlon Quechua NH Escape 500 23','120–210','Ozon, Kufar','город и ручная кладь','удобная организация и доступность','не походная подвеска'],
+['Mardingtop 28','140–230','AliExpress, Ozon','рыбалка и тактические задачи','прочная ткань и MOLLE','тяжёлый для объёма'],
+['Naturehike NH100 30','150–240','AliExpress, Ozon','походы выходного дня','рама и полезные карманы','средняя вентиляция'],
+['Osprey Stratos 34','580–820','Ozon, Kufar','комфортные походы 1–2 дня','лучшая вентиляция и организация','вес около 1,4 кг'],
+['Osprey Talon 33','520–760','Ozon, Kufar','активный хайкинг и велосипед','точная посадка и много креплений','не под тяжёлый груз']
+] }
+},
+{name:'🎒 Рюкзаки 65–100 л',kind:'pack',def:['Ozon, AliExpress, Kufar, локальные продавцы','для автономных походов и переноски объёмного снаряжения','подвеска, пояс и рабочий объём','масса и необходимость точной примерки'],lists:{
+low:[
+['Naturehike Discovery 70+5','480–620'],
+['Mountaintop 70','230–400'],
+['Mardingtop 75','260–430'],
+['Local Lion 70','250–420'],
+['Onepolar 70','300–470'],
+['Bseash 80','180–320'],
+['Free Knight 70','190–330'],
+['Aoking 80','290–480'],
+['KingCamp 70','320–500'],
+['Quechua MT100 Easyfit 70','420–600']
+],
+mid:[
+['Deuter Aircontact Lite 65+10','620–850'],
+['Osprey Rook 65','600–850'],
+['Osprey Renn 65','600–850'],
+['Gregory Stout 70','650–900'],
+['Gregory Amber 68','650–900'],
+['Ferrino Transalp 75','620–880'],
+['Tatonka Yukon 70+10','700–950'],
+['Deuter Aircontact Core 65+10','700–1050'],
+['Lowe Alpine Cerro Torre 65:85','750–1050'],
+['Thule Guidepost 75','700–1000']
+],
+high:[
+['Osprey Aether Plus 70','1150–1600'],
+['Deuter Aircontact X 70+15','950–1400'],
+['Gregory Baltoro 75','950–1350'],
+['Osprey Atmos AG 65','750–1150'],
+['Osprey Aether Plus 85','1200–1700'],
+['Gregory Deva 70','950–1400'],
+['Arc’teryx Bora 75','1400–2100'],
+['Mystery Ranch Terraframe 80','1300–1900'],
+['Fjällräven Kajka 75','1200–1800'],
+['Osprey Aether Plus 100','1350–1850']
+],
+best:[
+['Deuter Aircontact Lite 65+10','620–850'],
+['Osprey Rook 65','600–850'],
+['Osprey Renn 65','600–850'],
+['Gregory Stout 70','650–900'],
+['Naturehike Discovery 70+5','480–620'],
+['Mountaintop 70','230–400'],
+['Mardingtop 75','260–430'],
+['Local Lion 70','250–420'],
+['Osprey Aether Plus 70','1150–1600'],
+['Deuter Aircontact X 70+15','950–1400']
+] }
+},
+{name:'👟 Беговые кроссовки',kind:'shoe',def:['Ozon, AliExpress, Kufar, локальные продавцы','для регулярных беговых тренировок и стартов','амортизация, геометрия и рабочий ресурс','посадка индивидуальна; нужна примерка'],lists:{
+low:[
+['Puma Velocity Nitro 3','350–500'],
+['Nike Winflo 11','280–420'],
+['ASICS Gel-Excite 10','240–380'],
+['Adidas Duramo Speed 2','240–390'],
+['Reebok Floatride Energy 6','250–400'],
+['New Balance 680 v8','260–420'],
+['Saucony Axon 3','290–430'],
+['Anta PG7 Travel','250–410'],
+['Li-Ning Red Hare 7','270–450'],
+['Kiprun KS900 Light','300–470']
+],
+mid:[
+['ASICS Novablast 5','560–680'],
+['Adidas Adizero Evo SL','480–650'],
+['Saucony Ride 18','430–620'],
+['Nike Pegasus 41','399–529'],
+['Hoka Clifton 10','500–700'],
+['Brooks Ghost 17','470–650'],
+['New Balance 1080 v14','500–690'],
+['Puma Deviate Nitro 3','490–680'],
+['Mizuno Neo Zen','500–690'],
+['ASICS Gel-Cumulus 27','420–570']
+],
+high:[
+['Adidas Adios Pro 4','720–950'],
+['ASICS Metaspeed Sky Tokyo','780–1050'],
+['Nike Alphafly 3','850–1150'],
+['Saucony Endorphin Pro 4','650–900'],
+['New Balance SC Elite v4','720–980'],
+['Hoka Cielo X1 2.0','780–1050'],
+['Puma Fast-R Nitro Elite 3','780–1100'],
+['Nike Vaporfly 4','720–980'],
+['On Cloudboom Strike','790–1100'],
+['Mizuno Wave Rebellion Pro 3','750–1050']
+],
+best:[
+['ASICS Novablast 5','560–680'],
+['Adidas Adizero Evo SL','480–650'],
+['Saucony Ride 18','430–620'],
+['Nike Pegasus 41','399–529'],
+['Puma Velocity Nitro 3','350–500'],
+['Nike Winflo 11','280–420'],
+['ASICS Gel-Excite 10','240–380'],
+['Adidas Duramo Speed 2','240–390'],
+['Adidas Adios Pro 4','720–950'],
+['ASICS Metaspeed Sky Tokyo','780–1050']
+] }
+},
+{name:'🚴 Шоссейные и TT-велосипеды',kind:'bike',def:['Ozon, AliExpress, Kufar, локальные продавцы','для тренировок, шоссейных стартов и триатлона','рама, управляемость и потенциал апгрейда','размер и состояние важнее названия модели'],lists:{
+low:[
+['Giant Contend AR 2 б/у','3000–4500'],
+['Merida Scultura 200 б/у','2800–4300'],
+['Trek Domane AL 2 б/у','3000–4800'],
+['Cannondale CAAD Optimo б/у','2800–4500'],
+['Specialized Allez б/у','3000–5000'],
+['Triban RC520','3000–4700'],
+['Giant TCR Advanced старых лет','4000–6000'],
+['Merida Reacto старых лет','4200–6500'],
+['Cube Attain Pro','3500–5200'],
+['Polygon Strattos S5','3500–5500']
+],
+mid:[
+['Cannondale CAAD13 105','5000–8000'],
+['Merida Scultura 400','4500–7500'],
+['Giant Defy Advanced 2','7500–12000'],
+['Canyon Endurace CF 7','7000–11000'],
+['Trek Émonda ALR 5','6000–9000'],
+['Giant TCR Advanced 2','7500–11500'],
+['Specialized Allez Sprint б/у','7000–11000'],
+['Scott Addict 30','7500–11500'],
+['Orbea Orca M30','7500–11500'],
+['Winspace T1550','7000–12000']
+],
+high:[
+['Canyon Speedmax CF SLX','18000–30000'],
+['Cervélo P-Series','13000–22000'],
+['Giant Propel Advanced SL','18000–30000'],
+['Canyon Aeroad CF SLX','14000–22000'],
+['Specialized Tarmac SL8 Pro','22000–35000'],
+['Trek Madone SLR','24000–40000'],
+['Cervélo S5','22000–35000'],
+['Scott Plasma RC','22000–38000'],
+['BMC Timemachine 01','22000–38000'],
+['Pinarello Dogma F','30000–50000']
+],
+best:[
+['Cannondale CAAD13 105','5000–8000'],
+['Merida Scultura 400','4500–7500'],
+['Giant Defy Advanced 2','7500–12000'],
+['Canyon Endurace CF 7','7000–11000'],
+['Giant Contend AR 2 б/у','3000–4500'],
+['Merida Scultura 200 б/у','2800–4300'],
+['Trek Domane AL 2 б/у','3000–4800'],
+['Cannondale CAAD Optimo б/у','2800–4500'],
+['Canyon Speedmax CF SLX','18000–30000'],
+['Cervélo P-Series','13000–22000']
+] }
+},
+{name:'🩱 Трисюиты',kind:'tri',def:['Ozon, AliExpress, Kufar, локальные продавцы','для триатлонных тренировок и соревнований','быстросохнущая ткань, карманы и памперс','нужна точная посадка без складок и натирания'],lists:{
+low:[
+['ORAZ TS3','156–220'],
+['Santic Short Sleeve','100–220'],
+['Sparx Elite','120–240'],
+['SLS3 CMX','260–400'],
+['Dare2Tri Entry','220–350'],
+['Decathlon Aptonia SD','150–280'],
+['Synergy Tri Suit','200–350'],
+['Tri-Fit EVO Next Gen','240–390'],
+['2XU Perform б/у','180–320'],
+['Zone3 Activate б/у','180–300']
+],
+mid:[
+['Zone3 Activate Plus','270–400'],
+['TYR Competitor','280–450'],
+['Castelli Core Sprint','450–650'],
+['Orca Athlex Aero','520–750'],
+['Zone3 Lava','450–700'],
+['Zoot LTD Tri Aero','520–800'],
+['Santini Redux Vigor','500–780'],
+['HUUB Essential','430–650'],
+['2XU Core Tri Suit','400–620'],
+['Roka Gen II Elite Aero','520–800']
+],
+high:[
+['Zone3 Aeroforce-X','1300–1700'],
+['HUUB Anemoi 2','750–1100'],
+['Castelli Free Sanremo 3','650–900'],
+['Roka Viper X3','900–1400'],
+['Santini Viper','850–1250'],
+['Zoot Ultra Tri Aero','750–1100'],
+['Orca Apex Flex V2','850–1300'],
+['2XU Light Speed Aero','700–1050'],
+['Assos Triator SS Speedsuit','1000–1500'],
+['Surpas Insane','1100–1700']
+],
+best:[
+['Zone3 Activate Plus','270–400'],
+['TYR Competitor','280–450'],
+['Castelli Core Sprint','450–650'],
+['Orca Athlex Aero','520–750'],
+['ORAZ TS3','156–220'],
+['Santic Short Sleeve','100–220'],
+['Sparx Elite','120–240'],
+['SLS3 CMX','260–400'],
+['Zone3 Aeroforce-X','1300–1700'],
+['HUUB Anemoi 2','750–1100']
+] }
+},
+{name:'🧢 Беговые кепки',kind:'cap',def:['Ozon, AliExpress, Kufar, локальные продавцы','для бега в жару, на солнце и во время дождя','малый вес, вентиляция и быстрое высыхание','дорогие версии дают небольшой практический прирост'],lists:{
+low:[
+['Kiprun 5-Panel','45–90'],
+['Rockbros Running Cap','30–70'],
+['Quechua Trek 500','35–70'],
+['Adidas AEROREADY Runner','55–100'],
+['Nike Dri-FIT Club','70–120'],
+['Under Armour Launch','65–110'],
+['Puma Running Cap III','55–100'],
+['New Balance 5 Panel','65–120'],
+['Compressport Trucker б/у','60–110'],
+['West Biking Ice Silk','25–60']
+],
+mid:[
+['Headsweats Performance Race','90–150'],
+['Buff Pack Speed','110–180'],
+['Brooks Lightweight Packable','75–120'],
+['Ciele GOCap','145–230'],
+['Janji AFO Hyperlight','110–180'],
+['Patagonia Duckbill','110–190'],
+['Salomon Cross','90–150'],
+['Compressport Pro Racing','110–180'],
+['On Lightweight Cap','130–220'],
+['Fractel M-Series','120–200']
+],
+high:[
+['Soar Run Cap','160–250'],
+['Arc’teryx Norvan','160–260'],
+['Fractel Legionnaire','130–220'],
+['Ciele ALZCap SC','170–260'],
+['District Vision Trenton','220–350'],
+['Satisfy Dynamic Running Cap','250–400'],
+['NNormal Race Cap','170–270'],
+['Goldwin Pertex Shield Air','250–380'],
+['Salomon S/Lab Ultra','180–290'],
+['VÅGA Feather Racing Cap','170–260']
+],
+best:[
+['Headsweats Performance Race','90–150'],
+['Buff Pack Speed','110–180'],
+['Brooks Lightweight Packable','75–120'],
+['Ciele GOCap','145–230'],
+['Kiprun 5-Panel','45–90'],
+['Rockbros Running Cap','30–70'],
+['Quechua Trek 500','35–70'],
+['Adidas AEROREADY Runner','55–100'],
+['Soar Run Cap','160–250'],
+['Arc’teryx Norvan','160–260']
+] }
+},
+{name:'🕶️ Фотохромные очки',kind:'glasses',def:['Ozon, AliExpress, Kufar, локальные продавцы','для бега и велосипеда при меняющемся освещении','UV-защита, поле зрения и адаптивная линза','фотохром темнеет не мгновенно и не всегда достаточно сильно'],lists:{
+low:[
+['Rockbros 10175','45–169'],
+['Kapvoe Photochromic','40–90'],
+['West Biking Photochromic','35–80'],
+['SCVCN Photochromic','35–75'],
+['X-Tiger Photochromic','40–85'],
+['GUB 6600','45–90'],
+['Santic Photochromic','50–100'],
+['Inbike Photochromic','45–95'],
+['Basecamp BC-301','40–90'],
+['Prowel Photochromic','45–100']
+],
+mid:[
+['Tifosi Rail Fototec','190–300'],
+['Tifosi Sledge Lite Fototec','230–350'],
+['BBB FullView PH','250–390'],
+['Uvex Sportstyle 802 V','250–420'],
+['Bliz Matrix Nordic Light','280–450'],
+['Alpina Ram Q-Lite V','290–470'],
+['Shimano Technium L Photochromic','300–480'],
+['Neon Stratus','450–550'],
+['R2 Crown AT078','250–430'],
+['Bollé Chronoshield Phantom','400–600']
+],
+high:[
+['Julbo Density Reactiv','730–1050'],
+['Rudy Project Spinshield Air ImpactX','780–1100'],
+['Oakley Sutro Lite Photochromic','650–950'],
+['Smith Wildcat Photochromic','700–1000'],
+['Oakley Radar EV Path Photochromic','700–1000'],
+['Julbo Fury Reactiv','650–950'],
+['Rudy Project Defender ImpactX','750–1100'],
+['100% S3 Photochromic','650–950'],
+['POC Devour Photochromic','750–1100'],
+['KOO Demos Photochromic','700–1050']
+],
+best:[
+['Tifosi Rail Fototec','190–300'],
+['Tifosi Sledge Lite Fototec','230–350'],
+['BBB FullView PH','250–390'],
+['Uvex Sportstyle 802 V','250–420'],
+['Rockbros 10175','45–169'],
+['Kapvoe Photochromic','40–90'],
+['West Biking Photochromic','35–80'],
+['SCVCN Photochromic','35–75'],
+['Julbo Density Reactiv','730–1050'],
+['Rudy Project Spinshield Air ImpactX','780–1100']
+] }
+}
+];
+
+let catBud={ };
+const catOpen=new Set();
+const CATBUDS=[['best','🏆 Цена/качество'],['low','💵 Малый бюджет'],['mid','💳 Средний бюджет'],['high','💎 Высокий бюджет']];
+function catTgl(ev,ci){ if(ev.target.closest('details').open) catOpen.add(ci); else catOpen.delete(ci); }
+function setCatBud(ci,k){ catBud[ci]=k; renderCatalog(); }
+function catRow(c,r,ri){
+  const dq=c.def||['','','',''];
+  const w=r[2]||dq[0], use=r[3]||dq[1], why=r[4]||dq[2], lim=r[5]||dq[3];
+  let h='<div class="citem"><div class="thead">'+tileHtml(c.kind,r[0])+'<div><div class="dname">'+(ri+1)+'. '+esc(r[0])+'</div><div class="ddet">Цена: <b>'+esc(r[1])+' BYN</b>'+(w?' · '+esc(w):'')+'</div></div></div>';
+  h+='<div class="cwhy">🎯 '+esc(use)+'<br>➕ '+esc(why)+'<br>⚠️ '+esc(lim)+'</div>';
+  h+='<div class="srcbtns">'+SOURCES.map(function(s){ return '<button class="srcbtn" onclick="openUrl(\''+s.u(r[0])+'\')">'+s.n+'</button>'; }).join('')+'</div></div>';
+  return h;
+}
+function renderCatalog(){
+  if(!$('catList')) return;
+  $('catInfo').innerHTML='<b>📦 Каталог снаряжения (PDF, 13.07.2026).</b> 7 категорий × 4 рейтинга × 10 моделей. Внутри списка позиции идут от самой удачной к более нишевой, цены — ориентировочные диапазоны в BYN. Тап по источнику — готовый поиск.';
+  $('catList').innerHTML=CATALOG.map(function(c,ci){
+    const k=catBud[ci]||'best';
+    const rows=c.lists[k]||[];
+    let h='<details class="card"'+(catOpen.has(ci)?' open':'')+' ontoggle="catTgl(event,'+ci+')"><summary><span>'+esc(c.name)+'<span class="badge">10×4</span></span></summary>';
+    h+='<div class="cchips">'+CATBUDS.map(function(b){ return '<button class="cchip'+(k===b[0]?' on':'')+'" onclick="setCatBud('+ci+',\''+b[0]+'\')">'+b[1]+'</button>'; }).join('')+'</div>';
+    h+=rows.map(function(r,ri){ return catRow(c,r,ri); }).join('');
+    h+='</details>';
+    return h;
+  }).join('');
+}
+renderCatalog();
+/* === КОНЕЦ КАТАЛОГА === */
 
 function renderAll(){renderDash();renderTrain();renderShop();renderTrack();renderGoals();}
 $('sdate').onchange=e=>{S.start_date=e.target.value;save(S);renderAll();};
