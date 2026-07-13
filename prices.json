@@ -1,5 +1,5 @@
 {
- "updated": "13.07.2026 09:53",
+ "updated": "13.07.2026 21:35",
  "prices": {
   "0:4": {
    "variants": [
@@ -32,22 +32,22 @@
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 67.5,
+     "price": 67.0,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 67.5,
-     "avg": 67.5,
-     "max": 67.5,
+     "min": 67.0,
+     "avg": 67.0,
+     "max": 67.0,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 67.5,
-      "avg": 67.5,
-      "max": 67.5,
+      "min": 67.0,
+      "avg": 67.0,
+      "max": 67.0,
       "count": 1
      }
     }
@@ -103,15 +103,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1959.46,
-     "max": 1989.37,
+     "avg": 1959.34,
+     "max": 1989.01,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1959.46,
-      "max": 1989.37,
+      "avg": 1959.34,
+      "max": 1989.01,
       "count": 3
      }
     }
@@ -154,23 +154,23 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2795.4,
+     "price": 2797.2,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
      "min": 2780.0,
-     "avg": 2787.7,
-     "max": 2795.4,
-     "count": 2
+     "avg": 3281.8,
+     "max": 3850.0,
+     "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 2780.0,
-      "avg": 2787.7,
-      "max": 2795.4,
-      "count": 2
+      "avg": 3281.8,
+      "max": 3850.0,
+      "count": 4
      }
     }
    }
@@ -258,22 +258,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 652.98,
+     "price": 649.59,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 652.98,
-     "avg": 652.98,
-     "max": 652.98,
+     "min": 649.59,
+     "avg": 649.59,
+     "max": 649.59,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 652.98,
-      "avg": 652.98,
-      "max": 652.98,
+      "min": 649.59,
+      "avg": 649.59,
+      "max": 649.59,
       "count": 1
      }
     }
@@ -290,21 +290,21 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 350",
-     "price": 298.92,
+     "price": 299.41,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251350"
     }
    ],
    "stats": {
     "overall": {
      "min": 257.31,
-     "avg": 349.55,
+     "avg": 349.68,
      "max": 428.73,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 257.31,
-      "avg": 349.55,
+      "avg": 349.68,
       "max": 428.73,
       "count": 8
      }
@@ -400,22 +400,22 @@
     {
      "source": "Onliner",
      "name": "Zeitun Гель для умывания Lulu Энергетический для тусклой кожи с витамином С и ма",
-     "price": 38.27,
+     "price": 37.77,
      "url": "https://catalog.onliner.by/facial_cosmetics/zeitun/lulu200gel"
     }
    ],
    "stats": {
     "overall": {
-     "min": 38.27,
-     "avg": 38.27,
-     "max": 38.27,
+     "min": 37.77,
+     "avg": 37.77,
+     "max": 37.77,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 38.27,
-      "avg": 38.27,
-      "max": 38.27,
+      "min": 37.77,
+      "avg": 37.77,
+      "max": 37.77,
       "count": 1
      }
     }
