@@ -1,5 +1,5 @@
 {
- "updated": "13.07.2026 21:35",
+ "updated": "14.07.2026 09:10",
  "prices": {
   "0:4": {
    "variants": [
@@ -289,22 +289,22 @@
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe Mirror 003251 350",
-     "price": 299.41,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251350"
+     "name": "ARENA Cobra Core Swipe Mirror 003251 530",
+     "price": 280.33,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
      "min": 257.31,
-     "avg": 349.68,
+     "avg": 346.83,
      "max": 428.73,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 257.31,
-      "avg": 349.68,
+      "avg": 346.83,
       "max": 428.73,
       "count": 8
      }
