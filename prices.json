@@ -1,27 +1,53 @@
 {
- "updated": "15.07.2026 09:14",
+ "updated": "16.07.2026 09:17",
  "prices": {
+  "0:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Apple Watch Nike Series 7 41 мм (звездный свет/чистая платина, черный)",
+     "price": 990.0,
+     "url": "https://catalog.onliner.by/smartwatch/apple/mkn33"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 990.0,
+     "avg": 990.0,
+     "max": 990.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 990.0,
+      "avg": 990.0,
+      "max": 990.0,
+      "count": 1
+     }
+    }
+   }
+  },
   "1:0": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 66.0,
+     "price": 66.5,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 66.0,
-     "avg": 66.0,
-     "max": 66.0,
+     "min": 66.5,
+     "avg": 66.5,
+     "max": 66.5,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 66.0,
-      "avg": 66.0,
-      "max": 66.0,
+      "min": 66.5,
+      "avg": 66.5,
+      "max": 66.5,
       "count": 1
      }
     }
@@ -77,15 +103,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1959.16,
-     "max": 1988.47,
+     "avg": 1959.07,
+     "max": 1988.2,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1959.16,
-      "max": 1988.47,
+      "avg": 1959.07,
+      "max": 1988.2,
       "count": 3
      }
     }
@@ -206,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1907.01,
+     "price": 1959.98,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1907.01,
-     "avg": 1907.01,
-     "max": 1907.01,
+     "min": 1959.98,
+     "avg": 1959.98,
+     "max": 1959.98,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1907.01,
-      "avg": 1907.01,
-      "max": 1907.01,
+      "min": 1959.98,
+      "avg": 1959.98,
+      "max": 1959.98,
       "count": 1
      }
     }
@@ -232,22 +258,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 649.93,
+     "price": 655.54,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 649.93,
-     "avg": 649.93,
-     "max": 649.93,
+     "min": 655.54,
+     "avg": 655.54,
+     "max": 655.54,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 649.93,
-      "avg": 649.93,
-      "max": 649.93,
+      "min": 655.54,
+      "avg": 655.54,
+      "max": 655.54,
       "count": 1
      }
     }
@@ -264,21 +290,21 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 279.3,
+     "price": 278.91,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
      "min": 257.31,
-     "avg": 346.7,
+     "avg": 346.65,
      "max": 428.73,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 257.31,
-      "avg": 346.7,
+      "avg": 346.65,
       "max": 428.73,
       "count": 8
      }
@@ -306,6 +332,32 @@
       "min": 59.97,
       "avg": 59.97,
       "max": 59.97,
+      "count": 1
+     }
+    }
+   }
+  },
+  "10:1": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "1WIN Моногидрат (200г, без вкуса)",
+     "price": 30.03,
+     "url": "https://catalog.onliner.by/creatine/1win/1winmono200"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 30.03,
+     "avg": 30.03,
+     "max": 30.03,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 30.03,
+      "avg": 30.03,
+      "max": 30.03,
       "count": 1
      }
     }
