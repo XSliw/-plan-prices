@@ -1,5 +1,5 @@
 {
- "updated": "17.07.2026 09:17",
+ "updated": "18.07.2026 09:04",
  "prices": {
   "0:4": {
    "variants": [
@@ -32,22 +32,22 @@
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 66.5,
+     "price": 65.5,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 66.5,
-     "avg": 66.5,
-     "max": 66.5,
+     "min": 65.5,
+     "avg": 65.5,
+     "max": 65.5,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 66.5,
-      "avg": 66.5,
-      "max": 66.5,
+      "min": 65.5,
+      "avg": 65.5,
+      "max": 65.5,
       "count": 1
      }
     }
@@ -103,15 +103,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.95,
-     "max": 1987.84,
+     "avg": 1958.83,
+     "max": 1987.48,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.95,
-      "max": 1987.84,
+      "avg": 1958.83,
+      "max": 1987.48,
       "count": 3
      }
     }
@@ -154,23 +154,23 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2797.2,
+     "price": 2842.7,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
      "min": 2780.0,
-     "avg": 2788.6,
-     "max": 2797.2,
-     "count": 2
+     "avg": 3293.18,
+     "max": 3850.0,
+     "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 2780.0,
-      "avg": 2788.6,
-      "max": 2797.2,
-      "count": 2
+      "avg": 3293.18,
+      "max": 3850.0,
+      "count": 4
      }
     }
    }
@@ -290,22 +290,22 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 278.91,
+     "price": 277.59,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
      "min": 257.31,
-     "avg": 346.65,
-     "max": 428.73,
+     "avg": 346.54,
+     "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 257.31,
-      "avg": 346.65,
-      "max": 428.73,
+      "avg": 346.54,
+      "max": 428.87,
       "count": 8
      }
     }
