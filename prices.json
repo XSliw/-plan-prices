@@ -1,5 +1,5 @@
 {
- "updated": "18.07.2026 09:04",
+ "updated": "19.07.2026 09:31",
  "prices": {
   "0:4": {
    "variants": [
@@ -32,22 +32,22 @@
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 65.5,
+     "price": 67.0,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 65.5,
-     "avg": 65.5,
-     "max": 65.5,
+     "min": 67.0,
+     "avg": 67.0,
+     "max": 67.0,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 65.5,
-      "avg": 65.5,
-      "max": 65.5,
+      "min": 67.0,
+      "avg": 67.0,
+      "max": 67.0,
       "count": 1
      }
     }
@@ -103,15 +103,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.83,
-     "max": 1987.48,
+     "avg": 1958.77,
+     "max": 1987.3,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.83,
-      "max": 1987.48,
+      "avg": 1958.77,
+      "max": 1987.3,
       "count": 3
      }
     }
@@ -332,32 +332,6 @@
       "min": 59.97,
       "avg": 59.97,
       "max": 59.97,
-      "count": 1
-     }
-    }
-   }
-  },
-  "10:1": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "1WIN Моногидрат (200г, без вкуса)",
-     "price": 30.03,
-     "url": "https://catalog.onliner.by/creatine/1win/1winmono200"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 30.03,
-     "avg": 30.03,
-     "max": 30.03,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 30.03,
-      "avg": 30.03,
-      "max": 30.03,
       "count": 1
      }
     }
