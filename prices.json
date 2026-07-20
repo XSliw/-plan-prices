@@ -1,32 +1,6 @@
 {
- "updated": "19.07.2026 09:31",
+ "updated": "20.07.2026 09:49",
  "prices": {
-  "0:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Apple Watch Nike Series 7 41 мм (звездный свет/чистая платина, черный)",
-     "price": 990.0,
-     "url": "https://catalog.onliner.by/smartwatch/apple/mkn33"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 990.0,
-     "avg": 990.0,
-     "max": 990.0,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 990.0,
-      "avg": 990.0,
-      "max": 990.0,
-      "count": 1
-     }
-    }
-   }
-  },
   "1:0": {
    "variants": [
     {
@@ -154,23 +128,23 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2842.7,
+     "price": 3038.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
      "min": 2780.0,
-     "avg": 3293.18,
-     "max": 3850.0,
-     "count": 4
+     "avg": 2909.0,
+     "max": 3038.0,
+     "count": 2
     },
     "by_source": {
      "Onliner": {
       "min": 2780.0,
-      "avg": 3293.18,
-      "max": 3850.0,
-      "count": 4
+      "avg": 2909.0,
+      "max": 3038.0,
+      "count": 2
      }
     }
    }
@@ -284,7 +258,7 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 330",
-     "price": 257.31,
+     "price": 257.93,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507330"
     },
     {
@@ -296,15 +270,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 257.31,
-     "avg": 346.54,
+     "min": 257.93,
+     "avg": 346.62,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 257.31,
-      "avg": 346.54,
+      "min": 257.93,
+      "avg": 346.62,
       "max": 428.87,
       "count": 8
      }
