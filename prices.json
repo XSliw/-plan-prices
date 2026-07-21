@@ -1,27 +1,27 @@
 {
- "updated": "20.07.2026 09:49",
+ "updated": "21.07.2026 09:29",
  "prices": {
   "1:0": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 67.0,
+     "price": 67.5,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 67.0,
-     "avg": 67.0,
-     "max": 67.0,
+     "min": 67.5,
+     "avg": 67.5,
+     "max": 67.5,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 67.0,
-      "avg": 67.0,
-      "max": 67.0,
+      "min": 67.5,
+      "avg": 67.5,
+      "max": 67.5,
       "count": 1
      }
     }
@@ -77,15 +77,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.77,
-     "max": 1987.3,
+     "avg": 1958.62,
+     "max": 1986.85,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.77,
-      "max": 1987.3,
+      "avg": 1958.62,
+      "max": 1986.85,
       "count": 3
      }
     }
@@ -121,29 +121,29 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 2780.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
+     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
+     "price": 2847.6,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     },
     {
      "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3038.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
+     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
+     "price": 3576.2,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2780.0,
-     "avg": 2909.0,
-     "max": 3038.0,
+     "min": 2847.6,
+     "avg": 3211.9,
+     "max": 3576.2,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2780.0,
-      "avg": 2909.0,
-      "max": 3038.0,
+      "min": 2847.6,
+      "avg": 3211.9,
+      "max": 3576.2,
       "count": 2
      }
     }
@@ -206,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1959.98,
+     "price": 1933.39,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1959.98,
-     "avg": 1959.98,
-     "max": 1959.98,
+     "min": 1933.39,
+     "avg": 1933.39,
+     "max": 1933.39,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1959.98,
-      "avg": 1959.98,
-      "max": 1959.98,
+      "min": 1933.39,
+      "avg": 1933.39,
+      "max": 1933.39,
       "count": 1
      }
     }
@@ -263,22 +263,22 @@
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 277.59,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
+     "name": "ARENA Cobra Core Swipe Mirror 003251 350",
+     "price": 299.41,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251350"
     }
    ],
    "stats": {
     "overall": {
      "min": 257.93,
-     "avg": 346.62,
+     "avg": 359.64,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 257.93,
-      "avg": 346.62,
+      "avg": 359.64,
       "max": 428.87,
       "count": 8
      }
