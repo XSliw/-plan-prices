@@ -1,27 +1,27 @@
 {
- "updated": "21.07.2026 09:29",
+ "updated": "22.07.2026 09:28",
  "prices": {
   "1:0": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 67.5,
+     "price": 66.5,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 67.5,
-     "avg": 67.5,
-     "max": 67.5,
+     "min": 66.5,
+     "avg": 66.5,
+     "max": 66.5,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 67.5,
-      "avg": 67.5,
-      "max": 67.5,
+      "min": 66.5,
+      "avg": 66.5,
+      "max": 66.5,
       "count": 1
      }
     }
@@ -77,15 +77,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.62,
-     "max": 1986.85,
+     "avg": 1958.53,
+     "max": 1986.58,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.62,
-      "max": 1986.85,
+      "avg": 1958.53,
+      "max": 1986.58,
       "count": 3
      }
     }
@@ -121,30 +121,30 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2847.6,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
+     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
+     "price": 2780.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     },
     {
      "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3576.2,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
+     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
+     "price": 2847.6,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2847.6,
-     "avg": 3211.9,
-     "max": 3576.2,
-     "count": 2
+     "min": 2780.0,
+     "avg": 3294.4,
+     "max": 3850.0,
+     "count": 4
     },
     "by_source": {
      "Onliner": {
-      "min": 2847.6,
-      "avg": 3211.9,
-      "max": 3576.2,
-      "count": 2
+      "min": 2780.0,
+      "avg": 3294.4,
+      "max": 3850.0,
+      "count": 4
      }
     }
    }
@@ -232,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 655.54,
+     "price": 644.32,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 655.54,
-     "avg": 655.54,
-     "max": 655.54,
+     "min": 644.32,
+     "avg": 644.32,
+     "max": 644.32,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 655.54,
-      "avg": 655.54,
-      "max": 655.54,
+      "min": 644.32,
+      "avg": 644.32,
+      "max": 644.32,
       "count": 1
      }
     }
