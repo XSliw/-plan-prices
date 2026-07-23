@@ -1,5 +1,5 @@
 {
- "updated": "22.07.2026 09:28",
+ "updated": "23.07.2026 09:31",
  "prices": {
   "1:0": {
    "variants": [
@@ -258,7 +258,7 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 330",
-     "price": 257.93,
+     "price": 256.93,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507330"
     },
     {
@@ -270,15 +270,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 257.93,
-     "avg": 359.64,
+     "min": 256.93,
+     "avg": 359.52,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 257.93,
-      "avg": 359.64,
+      "min": 256.93,
+      "avg": 359.52,
       "max": 428.87,
       "count": 8
      }
