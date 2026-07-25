@@ -1,27 +1,27 @@
 {
- "updated": "24.07.2026 09:27",
+ "updated": "25.07.2026 09:16",
  "prices": {
   "1:0": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 66.5,
+     "price": 53.0,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 66.5,
-     "avg": 66.5,
-     "max": 66.5,
+     "min": 53.0,
+     "avg": 53.0,
+     "max": 53.0,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 66.5,
-      "avg": 66.5,
-      "max": 66.5,
+      "min": 53.0,
+      "avg": 53.0,
+      "max": 53.0,
       "count": 1
      }
     }
@@ -258,7 +258,7 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 330",
-     "price": 242.15,
+     "price": 241.15,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507330"
     },
     {
@@ -270,15 +270,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 242.15,
-     "avg": 321.25,
+     "min": 241.15,
+     "avg": 336.06,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 242.15,
-      "avg": 321.25,
+      "min": 241.15,
+      "avg": 336.06,
       "max": 428.87,
       "count": 8
      }
