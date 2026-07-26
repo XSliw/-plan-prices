@@ -1,5 +1,5 @@
 {
- "updated": "25.07.2026 09:16",
+ "updated": "26.07.2026 09:36",
  "prices": {
   "1:0": {
    "variants": [
@@ -128,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3200.1,
+     "price": 3257.7,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
      "min": 2839.5,
-     "avg": 3019.8,
-     "max": 3200.1,
+     "avg": 3048.6,
+     "max": 3257.7,
      "count": 2
     },
     "by_source": {
      "Onliner": {
       "min": 2839.5,
-      "avg": 3019.8,
-      "max": 3200.1,
+      "avg": 3048.6,
+      "max": 3257.7,
       "count": 2
      }
     }
@@ -271,14 +271,14 @@
    "stats": {
     "overall": {
      "min": 241.15,
-     "avg": 336.06,
+     "avg": 336.52,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 241.15,
-      "avg": 336.06,
+      "avg": 336.52,
       "max": 428.87,
       "count": 8
      }
@@ -316,29 +316,23 @@
     {
      "source": "Onliner",
      "name": "1WIN Моногидрат (200г, без вкуса)",
-     "price": 30.03,
+     "price": 29.05,
      "url": "https://catalog.onliner.by/creatine/1win/1winmono200"
-    },
-    {
-     "source": "Onliner",
-     "name": "1WIN Моногидрат (200г, тропический микс)",
-     "price": 36.32,
-     "url": "https://catalog.onliner.by/creatine/1win/1winmono200tm"
     }
    ],
    "stats": {
     "overall": {
-     "min": 30.03,
-     "avg": 33.17,
-     "max": 36.32,
-     "count": 2
+     "min": 29.05,
+     "avg": 29.05,
+     "max": 29.05,
+     "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 30.03,
-      "avg": 33.17,
-      "max": 36.32,
-      "count": 2
+      "min": 29.05,
+      "avg": 29.05,
+      "max": 29.05,
+      "count": 1
      }
     }
    }
