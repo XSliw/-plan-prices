@@ -1,5 +1,5 @@
 {
- "updated": "27.07.2026 10:02",
+ "updated": "28.07.2026 09:26",
  "prices": {
   "1:0": {
    "variants": [
@@ -77,15 +77,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.53,
-     "max": 1986.58,
+     "avg": 1958.47,
+     "max": 1986.4,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.53,
-      "max": 1986.58,
+      "avg": 1958.47,
+      "max": 1986.4,
       "count": 3
      }
     }
@@ -128,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3257.7,
+     "price": 3265.7,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
      "min": 2839.5,
-     "avg": 3048.6,
-     "max": 3257.7,
+     "avg": 3052.6,
+     "max": 3265.7,
      "count": 2
     },
     "by_source": {
      "Onliner": {
       "min": 2839.5,
-      "avg": 3048.6,
-      "max": 3257.7,
+      "avg": 3052.6,
+      "max": 3265.7,
       "count": 2
      }
     }
@@ -257,28 +257,28 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Ultra Swipe Mirror 002507 330",
-     "price": 241.15,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507330"
-    },
-    {
-     "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 595",
      "price": 256.44,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507595"
+    },
+    {
+     "source": "Onliner",
+     "name": "ARENA Cobra Core Swipe Mirror 003251 530",
+     "price": 275.87,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
-     "min": 241.15,
-     "avg": 335.95,
+     "min": 256.44,
+     "avg": 342.66,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 241.15,
-      "avg": 335.95,
+      "min": 256.44,
+      "avg": 342.66,
       "max": 428.87,
       "count": 8
      }
