@@ -1,5 +1,5 @@
 {
- "updated": "28.07.2026 09:26",
+ "updated": "29.07.2026 09:31",
  "prices": {
   "1:0": {
    "variants": [
@@ -77,15 +77,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.47,
-     "max": 1986.4,
+     "avg": 1958.35,
+     "max": 1986.04,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.47,
-      "max": 1986.4,
+      "avg": 1958.35,
+      "max": 1986.04,
       "count": 3
      }
     }
@@ -128,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3265.7,
+     "price": 3255.5,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
      "min": 2839.5,
-     "avg": 3052.6,
-     "max": 3265.7,
+     "avg": 3047.5,
+     "max": 3255.5,
      "count": 2
     },
     "by_source": {
      "Onliner": {
       "min": 2839.5,
-      "avg": 3052.6,
-      "max": 3265.7,
+      "avg": 3047.5,
+      "max": 3255.5,
       "count": 2
      }
     }
@@ -271,14 +271,14 @@
    "stats": {
     "overall": {
      "min": 256.44,
-     "avg": 342.66,
+     "avg": 347.3,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 256.44,
-      "avg": 342.66,
+      "avg": 347.3,
       "max": 428.87,
       "count": 8
      }
