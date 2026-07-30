@@ -1,5 +1,5 @@
 {
- "updated": "29.07.2026 09:31",
+ "updated": "30.07.2026 09:26",
  "prices": {
   "1:0": {
    "variants": [
@@ -77,15 +77,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.35,
-     "max": 1986.04,
+     "avg": 1958.23,
+     "max": 1985.68,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.35,
-      "max": 1986.04,
+      "avg": 1958.23,
+      "max": 1985.68,
       "count": 3
      }
     }
@@ -121,29 +121,29 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2839.5,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
+     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
+     "price": 2780.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     },
     {
      "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3255.5,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
+     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
+     "price": 2839.5,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2839.5,
-     "avg": 3047.5,
-     "max": 3255.5,
+     "min": 2780.0,
+     "avg": 2809.75,
+     "max": 2839.5,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2839.5,
-      "avg": 3047.5,
-      "max": 3255.5,
+      "min": 2780.0,
+      "avg": 2809.75,
+      "max": 2839.5,
       "count": 2
      }
     }
@@ -232,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 635.56,
+     "price": 646.54,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 635.56,
-     "avg": 635.56,
-     "max": 635.56,
+     "min": 646.54,
+     "avg": 646.54,
+     "max": 646.54,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 635.56,
-      "avg": 635.56,
-      "max": 635.56,
+      "min": 646.54,
+      "avg": 646.54,
+      "max": 646.54,
       "count": 1
      }
     }
