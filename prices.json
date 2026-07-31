@@ -1,27 +1,27 @@
 {
- "updated": "30.07.2026 09:26",
+ "updated": "31.07.2026 09:43",
  "prices": {
   "1:0": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 53.0,
+     "price": 48.33,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 53.0,
-     "avg": 53.0,
-     "max": 53.0,
+     "min": 48.33,
+     "avg": 48.33,
+     "max": 48.33,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 53.0,
-      "avg": 53.0,
-      "max": 53.0,
+      "min": 48.33,
+      "avg": 48.33,
+      "max": 48.33,
       "count": 1
      }
     }
@@ -77,15 +77,15 @@
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.23,
-     "max": 1985.68,
+     "avg": 1958.14,
+     "max": 1985.41,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.23,
-      "max": 1985.68,
+      "avg": 1958.14,
+      "max": 1985.41,
       "count": 3
      }
     }
