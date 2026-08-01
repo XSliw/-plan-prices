@@ -1,27 +1,27 @@
 {
- "updated": "31.07.2026 09:43",
+ "updated": "01.08.2026 09:27",
  "prices": {
   "1:0": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 48.33,
+     "price": 50.5,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 48.33,
-     "avg": 48.33,
-     "max": 48.33,
+     "min": 50.5,
+     "avg": 50.5,
+     "max": 50.5,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 48.33,
-      "avg": 48.33,
-      "max": 48.33,
+      "min": 50.5,
+      "avg": 50.5,
+      "max": 50.5,
       "count": 1
      }
     }
@@ -135,16 +135,16 @@
    "stats": {
     "overall": {
      "min": 2780.0,
-     "avg": 2809.75,
-     "max": 2839.5,
-     "count": 2
+     "avg": 3292.38,
+     "max": 3850.0,
+     "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 2780.0,
-      "avg": 2809.75,
-      "max": 2839.5,
-      "count": 2
+      "avg": 3292.38,
+      "max": 3850.0,
+      "count": 4
      }
     }
    }
@@ -206,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1933.4,
+     "price": 1195.06,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1933.4,
-     "avg": 1933.4,
-     "max": 1933.4,
+     "min": 1195.06,
+     "avg": 1195.06,
+     "max": 1195.06,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1933.4,
-      "avg": 1933.4,
-      "max": 1933.4,
+      "min": 1195.06,
+      "avg": 1195.06,
+      "max": 1195.06,
       "count": 1
      }
     }
