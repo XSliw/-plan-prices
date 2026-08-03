@@ -1,5 +1,5 @@
 {
- "updated": "02.08.2026 09:32",
+ "updated": "03.08.2026 09:58",
  "prices": {
   "1:0": {
    "variants": [
@@ -206,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1195.06,
+     "price": 1162.4,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1195.06,
-     "avg": 1195.06,
-     "max": 1195.06,
+     "min": 1162.4,
+     "avg": 1162.4,
+     "max": 1162.4,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1195.06,
-      "avg": 1195.06,
-      "max": 1195.06,
+      "min": 1162.4,
+      "avg": 1162.4,
+      "max": 1162.4,
       "count": 1
      }
     }
@@ -264,21 +264,21 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 275.87,
+     "price": 274.14,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
      "min": 256.44,
-     "avg": 347.3,
+     "avg": 347.08,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 256.44,
-      "avg": 347.3,
+      "avg": 347.08,
       "max": 428.87,
       "count": 8
      }
