@@ -1,5 +1,5 @@
 {
- "updated": "03.08.2026 09:58",
+ "updated": "04.08.2026 09:26",
  "prices": {
   "1:0": {
    "variants": [
@@ -206,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1162.4,
+     "price": 1149.79,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1162.4,
-     "avg": 1162.4,
-     "max": 1162.4,
+     "min": 1149.79,
+     "avg": 1149.79,
+     "max": 1149.79,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1162.4,
-      "avg": 1162.4,
-      "max": 1162.4,
+      "min": 1149.79,
+      "avg": 1149.79,
+      "max": 1149.79,
       "count": 1
      }
     }
