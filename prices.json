@@ -1,27 +1,27 @@
 {
- "updated": "04.08.2026 09:26",
+ "updated": "05.08.2026 09:32",
  "prices": {
   "1:0": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 50.5,
+     "price": 47.0,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 50.5,
-     "avg": 50.5,
-     "max": 50.5,
+     "min": 47.0,
+     "avg": 47.0,
+     "max": 47.0,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 50.5,
-      "avg": 50.5,
-      "max": 50.5,
+      "min": 47.0,
+      "avg": 47.0,
+      "max": 47.0,
       "count": 1
      }
     }
@@ -128,21 +128,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2839.5,
+     "price": 2926.3,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
      "min": 2780.0,
-     "avg": 3292.38,
+     "avg": 3314.07,
      "max": 3850.0,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 2780.0,
-      "avg": 3292.38,
+      "avg": 3314.07,
       "max": 3850.0,
       "count": 4
      }
@@ -206,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1149.79,
+     "price": 1150.68,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1149.79,
-     "avg": 1149.79,
-     "max": 1149.79,
+     "min": 1150.68,
+     "avg": 1150.68,
+     "max": 1150.68,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1149.79,
-      "avg": 1149.79,
-      "max": 1149.79,
+      "min": 1150.68,
+      "avg": 1150.68,
+      "max": 1150.68,
       "count": 1
      }
     }
@@ -232,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 646.54,
+     "price": 798.03,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 646.54,
-     "avg": 646.54,
-     "max": 646.54,
+     "min": 798.03,
+     "avg": 798.03,
+     "max": 798.03,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 646.54,
-      "avg": 646.54,
-      "max": 646.54,
+      "min": 798.03,
+      "avg": 798.03,
+      "max": 798.03,
       "count": 1
      }
     }
