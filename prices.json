@@ -1,5 +1,5 @@
 {
- "updated": "07.08.2026 08:37",
+ "updated": "08.08.2026 07:54",
  "prices": {
   "1:0": {
    "variants": [
@@ -128,21 +128,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2938.4,
+     "price": 2937.5,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
      "min": 2780.0,
-     "avg": 3317.1,
+     "avg": 3316.88,
      "max": 3850.0,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 2780.0,
-      "avg": 3317.1,
+      "avg": 3316.88,
       "max": 3850.0,
       "count": 4
      }
@@ -206,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1152.15,
+     "price": 1141.5,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1152.15,
-     "avg": 1152.15,
-     "max": 1152.15,
+     "min": 1141.5,
+     "avg": 1141.5,
+     "max": 1141.5,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1152.15,
-      "avg": 1152.15,
-      "max": 1152.15,
+      "min": 1141.5,
+      "avg": 1141.5,
+      "max": 1141.5,
       "count": 1
      }
     }
@@ -238,21 +238,21 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 273.27,
+     "price": 272.41,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
      "min": 256.44,
-     "avg": 346.98,
+     "avg": 346.87,
      "max": 428.87,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 256.44,
-      "avg": 346.98,
+      "avg": 346.87,
       "max": 428.87,
       "count": 8
      }
