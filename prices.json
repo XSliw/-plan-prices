@@ -1,5 +1,5 @@
 {
- "updated": "11.08.2026 08:05",
+ "updated": "12.08.2026 08:32",
  "prices": {
   "1:0": {
    "variants": [
@@ -69,23 +69,23 @@
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 965 (черный/серый)",
-     "price": 1950.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
+     "name": "Garmin Forerunner 965 (черный/желтый)",
+     "price": 1985.36,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bky"
     }
    ],
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 1958.12,
-     "max": 1985.36,
+     "avg": 2020.91,
+     "max": 2138.36,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 1958.12,
-      "max": 1985.36,
+      "avg": 2020.91,
+      "max": 2138.36,
       "count": 3
      }
     }
@@ -200,22 +200,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1146.73,
+     "price": 1141.05,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1146.73,
-     "avg": 1146.73,
-     "max": 1146.73,
+     "min": 1141.05,
+     "avg": 1141.05,
+     "max": 1141.05,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1146.73,
-      "avg": 1146.73,
-      "max": 1146.73,
+      "min": 1141.05,
+      "avg": 1141.05,
+      "max": 1141.05,
       "count": 1
      }
     }
@@ -232,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 271.55,
+     "price": 269.83,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
      "min": 256.44,
-     "avg": 346.76,
-     "max": 428.87,
+     "avg": 304.95,
+     "max": 332.69,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 256.44,
-      "avg": 346.76,
-      "max": 428.87,
+      "avg": 304.95,
+      "max": 332.69,
       "count": 8
      }
     }
@@ -307,32 +307,6 @@
       "avg": 17.16,
       "max": 19.0,
       "count": 2
-     }
-    }
-   }
-  },
-  "10:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Zeitun Гель для умывания Lulu Энергетический для тусклой кожи с витамином С и ма",
-     "price": 53.16,
-     "url": "https://catalog.onliner.by/facial_cosmetics/zeitun/lulu200gel"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 53.16,
-     "avg": 53.16,
-     "max": 53.16,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 53.16,
-      "avg": 53.16,
-      "max": 53.16,
-      "count": 1
      }
     }
    }
