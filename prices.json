@@ -1,5 +1,5 @@
 {
- "updated": "12.08.2026 08:32",
+ "updated": "13.08.2026 08:34",
  "prices": {
   "1:0": {
    "variants": [
@@ -122,23 +122,29 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2937.5,
+     "price": 2934.3,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
+    },
+    {
+     "source": "Onliner",
+     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
+     "price": 3189.59,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2937.5,
-     "avg": 2937.5,
-     "max": 2937.5,
-     "count": 1
+     "min": 2934.3,
+     "avg": 3061.95,
+     "max": 3189.59,
+     "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2937.5,
-      "avg": 2937.5,
-      "max": 2937.5,
-      "count": 1
+      "min": 2934.3,
+      "avg": 3061.95,
+      "max": 3189.59,
+      "count": 2
      }
     }
    }
@@ -200,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1141.05,
+     "price": 1143.84,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1141.05,
-     "avg": 1141.05,
-     "max": 1141.05,
+     "min": 1143.84,
+     "avg": 1143.84,
+     "max": 1143.84,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1141.05,
-      "avg": 1141.05,
-      "max": 1141.05,
+      "min": 1143.84,
+      "avg": 1143.84,
+      "max": 1143.84,
       "count": 1
      }
     }
@@ -228,27 +234,21 @@
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 595",
      "price": 256.44,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507595"
-    },
-    {
-     "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 269.83,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
      "min": 256.44,
-     "avg": 304.95,
-     "max": 332.69,
-     "count": 8
+     "avg": 256.44,
+     "max": 256.44,
+     "count": 1
     },
     "by_source": {
      "Onliner": {
       "min": 256.44,
-      "avg": 304.95,
-      "max": 332.69,
-      "count": 8
+      "avg": 256.44,
+      "max": 256.44,
+      "count": 1
      }
     }
    }
