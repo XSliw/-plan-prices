@@ -1,5 +1,5 @@
 {
- "updated": "14.08.2026 08:31",
+ "updated": "15.08.2026 07:27",
  "prices": {
   "1:0": {
    "variants": [
@@ -70,21 +70,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 965 (черный/желтый)",
-     "price": 1985.36,
+     "price": 2002.24,
      "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bky"
     }
    ],
    "stats": {
     "overall": {
      "min": 1939.0,
-     "avg": 2020.91,
+     "avg": 2026.53,
      "max": 2138.36,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1939.0,
-      "avg": 2020.91,
+      "avg": 2026.53,
       "max": 2138.36,
       "count": 3
      }
@@ -122,22 +122,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2934.3,
+     "price": 2945.3,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2934.3,
-     "avg": 2934.3,
-     "max": 2934.3,
+     "min": 2945.3,
+     "avg": 2945.3,
+     "max": 2945.3,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 2934.3,
-      "avg": 2934.3,
-      "max": 2934.3,
+      "min": 2945.3,
+      "avg": 2945.3,
+      "max": 2945.3,
       "count": 1
      }
     }
@@ -232,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 310",
-     "price": 311.21,
+     "price": 309.49,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507310"
     }
    ],
    "stats": {
     "overall": {
      "min": 239.88,
-     "avg": 307.47,
-     "max": 331.9,
+     "avg": 311.42,
+     "max": 342.72,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 239.88,
-      "avg": 307.47,
-      "max": 331.9,
+      "avg": 311.42,
+      "max": 342.72,
       "count": 8
      }
     }
@@ -274,6 +274,32 @@
       "min": 59.97,
       "avg": 59.97,
       "max": 59.97,
+      "count": 1
+     }
+    }
+   }
+  },
+  "10:1": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "1WIN Моногидрат (200г, без вкуса)",
+     "price": 25.08,
+     "url": "https://catalog.onliner.by/creatine/1win/1winmono200"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 25.08,
+     "avg": 25.08,
+     "max": 25.08,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 25.08,
+      "avg": 25.08,
+      "max": 25.08,
       "count": 1
      }
     }
@@ -316,22 +342,22 @@
     {
      "source": "Onliner",
      "name": "Zeitun Гель для умывания Lulu Энергетический для тусклой кожи с витамином С и ма",
-     "price": 53.16,
+     "price": 51.87,
      "url": "https://catalog.onliner.by/facial_cosmetics/zeitun/lulu200gel"
     }
    ],
    "stats": {
     "overall": {
-     "min": 53.16,
-     "avg": 53.16,
-     "max": 53.16,
+     "min": 51.87,
+     "avg": 51.87,
+     "max": 51.87,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 53.16,
-      "avg": 53.16,
-      "max": 53.16,
+      "min": 51.87,
+      "avg": 51.87,
+      "max": 51.87,
       "count": 1
      }
     }
