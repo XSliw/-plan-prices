@@ -1,32 +1,6 @@
 {
- "updated": "18.08.2026 07:34",
+ "updated": "19.08.2026 07:35",
  "prices": {
-  "0:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Apple Watch Nike Series 7 41 мм (звездный свет/чистая платина, черный)",
-     "price": 990.0,
-     "url": "https://catalog.onliner.by/smartwatch/apple/mkn33"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 990.0,
-     "avg": 990.0,
-     "max": 990.0,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 990.0,
-      "avg": 990.0,
-      "max": 990.0,
-      "count": 1
-     }
-    }
-   }
-  },
   "1:0": {
    "variants": [
     {
@@ -150,21 +124,27 @@
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
      "price": 2945.3,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
+    },
+    {
+     "source": "Onliner",
+     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
+     "price": 3168.4,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
      "min": 2945.3,
-     "avg": 2945.3,
-     "max": 2945.3,
-     "count": 1
+     "avg": 3056.85,
+     "max": 3168.4,
+     "count": 2
     },
     "by_source": {
      "Onliner": {
       "min": 2945.3,
-      "avg": 2945.3,
-      "max": 2945.3,
-      "count": 1
+      "avg": 3056.85,
+      "max": 3168.4,
+      "count": 2
      }
     }
    }
@@ -221,32 +201,58 @@
     }
    }
   },
+  "4:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Edge 540",
+     "price": 1135.72,
+     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 1135.72,
+     "avg": 1135.72,
+     "max": 1135.72,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 1135.72,
+      "avg": 1135.72,
+      "max": 1135.72,
+      "count": 1
+     }
+    }
+   }
+  },
   "7:1": {
    "variants": [
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 267.37,
+     "price": 263.13,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Ultra Swipe Mirror 002507 310",
-     "price": 307.98,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507310"
+     "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
+     "price": 302.06,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
-     "min": 267.37,
-     "avg": 314.06,
+     "min": 263.13,
+     "avg": 310.88,
      "max": 343.3,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 267.37,
-      "avg": 314.06,
+      "min": 263.13,
+      "avg": 310.88,
       "max": 343.3,
       "count": 8
      }
@@ -307,32 +313,6 @@
       "avg": 17.16,
       "max": 19.0,
       "count": 2
-     }
-    }
-   }
-  },
-  "10:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Zeitun Гель для умывания Lulu Энергетический для тусклой кожи с витамином С и ма",
-     "price": 51.87,
-     "url": "https://catalog.onliner.by/facial_cosmetics/zeitun/lulu200gel"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 51.87,
-     "avg": 51.87,
-     "max": 51.87,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 51.87,
-      "avg": 51.87,
-      "max": 51.87,
-      "count": 1
      }
     }
    }
