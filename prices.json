@@ -1,5 +1,5 @@
 {
- "updated": "22.08.2026 07:31",
+ "updated": "23.08.2026 07:34",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1637.57,
+     "price": 1637.47,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     }
    ],
    "stats": {
     "overall": {
      "min": 1570.0,
-     "avg": 1625.86,
+     "avg": 1625.82,
      "max": 1670.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1570.0,
-      "avg": 1625.86,
+      "avg": 1625.82,
       "max": 1670.0,
       "count": 3
      }
@@ -148,22 +148,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3196.1,
+     "price": 3197.3,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 3196.1,
-     "avg": 3196.1,
-     "max": 3196.1,
+     "min": 3197.3,
+     "avg": 3197.3,
+     "max": 3197.3,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 3196.1,
-      "avg": 3196.1,
-      "max": 3196.1,
+      "min": 3197.3,
+      "avg": 3197.3,
+      "max": 3197.3,
       "count": 1
      }
     }
@@ -252,27 +252,27 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 263.31,
+     "price": 263.98,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 288.89,
+     "price": 289.36,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
-     "min": 263.31,
-     "avg": 309.35,
+     "min": 263.98,
+     "avg": 309.62,
      "max": 343.3,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 263.31,
-      "avg": 309.35,
+      "min": 263.98,
+      "avg": 309.62,
       "max": 343.3,
       "count": 8
      }
