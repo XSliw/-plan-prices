@@ -1,5 +1,5 @@
 {
- "updated": "25.08.2026 07:36",
+ "updated": "26.08.2026 07:52",
  "prices": {
   "0:4": {
    "variants": [
@@ -148,22 +148,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3013.7,
+     "price": 3037.7,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 3013.7,
-     "avg": 3013.7,
-     "max": 3013.7,
+     "min": 3037.7,
+     "avg": 3037.7,
+     "max": 3037.7,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 3013.7,
-      "avg": 3013.7,
-      "max": 3013.7,
+      "min": 3037.7,
+      "avg": 3037.7,
+      "max": 3037.7,
       "count": 1
      }
     }
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1127.1,
+     "price": 1127.01,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1127.1,
-     "avg": 1127.1,
-     "max": 1127.1,
+     "min": 1127.01,
+     "avg": 1127.01,
+     "max": 1127.01,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1127.1,
-      "avg": 1127.1,
-      "max": 1127.1,
+      "min": 1127.01,
+      "avg": 1127.01,
+      "max": 1127.01,
       "count": 1
      }
     }
@@ -251,29 +251,29 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 265.68,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
+     "name": "ARENA Cobra Core Swipe 003930 700",
+     "price": 232.68,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003930700"
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 291.06,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
+     "name": "ARENA Cobra Core Swipe Mirror 003251 530",
+     "price": 252.98,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
-     "min": 265.68,
-     "avg": 310.78,
-     "max": 343.3,
+     "min": 232.68,
+     "avg": 292.81,
+     "max": 324.36,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 265.68,
-      "avg": 310.78,
-      "max": 343.3,
+      "min": 232.68,
+      "avg": 292.81,
+      "max": 324.36,
       "count": 8
      }
     }
