@@ -1,5 +1,5 @@
 {
- "updated": "28.08.2026 18:55",
+ "updated": "29.08.2026 13:44",
  "prices": {
   "0:4": {
    "variants": [
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1702.97,
+     "price": 1132.96,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1702.97,
-     "avg": 1702.97,
-     "max": 1702.97,
+     "min": 1132.96,
+     "avg": 1132.96,
+     "max": 1132.96,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1702.97,
-      "avg": 1702.97,
-      "max": 1702.97,
+      "min": 1132.96,
+      "avg": 1132.96,
+      "max": 1132.96,
       "count": 1
      }
     }
@@ -258,49 +258,23 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 251.1,
+     "price": 249.61,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
      "min": 229.99,
-     "avg": 288.2,
+     "avg": 287.38,
      "max": 319.06,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 229.99,
-      "avg": 288.2,
+      "avg": 287.38,
       "max": 319.06,
       "count": 8
-     }
-    }
-   }
-  },
-  "8:2": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear to Amethyst Transitions)",
-     "price": 1761.89,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002025122"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 1761.89,
-     "avg": 1761.89,
-     "max": 1761.89,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 1761.89,
-      "avg": 1761.89,
-      "max": 1761.89,
-      "count": 1
      }
     }
    }
