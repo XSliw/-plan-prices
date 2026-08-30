@@ -1,5 +1,5 @@
 {
- "updated": "29.08.2026 13:44",
+ "updated": "30.08.2026 12:44",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1637.0,
+     "price": 1634.12,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     }
    ],
    "stats": {
     "overall": {
      "min": 1570.0,
-     "avg": 1625.67,
+     "avg": 1624.71,
      "max": 1670.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1570.0,
-      "avg": 1625.67,
+      "avg": 1624.71,
       "max": 1670.0,
       "count": 3
      }
@@ -117,53 +117,27 @@
     }
    }
   },
-  "1:3": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Polar Vantage V3 (черный)",
-     "price": 2100.0,
-     "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bk"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 2100.0,
-     "avg": 2100.0,
-     "max": 2100.0,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 2100.0,
-      "avg": 2100.0,
-      "max": 2100.0,
-      "count": 1
-     }
-    }
-   }
-  },
   "1:4": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3015.0,
+     "price": 3026.1,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 3015.0,
-     "avg": 3015.0,
-     "max": 3015.0,
+     "min": 3026.1,
+     "avg": 3026.1,
+     "max": 3026.1,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 3015.0,
-      "avg": 3015.0,
-      "max": 3015.0,
+      "min": 3026.1,
+      "avg": 3026.1,
+      "max": 3026.1,
       "count": 1
      }
     }
@@ -174,22 +148,22 @@
     {
      "source": "Onliner",
      "name": "Polar H10 (черный)",
-     "price": 350.0,
+     "price": 500.0,
      "url": "https://catalog.onliner.by/heart_rate/polarpaper/polarh10"
     }
    ],
    "stats": {
     "overall": {
-     "min": 350.0,
-     "avg": 350.0,
-     "max": 350.0,
+     "min": 500.0,
+     "avg": 500.0,
+     "max": 500.0,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 350.0,
-      "avg": 350.0,
-      "max": 350.0,
+      "min": 500.0,
+      "avg": 500.0,
+      "max": 500.0,
       "count": 1
      }
     }
@@ -200,22 +174,22 @@
     {
      "source": "Onliner",
      "name": "Polar Verity Sense",
-     "price": 350.0,
+     "price": 500.0,
      "url": "https://catalog.onliner.by/heart_rate/polarpaper/veritysense"
     }
    ],
    "stats": {
     "overall": {
-     "min": 350.0,
-     "avg": 350.0,
-     "max": 350.0,
+     "min": 500.0,
+     "avg": 500.0,
+     "max": 500.0,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 350.0,
-      "avg": 350.0,
-      "max": 350.0,
+      "min": 500.0,
+      "avg": 500.0,
+      "max": 500.0,
       "count": 1
      }
     }
@@ -275,6 +249,32 @@
       "avg": 287.38,
       "max": 319.06,
       "count": 8
+     }
+    }
+   }
+  },
+  "8:2": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear to Amethyst Transitions)",
+     "price": 1761.89,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002025122"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 1761.89,
+     "avg": 1761.89,
+     "max": 1761.89,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 1761.89,
+      "avg": 1761.89,
+      "max": 1761.89,
+      "count": 1
      }
     }
    }
