@@ -1,5 +1,5 @@
 {
- "updated": "04.09.2026 11:30",
+ "updated": "05.09.2026 11:04",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,27 +58,27 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1599.65,
+     "price": 1600.21,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     },
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1634.12,
+     "price": 1633.12,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1599.65,
-     "avg": 1634.59,
+     "min": 1600.21,
+     "avg": 1634.44,
      "max": 1670.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1599.65,
-      "avg": 1634.59,
+      "min": 1600.21,
+      "avg": 1634.44,
       "max": 1670.0,
       "count": 3
      }
@@ -90,28 +90,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 965 (черный/серый)",
-     "price": 1870.0,
+     "price": 1715.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
     },
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 965 (белый/серый)",
-     "price": 1870.0,
+     "price": 1715.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1870.0,
-     "avg": 1896.67,
-     "max": 1950.0,
+     "min": 1715.0,
+     "avg": 1715.0,
+     "max": 1715.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1870.0,
-      "avg": 1896.67,
-      "max": 1950.0,
+      "min": 1715.0,
+      "avg": 1715.0,
+      "max": 1715.0,
       "count": 3
      }
     }
@@ -148,22 +148,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3110.0,
+     "price": 3073.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 3110.0,
-     "avg": 3110.0,
-     "max": 3110.0,
+     "min": 3073.0,
+     "avg": 3073.0,
+     "max": 3073.0,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 3110.0,
-      "avg": 3110.0,
-      "max": 3110.0,
+      "min": 3073.0,
+      "avg": 3073.0,
+      "max": 3073.0,
       "count": 1
      }
     }
@@ -278,7 +278,7 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe 003930 700",
-     "price": 229.54,
+     "price": 230.13,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003930700"
     },
     {
@@ -290,15 +290,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 229.54,
-     "avg": 286.48,
+     "min": 230.13,
+     "avg": 286.83,
      "max": 317.55,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 229.54,
-      "avg": 286.48,
+      "min": 230.13,
+      "avg": 286.83,
       "max": 317.55,
       "count": 8
      }
@@ -310,22 +310,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 59.97,
+     "price": 66.01,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 59.97,
-     "avg": 59.97,
-     "max": 59.97,
+     "min": 66.01,
+     "avg": 66.01,
+     "max": 66.01,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 59.97,
-      "avg": 59.97,
-      "max": 59.97,
+      "min": 66.01,
+      "avg": 66.01,
+      "max": 66.01,
       "count": 1
      }
     }
