@@ -1,5 +1,5 @@
 {
- "updated": "07.09.2026 11:55",
+ "updated": "08.09.2026 11:34",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,27 +58,27 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1621.07,
+     "price": 1616.02,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1628.0,
+     "price": 1626.52,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1621.07,
-     "avg": 1806.69,
+     "min": 1616.02,
+     "avg": 1804.51,
      "max": 2171.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1621.07,
-      "avg": 1806.69,
+      "min": 1616.02,
+      "avg": 1804.51,
       "max": 2171.0,
       "count": 3
      }
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1113.75,
+     "price": 1110.95,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1113.75,
-     "avg": 1113.75,
-     "max": 1113.75,
+     "min": 1110.95,
+     "avg": 1110.95,
+     "max": 1110.95,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1113.75,
-      "avg": 1113.75,
-      "max": 1113.75,
+      "min": 1110.95,
+      "avg": 1110.95,
+      "max": 1110.95,
       "count": 1
      }
     }
@@ -349,16 +349,16 @@
    "stats": {
     "overall": {
      "min": 15.31,
-     "avg": 25.33,
-     "max": 39.0,
-     "count": 4
+     "avg": 30.71,
+     "max": 52.25,
+     "count": 5
     },
     "by_source": {
      "Onliner": {
       "min": 15.31,
-      "avg": 25.33,
-      "max": 39.0,
-      "count": 4
+      "avg": 30.71,
+      "max": 52.25,
+      "count": 5
      }
     }
    }
