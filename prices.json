@@ -1,5 +1,5 @@
 {
- "updated": "08.09.2026 11:34",
+ "updated": "09.09.2026 11:37",
  "prices": {
   "0:4": {
    "variants": [
@@ -32,22 +32,22 @@
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 46.0,
+     "price": 47.0,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 46.0,
-     "avg": 46.0,
-     "max": 46.0,
+     "min": 47.0,
+     "avg": 47.0,
+     "max": 47.0,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 46.0,
-      "avg": 46.0,
-      "max": 46.0,
+      "min": 47.0,
+      "avg": 47.0,
+      "max": 47.0,
       "count": 1
      }
     }
@@ -58,27 +58,27 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1616.02,
+     "price": 1613.82,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1626.52,
+     "price": 1624.85,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1616.02,
-     "avg": 1804.51,
+     "min": 1613.82,
+     "avg": 1803.22,
      "max": 2171.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1616.02,
-      "avg": 1804.51,
+      "min": 1613.82,
+      "avg": 1803.22,
       "max": 2171.0,
       "count": 3
      }
@@ -95,9 +95,9 @@
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 965 (белый/серый)",
+     "name": "Garmin Forerunner 965 (черный/желтый)",
      "price": 1715.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bky"
     }
    ],
    "stats": {
@@ -148,22 +148,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3072.1,
+     "price": 3071.1,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 3072.1,
-     "avg": 3072.1,
-     "max": 3072.1,
+     "min": 3071.1,
+     "avg": 3071.1,
+     "max": 3071.1,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 3072.1,
-      "avg": 3072.1,
-      "max": 3072.1,
+      "min": 3071.1,
+      "avg": 3071.1,
+      "max": 3071.1,
       "count": 1
      }
     }
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1110.95,
+     "price": 1105.49,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1110.95,
-     "avg": 1110.95,
-     "max": 1110.95,
+     "min": 1105.49,
+     "avg": 1105.49,
+     "max": 1105.49,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1110.95,
-      "avg": 1110.95,
-      "max": 1110.95,
+      "min": 1105.49,
+      "avg": 1105.49,
+      "max": 1105.49,
       "count": 1
      }
     }
@@ -252,22 +252,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 772.73,
+     "price": 663.57,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 772.73,
-     "avg": 772.73,
-     "max": 772.73,
+     "min": 663.57,
+     "avg": 663.57,
+     "max": 663.57,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 772.73,
-      "avg": 772.73,
-      "max": 772.73,
+      "min": 663.57,
+      "avg": 663.57,
+      "max": 663.57,
       "count": 1
      }
     }
@@ -278,28 +278,28 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe 003930 700",
-     "price": 230.29,
+     "price": 230.98,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003930700"
     },
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 249.92,
+     "price": 250.44,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     }
    ],
    "stats": {
     "overall": {
-     "min": 230.29,
-     "avg": 280.76,
-     "max": 302.28,
+     "min": 230.98,
+     "avg": 281.43,
+     "max": 302.9,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 230.29,
-      "avg": 280.76,
-      "max": 302.28,
+      "min": 230.98,
+      "avg": 281.43,
+      "max": 302.9,
       "count": 8
      }
     }
