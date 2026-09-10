@@ -1,5 +1,5 @@
 {
- "updated": "09.09.2026 11:37",
+ "updated": "10.09.2026 11:38",
  "prices": {
   "0:4": {
    "variants": [
@@ -32,22 +32,22 @@
     {
      "source": "Onliner",
      "name": "Bingo для Coros Pace 3/Pace 2/Apex/Apex Pro/Apex 42mm/Vertix/Vertix 2",
-     "price": 47.0,
+     "price": 46.5,
      "url": "https://catalog.onliner.by/chargersmobile/bingo_xuzhou/bncorospace3pace"
     }
    ],
    "stats": {
     "overall": {
-     "min": 47.0,
-     "avg": 47.0,
-     "max": 47.0,
+     "min": 46.5,
+     "avg": 46.5,
+     "max": 46.5,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 47.0,
-      "avg": 47.0,
-      "max": 47.0,
+      "min": 46.5,
+      "avg": 46.5,
+      "max": 46.5,
       "count": 1
      }
     }
@@ -58,27 +58,27 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1613.82,
+     "price": 1612.12,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1624.85,
+     "price": 1623.22,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1613.82,
-     "avg": 1803.22,
+     "min": 1612.12,
+     "avg": 1802.11,
      "max": 2171.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1613.82,
-      "avg": 1803.22,
+      "min": 1612.12,
+      "avg": 1802.11,
       "max": 2171.0,
       "count": 3
      }
@@ -148,22 +148,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3071.1,
+     "price": 3052.8,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 3071.1,
-     "avg": 3071.1,
-     "max": 3071.1,
+     "min": 3052.8,
+     "avg": 3052.8,
+     "max": 3052.8,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 3071.1,
-      "avg": 3071.1,
-      "max": 3071.1,
+      "min": 3052.8,
+      "avg": 3052.8,
+      "max": 3052.8,
       "count": 1
      }
     }
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1105.49,
+     "price": 1112.69,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1105.49,
-     "avg": 1105.49,
-     "max": 1105.49,
+     "min": 1112.69,
+     "avg": 1112.69,
+     "max": 1112.69,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1105.49,
-      "avg": 1105.49,
-      "max": 1105.49,
+      "min": 1112.69,
+      "avg": 1112.69,
+      "max": 1112.69,
       "count": 1
      }
     }
@@ -252,22 +252,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 663.57,
+     "price": 640.56,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 663.57,
-     "avg": 663.57,
-     "max": 663.57,
+     "min": 640.56,
+     "avg": 640.56,
+     "max": 640.56,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 663.57,
-      "avg": 663.57,
-      "max": 663.57,
+      "min": 640.56,
+      "avg": 640.56,
+      "max": 640.56,
       "count": 1
      }
     }
@@ -310,22 +310,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 66.01,
+     "price": 68.26,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 66.01,
-     "avg": 66.01,
-     "max": 66.01,
+     "min": 68.26,
+     "avg": 68.26,
+     "max": 68.26,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 66.01,
-      "avg": 66.01,
-      "max": 66.01,
+      "min": 68.26,
+      "avg": 68.26,
+      "max": 68.26,
       "count": 1
      }
     }
