@@ -1,5 +1,5 @@
 {
- "updated": "12.09.2026 11:23",
+ "updated": "13.09.2026 11:48",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1604.55,
+     "price": 1603.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     }
    ],
    "stats": {
     "overall": {
      "min": 1569.0,
-     "avg": 1614.52,
+     "avg": 1614.0,
      "max": 1670.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1569.0,
-      "avg": 1614.52,
+      "avg": 1614.0,
       "max": 1670.0,
       "count": 3
      }
@@ -283,30 +283,30 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe 003930 700",
-     "price": 231.83,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003930700"
+     "name": "ARENA Cobra Ultra Swipe Mirror 002507 310",
+     "price": 304.6,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507310"
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 252.56,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
+     "name": "ARENA Cobra Ultra Swipe Mirror 002507 350",
+     "price": 304.6,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507350"
     }
    ],
    "stats": {
     "overall": {
-     "min": 231.83,
-     "avg": 283.2,
-     "max": 305.47,
-     "count": 8
+     "min": 304.6,
+     "avg": 304.6,
+     "max": 304.6,
+     "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 231.83,
-      "avg": 283.2,
-      "max": 305.47,
-      "count": 8
+      "min": 304.6,
+      "avg": 304.6,
+      "max": 304.6,
+      "count": 3
      }
     }
    }
@@ -387,16 +387,16 @@
    "stats": {
     "overall": {
      "min": 15.31,
-     "avg": 30.71,
-     "max": 52.25,
-     "count": 5
+     "avg": 25.33,
+     "max": 39.0,
+     "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 15.31,
-      "avg": 30.71,
-      "max": 52.25,
-      "count": 5
+      "avg": 25.33,
+      "max": 39.0,
+      "count": 4
      }
     }
    }
