@@ -1,5 +1,5 @@
 {
- "updated": "16.09.2026 12:06",
+ "updated": "17.09.2026 12:11",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1596.85,
+     "price": 1589.9,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     }
    ],
    "stats": {
     "overall": {
      "min": 1569.0,
-     "avg": 1611.95,
+     "avg": 1609.63,
      "max": 1670.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1569.0,
-      "avg": 1611.95,
+      "avg": 1609.63,
       "max": 1670.0,
       "count": 3
      }
@@ -154,21 +154,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2988.0,
+     "price": 2956.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
      "min": 2780.0,
-     "avg": 3329.5,
+     "avg": 3321.5,
      "max": 3850.0,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 2780.0,
-      "avg": 3329.5,
+      "avg": 3321.5,
       "max": 3850.0,
       "count": 4
      }
@@ -232,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1045.59,
+     "price": 1047.4,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1045.59,
-     "avg": 1045.59,
-     "max": 1045.59,
+     "min": 1047.4,
+     "avg": 1047.4,
+     "max": 1047.4,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1045.59,
-      "avg": 1045.59,
-      "max": 1045.59,
+      "min": 1047.4,
+      "avg": 1047.4,
+      "max": 1047.4,
       "count": 1
      }
     }
@@ -284,28 +284,28 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 291.91,
+     "price": 291.06,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     },
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 310",
-     "price": 306.28,
+     "price": 305.45,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507310"
     }
    ],
    "stats": {
     "overall": {
-     "min": 291.91,
-     "avg": 348.26,
-     "max": 459.01,
+     "min": 291.06,
+     "avg": 347.94,
+     "max": 459.32,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 291.91,
-      "avg": 348.26,
-      "max": 459.01,
+      "min": 291.06,
+      "avg": 347.94,
+      "max": 459.32,
       "count": 8
      }
     }
@@ -348,22 +348,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 68.26,
+     "price": 59.97,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 68.26,
-     "avg": 68.26,
-     "max": 68.26,
+     "min": 59.97,
+     "avg": 59.97,
+     "max": 59.97,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 68.26,
-      "avg": 68.26,
-      "max": 68.26,
+      "min": 59.97,
+      "avg": 59.97,
+      "max": 59.97,
       "count": 1
      }
     }
