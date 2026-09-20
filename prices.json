@@ -1,5 +1,5 @@
 {
- "updated": "19.09.2026 11:33",
+ "updated": "20.09.2026 12:04",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1580.95,
+     "price": 1572.95,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     }
    ],
    "stats": {
     "overall": {
      "min": 1569.0,
-     "avg": 1606.65,
+     "avg": 1603.98,
      "max": 1670.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1569.0,
-      "avg": 1606.65,
+      "avg": 1603.98,
       "max": 1670.0,
       "count": 3
      }
