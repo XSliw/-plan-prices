@@ -1,5 +1,5 @@
 {
- "updated": "20.09.2026 12:04",
+ "updated": "21.09.2026 12:36",
  "prices": {
   "0:4": {
    "variants": [
@@ -57,29 +57,29 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1569.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
+     "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
+     "price": 1566.95,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1572.95,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
+     "name": "Garmin Forerunner 265 (белый камень/синий)",
+     "price": 1569.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1569.0,
-     "avg": 1603.98,
-     "max": 1670.0,
+     "min": 1566.95,
+     "avg": 1643.26,
+     "max": 1793.82,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1569.0,
-      "avg": 1603.98,
-      "max": 1670.0,
+      "min": 1566.95,
+      "avg": 1643.26,
+      "max": 1793.82,
       "count": 3
      }
     }
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1045.38,
+     "price": 1047.57,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1045.38,
-     "avg": 1045.38,
-     "max": 1045.38,
+     "min": 1047.57,
+     "avg": 1047.57,
+     "max": 1047.57,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1045.38,
-      "avg": 1045.38,
-      "max": 1045.38,
+      "min": 1047.57,
+      "avg": 1047.57,
+      "max": 1047.57,
       "count": 1
      }
     }
@@ -381,15 +381,15 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 34.56,
-     "max": 52.25,
+     "avg": 34.52,
+     "max": 52.07,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 34.56,
-      "max": 52.25,
+      "avg": 34.52,
+      "max": 52.07,
       "count": 4
      }
     }
