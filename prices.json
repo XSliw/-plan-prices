@@ -1,5 +1,5 @@
 {
- "updated": "23.09.2026 12:04",
+ "updated": "24.09.2026 12:01",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,7 +58,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1553.95,
+     "price": 1551.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
@@ -70,16 +70,16 @@
    ],
    "stats": {
     "overall": {
-     "min": 1553.95,
-     "avg": 1638.92,
-     "max": 1793.82,
+     "min": 1551.0,
+     "avg": 1635.17,
+     "max": 1785.51,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1553.95,
-      "avg": 1638.92,
-      "max": 1793.82,
+      "min": 1551.0,
+      "avg": 1635.17,
+      "max": 1785.51,
       "count": 3
      }
     }
@@ -252,7 +252,7 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 290.21,
+     "price": 291.06,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     },
     {
@@ -264,15 +264,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 290.21,
-     "avg": 331.13,
+     "min": 291.06,
+     "avg": 331.34,
      "max": 409.18,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 290.21,
-      "avg": 331.13,
+      "min": 291.06,
+      "avg": 331.34,
       "max": 409.18,
       "count": 8
      }
