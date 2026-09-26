@@ -1,5 +1,5 @@
 {
- "updated": "25.09.2026 12:20",
+ "updated": "26.09.2026 12:03",
  "prices": {
   "0:4": {
    "variants": [
@@ -221,6 +221,32 @@
     }
    }
   },
+  "4:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Edge 540",
+     "price": 1046.5,
+     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 1046.5,
+     "avg": 1046.5,
+     "max": 1046.5,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 1046.5,
+      "avg": 1046.5,
+      "max": 1046.5,
+      "count": 1
+     }
+    }
+   }
+  },
   "4:5": {
    "variants": [
     {
@@ -252,27 +278,27 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 291.06,
+     "price": 289.36,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     },
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 310",
-     "price": 305.45,
+     "price": 304.6,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507310"
     }
    ],
    "stats": {
     "overall": {
-     "min": 291.06,
-     "avg": 331.24,
+     "min": 289.36,
+     "avg": 330.5,
      "max": 409.18,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 291.06,
-      "avg": 331.24,
+      "min": 289.36,
+      "avg": 330.5,
       "max": 409.18,
       "count": 8
      }
