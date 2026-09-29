@@ -1,5 +1,5 @@
 {
- "updated": "28.09.2026 13:28",
+ "updated": "29.09.2026 13:23",
  "prices": {
   "0:4": {
    "variants": [
@@ -148,22 +148,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2916.0,
+     "price": 2914.1,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2916.0,
-     "avg": 2916.0,
-     "max": 2916.0,
+     "min": 2914.1,
+     "avg": 2914.1,
+     "max": 2914.1,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 2916.0,
-      "avg": 2916.0,
-      "max": 2916.0,
+      "min": 2914.1,
+      "avg": 2914.1,
+      "max": 2914.1,
       "count": 1
      }
     }
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1045.29,
+     "price": 1116.48,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1045.29,
-     "avg": 1045.29,
-     "max": 1045.29,
+     "min": 1116.48,
+     "avg": 1116.48,
+     "max": 1116.48,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1045.29,
-      "avg": 1045.29,
-      "max": 1045.29,
+      "min": 1116.48,
+      "avg": 1116.48,
+      "max": 1116.48,
       "count": 1
      }
     }
@@ -278,7 +278,7 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 289.36,
+     "price": 290.21,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     },
     {
@@ -290,15 +290,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 289.36,
-     "avg": 330.5,
+     "min": 290.21,
+     "avg": 330.71,
      "max": 409.18,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 289.36,
-      "avg": 330.5,
+      "min": 290.21,
+      "avg": 330.71,
       "max": 409.18,
       "count": 8
      }
@@ -315,22 +315,22 @@
     },
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Warm Grey, L Prizm Ruby)",
-     "price": 1740.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002045122"
+     "name": "Oakley Meta HSTN S51 OW8002 (F Brown Smoke, L Prizm Deep Water Polarized)",
+     "price": 1940.0,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002065122"
     }
    ],
    "stats": {
     "overall": {
      "min": 1740.0,
-     "avg": 1980.0,
+     "avg": 2035.0,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1740.0,
-      "avg": 1980.0,
+      "avg": 2035.0,
       "max": 2180.0,
       "count": 8
      }
