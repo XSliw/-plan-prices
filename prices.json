@@ -1,5 +1,5 @@
 {
- "updated": "30.09.2026 13:17",
+ "updated": "01.10.2026 13:43",
  "prices": {
   "0:4": {
    "variants": [
@@ -89,29 +89,29 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 965 (черный/серый)",
-     "price": 1715.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
-    },
-    {
-     "source": "Onliner",
      "name": "Garmin Forerunner 965 (белый/серый)",
      "price": 1715.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
+    },
+    {
+     "source": "Onliner",
+     "name": "Garmin Forerunner 965 (черный/серый)",
+     "price": 2047.19,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
     }
    ],
    "stats": {
     "overall": {
      "min": 1715.0,
-     "avg": 1715.0,
-     "max": 1715.0,
+     "avg": 1936.46,
+     "max": 2047.19,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1715.0,
-      "avg": 1715.0,
-      "max": 1715.0,
+      "avg": 1936.46,
+      "max": 2047.19,
       "count": 3
      }
     }
@@ -138,32 +138,6 @@
       "min": 2100.0,
       "avg": 2100.0,
       "max": 2100.0,
-      "count": 1
-     }
-    }
-   }
-  },
-  "1:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3469.24,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 3469.24,
-     "avg": 3469.24,
-     "max": 3469.24,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 3469.24,
-      "avg": 3469.24,
-      "max": 3469.24,
       "count": 1
      }
     }
@@ -221,32 +195,6 @@
     }
    }
   },
-  "4:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Garmin Edge 540",
-     "price": 1125.05,
-     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 1125.05,
-     "avg": 1125.05,
-     "max": 1125.05,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 1125.05,
-      "avg": 1125.05,
-      "max": 1125.05,
-      "count": 1
-     }
-    }
-   }
-  },
   "4:5": {
    "variants": [
     {
@@ -277,29 +225,29 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 290.21,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
+     "name": "ARENA Cobra Core Swipe Mirror 003251 330",
+     "price": 264.83,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Ultra Swipe Mirror 002507 310",
-     "price": 304.6,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507310"
+     "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
+     "price": 290.21,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
-     "min": 290.21,
-     "avg": 330.71,
-     "max": 409.18,
+     "min": 264.83,
+     "avg": 303.1,
+     "max": 325.58,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 290.21,
-      "avg": 330.71,
-      "max": 409.18,
+      "min": 264.83,
+      "avg": 303.1,
+      "max": 325.58,
       "count": 8
      }
     }
@@ -315,22 +263,22 @@
     },
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Brown Smoke, L Prizm Deep Water Polarized)",
-     "price": 1940.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002065122"
+     "name": "Oakley Meta HSTN S51 OW8002 (F Warm Grey, L Prizm Ruby)",
+     "price": 1740.0,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002045122"
     }
    ],
    "stats": {
     "overall": {
      "min": 1740.0,
-     "avg": 2035.0,
+     "avg": 2010.0,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1740.0,
-      "avg": 2035.0,
+      "avg": 2010.0,
       "max": 2180.0,
       "count": 8
      }
