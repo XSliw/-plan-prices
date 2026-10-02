@@ -1,5 +1,5 @@
 {
- "updated": "01.10.2026 13:43",
+ "updated": "02.10.2026 13:18",
  "prices": {
   "0:4": {
    "variants": [
@@ -96,22 +96,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 965 (черный/серый)",
-     "price": 2047.19,
+     "price": 1800.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
     }
    ],
    "stats": {
     "overall": {
      "min": 1715.0,
-     "avg": 1936.46,
-     "max": 2047.19,
+     "avg": 1771.67,
+     "max": 1800.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1715.0,
-      "avg": 1936.46,
-      "max": 2047.19,
+      "avg": 1771.67,
+      "max": 1800.0,
       "count": 3
      }
     }
@@ -138,6 +138,32 @@
       "min": 2100.0,
       "avg": 2100.0,
       "max": 2100.0,
+      "count": 1
+     }
+    }
+   }
+  },
+  "1:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
+     "price": 3469.24,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 3469.24,
+     "avg": 3469.24,
+     "max": 3469.24,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 3469.24,
+      "avg": 3469.24,
+      "max": 3469.24,
       "count": 1
      }
     }
@@ -195,27 +221,53 @@
     }
    }
   },
+  "4:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Edge 540",
+     "price": 1117.46,
+     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 1117.46,
+     "avg": 1117.46,
+     "max": 1117.46,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 1117.46,
+      "avg": 1117.46,
+      "max": 1117.46,
+      "count": 1
+     }
+    }
+   }
+  },
   "4:5": {
    "variants": [
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 802.32,
+     "price": 710.28,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 802.32,
-     "avg": 802.32,
-     "max": 802.32,
+     "min": 710.28,
+     "avg": 710.28,
+     "max": 710.28,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 802.32,
-      "avg": 802.32,
-      "max": 802.32,
+      "min": 710.28,
+      "avg": 710.28,
+      "max": 710.28,
       "count": 1
      }
     }
@@ -232,22 +284,22 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 290.21,
+     "price": 291.06,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
      "min": 264.83,
-     "avg": 303.1,
-     "max": 325.58,
+     "avg": 303.65,
+     "max": 325.74,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 264.83,
-      "avg": 303.1,
-      "max": 325.58,
+      "avg": 303.65,
+      "max": 325.74,
       "count": 8
      }
     }
@@ -257,15 +309,15 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Dark Golf)",
-     "price": 1740.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002095122"
-    },
-    {
-     "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Warm Grey, L Prizm Ruby)",
      "price": 1740.0,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002045122"
+    },
+    {
+     "source": "Onliner",
+     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Dark Golf)",
+     "price": 1740.0,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002095122"
     }
    ],
    "stats": {
