@@ -1,5 +1,5 @@
 {
- "updated": "02.10.2026 13:18",
+ "updated": "03.10.2026 12:40",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1569.0,
+     "price": 1568.73,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1551.0,
-     "avg": 1635.17,
+     "avg": 1635.08,
      "max": 1785.51,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1551.0,
-      "avg": 1635.17,
+      "avg": 1635.08,
       "max": 1785.51,
       "count": 3
      }
@@ -252,22 +252,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 710.28,
+     "price": 646.54,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 710.28,
-     "avg": 710.28,
-     "max": 710.28,
+     "min": 646.54,
+     "avg": 646.54,
+     "max": 646.54,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 710.28,
-      "avg": 710.28,
-      "max": 710.28,
+      "min": 646.54,
+      "avg": 646.54,
+      "max": 646.54,
       "count": 1
      }
     }
@@ -278,28 +278,28 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 264.83,
+     "price": 266.52,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 291.06,
+     "price": 291.91,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
-     "min": 264.83,
-     "avg": 303.65,
-     "max": 325.74,
+     "min": 266.52,
+     "avg": 304.8,
+     "max": 327.44,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 264.83,
-      "avg": 303.65,
-      "max": 325.74,
+      "min": 266.52,
+      "avg": 304.8,
+      "max": 327.44,
       "count": 8
      }
     }
