@@ -1,5 +1,5 @@
 {
- "updated": "03.10.2026 12:40",
+ "updated": "04.10.2026 13:24",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1568.73,
+     "price": 1568.64,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1551.0,
-     "avg": 1635.08,
+     "avg": 1635.05,
      "max": 1785.51,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1551.0,
-      "avg": 1635.08,
+      "avg": 1635.05,
       "max": 1785.51,
       "count": 3
      }
