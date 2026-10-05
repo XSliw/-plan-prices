@@ -1,5 +1,5 @@
 {
- "updated": "04.10.2026 13:24",
+ "updated": "05.10.2026 14:09",
  "prices": {
   "0:4": {
    "variants": [
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1117.46,
+     "price": 1118.18,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1117.46,
-     "avg": 1117.46,
-     "max": 1117.46,
+     "min": 1118.18,
+     "avg": 1118.18,
+     "max": 1118.18,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1117.46,
-      "avg": 1117.46,
-      "max": 1117.46,
+      "min": 1118.18,
+      "avg": 1118.18,
+      "max": 1118.18,
       "count": 1
      }
     }
@@ -309,15 +309,15 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Warm Grey, L Prizm Ruby)",
-     "price": 1740.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002045122"
-    },
-    {
-     "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Dark Golf)",
      "price": 1740.0,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002095122"
+    },
+    {
+     "source": "Onliner",
+     "name": "Oakley Meta HSTN S51 OW8002 (F Warm Grey, L Prizm Ruby)",
+     "price": 1740.0,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002045122"
     }
    ],
    "stats": {
