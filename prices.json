@@ -1,5 +1,5 @@
 {
- "updated": "07.10.2026 13:51",
+ "updated": "08.10.2026 14:09",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1568.28,
+     "price": 1568.19,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1550.0,
-     "avg": 1634.6,
+     "avg": 1634.57,
      "max": 1785.51,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1550.0,
-      "avg": 1634.6,
+      "avg": 1634.57,
       "max": 1785.51,
       "count": 3
      }
@@ -148,22 +148,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 3469.24,
+     "price": 2906.54,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 3469.24,
-     "avg": 3469.24,
-     "max": 3469.24,
+     "min": 2906.54,
+     "avg": 2906.54,
+     "max": 2906.54,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 3469.24,
-      "avg": 3469.24,
-      "max": 3469.24,
+      "min": 2906.54,
+      "avg": 2906.54,
+      "max": 2906.54,
       "count": 1
      }
     }
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1128.08,
+     "price": 1125.77,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1128.08,
-     "avg": 1128.08,
-     "max": 1128.08,
+     "min": 1125.77,
+     "avg": 1125.77,
+     "max": 1125.77,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1128.08,
-      "avg": 1128.08,
-      "max": 1128.08,
+      "min": 1125.77,
+      "avg": 1125.77,
+      "max": 1125.77,
       "count": 1
      }
     }
@@ -252,22 +252,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 718.38,
+     "price": 740.6,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 718.38,
-     "avg": 718.38,
-     "max": 718.38,
+     "min": 740.6,
+     "avg": 740.6,
+     "max": 740.6,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 718.38,
-      "avg": 718.38,
-      "max": 718.38,
+      "min": 740.6,
+      "avg": 740.6,
+      "max": 740.6,
       "count": 1
      }
     }
@@ -278,28 +278,28 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 266.52,
+     "price": 263.98,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 291.91,
+     "price": 291.06,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
-     "min": 266.52,
-     "avg": 304.8,
-     "max": 327.44,
+     "min": 263.98,
+     "avg": 303.54,
+     "max": 326.59,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 266.52,
-      "avg": 304.8,
-      "max": 327.44,
+      "min": 263.98,
+      "avg": 303.54,
+      "max": 326.59,
       "count": 8
      }
     }
@@ -309,28 +309,28 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Dark Golf)",
-     "price": 1740.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002095122"
+     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
+     "price": 1392.06,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Warm Grey, L Prizm Ruby)",
+     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Dark Golf)",
      "price": 1740.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002045122"
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002095122"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1740.0,
-     "avg": 1980.0,
+     "min": 1392.06,
+     "avg": 1966.51,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1740.0,
-      "avg": 1980.0,
+      "min": 1392.06,
+      "avg": 1966.51,
       "max": 2180.0,
       "count": 8
      }
@@ -342,22 +342,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 70.38,
+     "price": 59.97,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 70.38,
-     "avg": 70.38,
-     "max": 70.38,
+     "min": 59.97,
+     "avg": 59.97,
+     "max": 59.97,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 70.38,
-      "avg": 70.38,
-      "max": 70.38,
+      "min": 59.97,
+      "avg": 59.97,
+      "max": 59.97,
       "count": 1
      }
     }
