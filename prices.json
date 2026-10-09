@@ -1,5 +1,5 @@
 {
- "updated": "08.10.2026 14:09",
+ "updated": "09.10.2026 14:09",
  "prices": {
   "0:4": {
    "variants": [
@@ -226,22 +226,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1125.77,
+     "price": 1124.81,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1125.77,
-     "avg": 1125.77,
-     "max": 1125.77,
+     "min": 1124.81,
+     "avg": 1124.81,
+     "max": 1124.81,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1125.77,
-      "avg": 1125.77,
-      "max": 1125.77,
+      "min": 1124.81,
+      "avg": 1124.81,
+      "max": 1124.81,
       "count": 1
      }
     }
@@ -284,22 +284,22 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 291.06,
+     "price": 290.21,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
      "min": 263.98,
-     "avg": 303.54,
-     "max": 326.59,
+     "avg": 302.8,
+     "max": 324.91,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 263.98,
-      "avg": 303.54,
-      "max": 326.59,
+      "avg": 302.8,
+      "max": 324.91,
       "count": 8
      }
     }
@@ -310,7 +310,7 @@
     {
      "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
-     "price": 1392.06,
+     "price": 1404.72,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
@@ -322,15 +322,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1392.06,
-     "avg": 1966.51,
+     "min": 1404.72,
+     "avg": 1968.09,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1392.06,
-      "avg": 1966.51,
+      "min": 1404.72,
+      "avg": 1968.09,
       "max": 2180.0,
       "count": 8
      }
@@ -342,22 +342,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 59.97,
+     "price": 70.38,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 59.97,
-     "avg": 59.97,
-     "max": 59.97,
+     "min": 70.38,
+     "avg": 70.38,
+     "max": 70.38,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 59.97,
-      "avg": 59.97,
-      "max": 59.97,
+      "min": 70.38,
+      "avg": 70.38,
+      "max": 70.38,
       "count": 1
      }
     }
