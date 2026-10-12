@@ -1,5 +1,5 @@
 {
- "updated": "11.10.2026 13:34",
+ "updated": "12.10.2026 14:38",
  "prices": {
   "0:4": {
    "variants": [
@@ -148,28 +148,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2901.67,
+     "price": 2879.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     },
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3951.98,
+     "price": 3916.78,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2901.67,
-     "avg": 3426.82,
-     "max": 3951.98,
+     "min": 2879.0,
+     "avg": 3397.89,
+     "max": 3916.78,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2901.67,
-      "avg": 3426.82,
-      "max": 3951.98,
+      "min": 2879.0,
+      "avg": 3397.89,
+      "max": 3916.78,
       "count": 2
      }
     }
@@ -222,6 +222,32 @@
       "min": 350.0,
       "avg": 350.0,
       "max": 350.0,
+      "count": 1
+     }
+    }
+   }
+  },
+  "4:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Garmin Edge 540",
+     "price": 1120.81,
+     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 1120.81,
+     "avg": 1120.81,
+     "max": 1120.81,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 1120.81,
+      "avg": 1120.81,
+      "max": 1120.81,
       "count": 1
      }
     }
@@ -290,7 +316,7 @@
     {
      "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
-     "price": 1349.54,
+     "price": 1401.9,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
@@ -302,15 +328,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1349.54,
-     "avg": 1906.19,
+     "min": 1401.9,
+     "avg": 1912.74,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1349.54,
-      "avg": 1906.19,
+      "min": 1401.9,
+      "avg": 1912.74,
       "max": 2180.0,
       "count": 8
      }
