@@ -1,5 +1,5 @@
 {
- "updated": "12.10.2026 14:38",
+ "updated": "13.10.2026 14:24",
  "prices": {
   "0:4": {
    "variants": [
@@ -148,28 +148,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2879.0,
+     "price": 2843.41,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     },
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3916.78,
+     "price": 3880.23,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2879.0,
-     "avg": 3397.89,
-     "max": 3916.78,
+     "min": 2843.41,
+     "avg": 3361.82,
+     "max": 3880.23,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2879.0,
-      "avg": 3397.89,
-      "max": 3916.78,
+      "min": 2843.41,
+      "avg": 3361.82,
+      "max": 3880.23,
       "count": 2
      }
     }
@@ -232,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1120.81,
+     "price": 1107.84,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1120.81,
-     "avg": 1120.81,
-     "max": 1120.81,
+     "min": 1107.84,
+     "avg": 1107.84,
+     "max": 1107.84,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1120.81,
-      "avg": 1120.81,
-      "max": 1120.81,
+      "min": 1107.84,
+      "avg": 1107.84,
+      "max": 1107.84,
       "count": 1
      }
     }
@@ -316,7 +316,7 @@
     {
      "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
-     "price": 1401.9,
+     "price": 1395.89,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
@@ -328,15 +328,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1401.9,
-     "avg": 1912.74,
+     "min": 1395.89,
+     "avg": 1936.99,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1401.9,
-      "avg": 1912.74,
+      "min": 1395.89,
+      "avg": 1936.99,
       "max": 2180.0,
       "count": 8
      }
@@ -348,22 +348,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 70.38,
+     "price": 70.52,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 70.38,
-     "avg": 70.38,
-     "max": 70.38,
+     "min": 70.52,
+     "avg": 70.52,
+     "max": 70.52,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 70.38,
-      "avg": 70.38,
-      "max": 70.38,
+      "min": 70.52,
+      "avg": 70.52,
+      "max": 70.52,
       "count": 1
      }
     }
