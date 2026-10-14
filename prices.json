@@ -1,5 +1,5 @@
 {
- "updated": "13.10.2026 14:24",
+ "updated": "14.10.2026 12:16",
  "prices": {
   "0:4": {
    "variants": [
@@ -154,22 +154,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3880.23,
+     "price": 3898.93,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
      "min": 2843.41,
-     "avg": 3361.82,
-     "max": 3880.23,
+     "avg": 3371.17,
+     "max": 3898.93,
      "count": 2
     },
     "by_source": {
      "Onliner": {
       "min": 2843.41,
-      "avg": 3361.82,
-      "max": 3880.23,
+      "avg": 3371.17,
+      "max": 3898.93,
       "count": 2
      }
     }
@@ -232,48 +232,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1107.84,
+     "price": 1103.74,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1107.84,
-     "avg": 1107.84,
-     "max": 1107.84,
+     "min": 1103.74,
+     "avg": 1103.74,
+     "max": 1103.74,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1107.84,
-      "avg": 1107.84,
-      "max": 1107.84,
-      "count": 1
-     }
-    }
-   }
-  },
-  "4:5": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Escada Favero 2108/8P",
-     "price": 740.6,
-     "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 740.6,
-     "avg": 740.6,
-     "max": 740.6,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 740.6,
-      "avg": 740.6,
-      "max": 740.6,
+      "min": 1103.74,
+      "avg": 1103.74,
+      "max": 1103.74,
       "count": 1
      }
     }
@@ -284,28 +258,28 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 264.83,
+     "price": 264.95,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 290.21,
+     "price": 291.06,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
-     "min": 264.83,
-     "avg": 303.12,
-     "max": 325.74,
+     "min": 264.95,
+     "avg": 303.72,
+     "max": 325.97,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 264.83,
-      "avg": 303.12,
-      "max": 325.74,
+      "min": 264.95,
+      "avg": 303.72,
+      "max": 325.97,
       "count": 8
      }
     }
@@ -316,7 +290,7 @@
     {
      "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
-     "price": 1395.89,
+     "price": 1391.25,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
@@ -328,15 +302,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1395.89,
-     "avg": 1936.99,
+     "min": 1391.25,
+     "avg": 1951.41,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1395.89,
-      "avg": 1936.99,
+      "min": 1391.25,
+      "avg": 1951.41,
       "max": 2180.0,
       "count": 8
      }
