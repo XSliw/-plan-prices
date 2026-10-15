@@ -1,5 +1,5 @@
 {
- "updated": "14.10.2026 12:16",
+ "updated": "15.10.2026 11:50",
  "prices": {
   "0:4": {
    "variants": [
@@ -148,29 +148,23 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2843.41,
+     "price": 3469.24,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
-    },
-    {
-     "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3898.93,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2843.41,
-     "avg": 3371.17,
-     "max": 3898.93,
-     "count": 2
+     "min": 3469.24,
+     "avg": 3469.24,
+     "max": 3469.24,
+     "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 2843.41,
-      "avg": 3371.17,
-      "max": 3898.93,
-      "count": 2
+      "min": 3469.24,
+      "avg": 3469.24,
+      "max": 3469.24,
+      "count": 1
      }
     }
    }
@@ -201,64 +195,12 @@
     }
    }
   },
-  "2:3": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Polar Verity Sense",
-     "price": 350.0,
-     "url": "https://catalog.onliner.by/heart_rate/polarpaper/veritysense"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 350.0,
-     "avg": 350.0,
-     "max": 350.0,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 350.0,
-      "avg": 350.0,
-      "max": 350.0,
-      "count": 1
-     }
-    }
-   }
-  },
-  "4:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Garmin Edge 540",
-     "price": 1103.74,
-     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 1103.74,
-     "avg": 1103.74,
-     "max": 1103.74,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 1103.74,
-      "avg": 1103.74,
-      "max": 1103.74,
-      "count": 1
-     }
-    }
-   }
-  },
   "7:1": {
    "variants": [
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 264.95,
+     "price": 265.68,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
@@ -270,16 +212,16 @@
    ],
    "stats": {
     "overall": {
-     "min": 264.95,
-     "avg": 303.72,
-     "max": 325.97,
+     "min": 265.68,
+     "avg": 303.96,
+     "max": 326.59,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 264.95,
-      "avg": 303.72,
-      "max": 325.97,
+      "min": 265.68,
+      "avg": 303.96,
+      "max": 326.59,
       "count": 8
      }
     }
@@ -290,7 +232,7 @@
     {
      "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
-     "price": 1391.25,
+     "price": 1357.5,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
@@ -302,15 +244,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1391.25,
-     "avg": 1951.41,
+     "min": 1357.5,
+     "avg": 1892.19,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1391.25,
-      "avg": 1951.41,
+      "min": 1357.5,
+      "avg": 1892.19,
       "max": 2180.0,
       "count": 8
      }
@@ -322,22 +264,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 70.52,
+     "price": 71.08,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 70.52,
-     "avg": 70.52,
-     "max": 70.52,
+     "min": 71.08,
+     "avg": 71.08,
+     "max": 71.08,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 70.52,
-      "avg": 70.52,
-      "max": 70.52,
+      "min": 71.08,
+      "avg": 71.08,
+      "max": 71.08,
       "count": 1
      }
     }
