@@ -1,5 +1,5 @@
 {
- "updated": "16.10.2026 11:46",
+ "updated": "17.10.2026 11:16",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,7 +58,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1550.0,
+     "price": 1549.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
@@ -70,15 +70,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1550.0,
-     "avg": 1634.57,
+     "min": 1549.0,
+     "avg": 1634.23,
      "max": 1785.51,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1550.0,
-      "avg": 1634.57,
+      "min": 1549.0,
+      "avg": 1634.23,
       "max": 1785.51,
       "count": 3
      }
@@ -148,28 +148,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2867.92,
+     "price": 2864.22,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     },
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3902.45,
+     "price": 3909.6,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2867.92,
-     "avg": 3385.18,
-     "max": 3902.45,
+     "min": 2864.22,
+     "avg": 3386.91,
+     "max": 3909.6,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2867.92,
-      "avg": 3385.18,
-      "max": 3902.45,
+      "min": 2864.22,
+      "avg": 3386.91,
+      "max": 3909.6,
       "count": 2
      }
     }
@@ -206,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 927.19,
+     "price": 791.33,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 927.19,
-     "avg": 927.19,
-     "max": 927.19,
+     "min": 791.33,
+     "avg": 791.33,
+     "max": 791.33,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 927.19,
-      "avg": 927.19,
-      "max": 927.19,
+      "min": 791.33,
+      "avg": 791.33,
+      "max": 791.33,
       "count": 1
      }
     }
@@ -245,14 +245,14 @@
    "stats": {
     "overall": {
      "min": 268.57,
-     "avg": 307.27,
+     "avg": 307.69,
      "max": 330.14,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 268.57,
-      "avg": 307.27,
+      "avg": 307.69,
       "max": 330.14,
       "count": 8
      }
@@ -277,14 +277,14 @@
    "stats": {
     "overall": {
      "min": 1357.5,
-     "avg": 1907.19,
+     "avg": 1892.19,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1357.5,
-      "avg": 1907.19,
+      "avg": 1892.19,
       "max": 2180.0,
       "count": 8
      }
@@ -335,15 +335,15 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 34.66,
-     "max": 52.63,
+     "avg": 34.86,
+     "max": 53.44,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 34.66,
-      "max": 52.63,
+      "avg": 34.86,
+      "max": 53.44,
       "count": 4
      }
     }
