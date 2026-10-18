@@ -1,5 +1,5 @@
 {
- "updated": "17.10.2026 11:16",
+ "updated": "18.10.2026 11:32",
  "prices": {
   "0:4": {
    "variants": [
@@ -277,14 +277,14 @@
    "stats": {
     "overall": {
      "min": 1357.5,
-     "avg": 1892.19,
+     "avg": 1947.19,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1357.5,
-      "avg": 1892.19,
+      "avg": 1947.19,
       "max": 2180.0,
       "count": 8
      }
