@@ -1,5 +1,5 @@
 {
- "updated": "18.10.2026 11:32",
+ "updated": "19.10.2026 12:34",
  "prices": {
   "0:4": {
    "variants": [
@@ -154,22 +154,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3909.6,
+     "price": 3905.7,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
      "min": 2864.22,
-     "avg": 3386.91,
-     "max": 3909.6,
+     "avg": 3384.96,
+     "max": 3905.7,
      "count": 2
     },
     "by_source": {
      "Onliner": {
       "min": 2864.22,
-      "avg": 3386.91,
-      "max": 3909.6,
+      "avg": 3384.96,
+      "max": 3905.7,
       "count": 2
      }
     }
@@ -206,22 +206,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 791.33,
+     "price": 930.7,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 791.33,
-     "avg": 791.33,
-     "max": 791.33,
+     "min": 930.7,
+     "avg": 930.7,
+     "max": 930.7,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 791.33,
-      "avg": 791.33,
-      "max": 791.33,
+      "min": 930.7,
+      "avg": 930.7,
+      "max": 930.7,
       "count": 1
      }
     }
@@ -269,24 +269,24 @@
     },
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Dark Golf)",
+     "name": "Oakley Meta HSTN S51 OW8002 (F Warm Grey, L Prizm Ruby)",
      "price": 1740.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002095122"
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002045122"
     }
    ],
    "stats": {
     "overall": {
      "min": 1357.5,
-     "avg": 1947.19,
-     "max": 2180.0,
-     "count": 8
+     "avg": 1679.17,
+     "max": 1940.0,
+     "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1357.5,
-      "avg": 1947.19,
-      "max": 2180.0,
-      "count": 8
+      "avg": 1679.17,
+      "max": 1940.0,
+      "count": 3
      }
     }
    }
@@ -335,15 +335,15 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 34.86,
-     "max": 53.44,
+     "avg": 35.8,
+     "max": 57.22,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 34.86,
-      "max": 53.44,
+      "avg": 35.8,
+      "max": 57.22,
       "count": 4
      }
     }
