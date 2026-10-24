@@ -1,5 +1,5 @@
 {
- "updated": "23.10.2026 12:04",
+ "updated": "24.10.2026 11:38",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,7 +58,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1549.0,
+     "price": 1548.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
@@ -70,15 +70,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1549.0,
-     "avg": 1634.23,
+     "min": 1548.0,
+     "avg": 1633.9,
      "max": 1785.51,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1549.0,
-      "avg": 1634.23,
+      "min": 1548.0,
+      "avg": 1633.9,
       "max": 1785.51,
       "count": 3
      }
@@ -154,7 +154,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2805.73,
+     "price": 2790.08,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     },
     {
@@ -166,15 +166,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 2805.73,
-     "avg": 3050.47,
+     "min": 2790.08,
+     "avg": 3042.64,
      "max": 3295.2,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2805.73,
-      "avg": 3050.47,
+      "min": 2790.08,
+      "avg": 3042.64,
       "max": 3295.2,
       "count": 2
      }
@@ -238,22 +238,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 938.02,
+     "price": 941.27,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 938.02,
-     "avg": 938.02,
-     "max": 938.02,
+     "min": 941.27,
+     "avg": 941.27,
+     "max": 941.27,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 938.02,
-      "avg": 938.02,
-      "max": 938.02,
+      "min": 941.27,
+      "avg": 941.27,
+      "max": 941.27,
       "count": 1
      }
     }
@@ -269,23 +269,23 @@
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Swipe 004195 600 (dark smoke/black blue)",
-     "price": 264.83,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren004195600"
+     "name": "ARENA Cobra Core Swipe Mirror 003251 350",
+     "price": 269.41,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251350"
     }
    ],
    "stats": {
     "overall": {
      "min": 248.04,
-     "avg": 283.62,
-     "max": 311.33,
+     "avg": 287.3,
+     "max": 331.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 248.04,
-      "avg": 283.62,
-      "max": 311.33,
+      "avg": 287.3,
+      "max": 331.0,
       "count": 8
      }
     }
@@ -296,7 +296,7 @@
     {
      "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
-     "price": 1399.4,
+     "price": 1386.5,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
@@ -308,15 +308,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1399.4,
-     "avg": 1952.42,
+     "min": 1386.5,
+     "avg": 1950.81,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1399.4,
-      "avg": 1952.42,
+      "min": 1386.5,
+      "avg": 1950.81,
       "max": 2180.0,
       "count": 8
      }
@@ -367,16 +367,16 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 31.91,
-     "max": 41.65,
-     "count": 4
+     "avg": 28.67,
+     "max": 39.0,
+     "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 31.91,
-      "max": 41.65,
-      "count": 4
+      "avg": 28.67,
+      "max": 39.0,
+      "count": 3
      }
     }
    }
