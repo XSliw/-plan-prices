@@ -1,5 +1,5 @@
 {
- "updated": "25.10.2026 11:56",
+ "updated": "26.10.2026 12:38",
  "prices": {
   "0:4": {
    "variants": [
@@ -154,7 +154,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2791.12,
+     "price": 2779.79,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     },
     {
@@ -166,15 +166,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 2791.12,
-     "avg": 3043.16,
+     "min": 2779.79,
+     "avg": 3037.49,
      "max": 3295.2,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2791.12,
-      "avg": 3043.16,
+      "min": 2779.79,
+      "avg": 3037.49,
       "max": 3295.2,
       "count": 2
      }
@@ -233,58 +233,32 @@
     }
    }
   },
-  "4:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Garmin Edge 540",
-     "price": 941.27,
-     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 941.27,
-     "avg": 941.27,
-     "max": 941.27,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 941.27,
-      "avg": 941.27,
-      "max": 941.27,
-      "count": 1
-     }
-    }
-   }
-  },
   "7:1": {
    "variants": [
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Swipe 004195 600 (dark smoke/black blue)",
-     "price": 264.83,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren004195600"
+     "name": "ARENA Cobra Core Swipe Mirror 003251 530",
+     "price": 255.93,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Swipe 004195400 (черный/синий)",
-     "price": 264.83,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren4195400"
+     "name": "ARENA Cobra Ultra Swipe 003929 100 (blue/white/black)",
+     "price": 270.75,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003929100"
     }
    ],
    "stats": {
     "overall": {
-     "min": 264.83,
-     "avg": 291.14,
+     "min": 255.93,
+     "avg": 290.95,
      "max": 309.65,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 264.83,
-      "avg": 291.14,
+      "min": 255.93,
+      "avg": 290.95,
       "max": 309.65,
       "count": 8
      }
@@ -309,14 +283,14 @@
    "stats": {
     "overall": {
      "min": 1386.5,
-     "avg": 1950.81,
+     "avg": 1935.81,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1386.5,
-      "avg": 1950.81,
+      "avg": 1935.81,
       "max": 2180.0,
       "count": 8
      }
@@ -349,32 +323,6 @@
     }
    }
   },
-  "10:1": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "1WIN Моногидрат (200г, без вкуса)",
-     "price": 25.0,
-     "url": "https://catalog.onliner.by/creatine/1win/1winmono200"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 25.0,
-     "avg": 25.0,
-     "max": 25.0,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 25.0,
-      "avg": 25.0,
-      "max": 25.0,
-      "count": 1
-     }
-    }
-   }
-  },
   "10:2": {
    "variants": [
     {
@@ -393,15 +341,15 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 31.75,
-     "max": 41.0,
+     "avg": 31.91,
+     "max": 41.65,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 31.75,
-      "max": 41.0,
+      "avg": 31.91,
+      "max": 41.65,
       "count": 4
      }
     }
