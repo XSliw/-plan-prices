@@ -1,5 +1,5 @@
 {
- "updated": "26.10.2026 12:38",
+ "updated": "27.10.2026 12:35",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,7 +58,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1548.0,
+     "price": 1547.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
@@ -70,15 +70,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1548.0,
-     "avg": 1633.9,
+     "min": 1547.0,
+     "avg": 1633.57,
      "max": 1785.51,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1548.0,
-      "avg": 1633.9,
+      "min": 1547.0,
+      "avg": 1633.57,
       "max": 1785.51,
       "count": 3
      }
@@ -95,9 +95,9 @@
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 965 (белый/серый)",
+     "name": "Garmin Forerunner 965 (черный/желтый)",
      "price": 1800.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bky"
     }
    ],
    "stats": {
@@ -127,9 +127,9 @@
     },
     {
      "source": "Onliner",
-     "name": "Polar Vantage V3 (серебристый, с синим силиконовым ремешком)",
+     "name": "Polar Vantage V3 (серебристый, с серым силиконовым ремешком)",
      "price": 2110.82,
-     "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bl"
+     "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3gr"
     }
    ],
    "stats": {
@@ -154,7 +154,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2779.79,
+     "price": 2768.65,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     },
     {
@@ -166,15 +166,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 2779.79,
-     "avg": 3037.49,
+     "min": 2768.65,
+     "avg": 3031.93,
      "max": 3295.2,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2779.79,
-      "avg": 3037.49,
+      "min": 2768.65,
+      "avg": 3031.93,
       "max": 3295.2,
       "count": 2
      }
@@ -233,33 +233,59 @@
     }
    }
   },
-  "7:1": {
+  "4:4": {
    "variants": [
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe Mirror 003251 530",
-     "price": 255.93,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251530"
-    },
-    {
-     "source": "Onliner",
-     "name": "ARENA Cobra Ultra Swipe 003929 100 (blue/white/black)",
-     "price": 270.75,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003929100"
+     "name": "Garmin Edge 540",
+     "price": 938.03,
+     "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 255.93,
-     "avg": 290.95,
-     "max": 309.65,
+     "min": 938.03,
+     "avg": 938.03,
+     "max": 938.03,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 938.03,
+      "avg": 938.03,
+      "max": 938.03,
+      "count": 1
+     }
+    }
+   }
+  },
+  "7:1": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "ARENA Cobra Core Swipe Mirror 003251 330",
+     "price": 278.0,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
+    },
+    {
+     "source": "Onliner",
+     "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
+     "price": 290.21,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 278.0,
+     "avg": 310.45,
+     "max": 342.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 255.93,
-      "avg": 290.95,
-      "max": 309.65,
+      "min": 278.0,
+      "avg": 310.45,
+      "max": 342.0,
       "count": 8
      }
     }
@@ -323,6 +349,32 @@
     }
    }
   },
+  "10:1": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "1WIN Моногидрат (200г, без вкуса)",
+     "price": 26.0,
+     "url": "https://catalog.onliner.by/creatine/1win/1winmono200"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 26.0,
+     "avg": 26.0,
+     "max": 26.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 26.0,
+      "avg": 26.0,
+      "max": 26.0,
+      "count": 1
+     }
+    }
+   }
+  },
   "10:2": {
    "variants": [
     {
@@ -341,15 +393,15 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 31.91,
-     "max": 41.65,
+     "avg": 32.49,
+     "max": 43.96,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 31.91,
-      "max": 41.65,
+      "avg": 32.49,
+      "max": 43.96,
       "count": 4
      }
     }
