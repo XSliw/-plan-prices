@@ -1,5 +1,5 @@
 {
- "updated": "27.10.2026 12:35",
+ "updated": "28.10.2026 13:20",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,7 +58,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1547.0,
+     "price": 1546.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
@@ -70,15 +70,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1547.0,
-     "avg": 1633.57,
+     "min": 1546.0,
+     "avg": 1633.23,
      "max": 1785.51,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1547.0,
-      "avg": 1633.57,
+      "min": 1546.0,
+      "avg": 1633.23,
       "max": 1785.51,
       "count": 3
      }
@@ -154,29 +154,23 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2768.65,
+     "price": 2762.9,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
-    },
-    {
-     "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 3295.2,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2768.65,
-     "avg": 3031.93,
-     "max": 3295.2,
-     "count": 2
+     "min": 2762.9,
+     "avg": 2762.9,
+     "max": 2762.9,
+     "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 2768.65,
-      "avg": 3031.93,
-      "max": 3295.2,
-      "count": 2
+      "min": 2762.9,
+      "avg": 2762.9,
+      "max": 2762.9,
+      "count": 1
      }
     }
    }
@@ -238,22 +232,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 938.03,
+     "price": 935.52,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 938.03,
-     "avg": 938.03,
-     "max": 938.03,
+     "min": 935.52,
+     "avg": 935.52,
+     "max": 935.52,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 938.03,
-      "avg": 938.03,
-      "max": 938.03,
+      "min": 935.52,
+      "avg": 935.52,
+      "max": 935.52,
       "count": 1
      }
     }
@@ -277,14 +271,14 @@
    "stats": {
     "overall": {
      "min": 278.0,
-     "avg": 310.45,
+     "avg": 314.19,
      "max": 342.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 278.0,
-      "avg": 310.45,
+      "avg": 314.19,
       "max": 342.0,
       "count": 8
      }
@@ -301,22 +295,22 @@
     },
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Dark Golf)",
-     "price": 1740.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002095122"
+     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Black Polarized)",
+     "price": 1649.0,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002035122"
     }
    ],
    "stats": {
     "overall": {
      "min": 1386.5,
-     "avg": 1935.81,
+     "avg": 1874.44,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1386.5,
-      "avg": 1935.81,
+      "avg": 1874.44,
       "max": 2180.0,
       "count": 8
      }
@@ -344,32 +338,6 @@
       "min": 76.42,
       "avg": 76.42,
       "max": 76.42,
-      "count": 1
-     }
-    }
-   }
-  },
-  "10:1": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "1WIN Моногидрат (200г, без вкуса)",
-     "price": 26.0,
-     "url": "https://catalog.onliner.by/creatine/1win/1winmono200"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 26.0,
-     "avg": 26.0,
-     "max": 26.0,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 26.0,
-      "avg": 26.0,
-      "max": 26.0,
       "count": 1
      }
     }
