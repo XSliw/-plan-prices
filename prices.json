@@ -1,5 +1,5 @@
 {
- "updated": "29.10.2026 13:44",
+ "updated": "30.10.2026 13:44",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,28 +58,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1546.0,
+     "price": 1545.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1568.19,
+     "price": 1600.84,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1546.0,
-     "avg": 1633.23,
-     "max": 1785.51,
+     "min": 1545.0,
+     "avg": 1822.33,
+     "max": 2321.16,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1546.0,
-      "avg": 1633.23,
-      "max": 1785.51,
+      "min": 1545.0,
+      "avg": 1822.33,
+      "max": 2321.16,
       "count": 3
      }
     }
@@ -128,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Polar Vantage V3 (серебристый, с серым силиконовым ремешком)",
-     "price": 2110.82,
+     "price": 2174.15,
      "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3gr"
     }
    ],
    "stats": {
     "overall": {
      "min": 2100.0,
-     "avg": 2107.21,
-     "max": 2110.82,
+     "avg": 2149.43,
+     "max": 2174.15,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 2100.0,
-      "avg": 2107.21,
-      "max": 2110.82,
+      "avg": 2149.43,
+      "max": 2174.15,
       "count": 3
      }
     }
@@ -154,22 +154,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2762.9,
+     "price": 2469.15,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2762.9,
-     "avg": 2762.9,
-     "max": 2762.9,
+     "min": 2469.15,
+     "avg": 2469.15,
+     "max": 2469.15,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 2762.9,
-      "avg": 2762.9,
-      "max": 2762.9,
+      "min": 2469.15,
+      "avg": 2469.15,
+      "max": 2469.15,
       "count": 1
      }
     }
@@ -196,6 +196,32 @@
       "min": 350.0,
       "avg": 350.0,
       "max": 350.0,
+      "count": 1
+     }
+    }
+   }
+  },
+  "2:3": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Polar Verity Sense",
+     "price": 500.0,
+     "url": "https://catalog.onliner.by/heart_rate/polarpaper/veritysense"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 500.0,
+     "avg": 500.0,
+     "max": 500.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 500.0,
+      "avg": 500.0,
+      "max": 500.0,
       "count": 1
      }
     }
@@ -232,22 +258,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 932.34,
+     "price": 935.69,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 932.34,
-     "avg": 932.34,
-     "max": 932.34,
+     "min": 935.69,
+     "avg": 935.69,
+     "max": 935.69,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 932.34,
-      "avg": 932.34,
-      "max": 932.34,
+      "min": 935.69,
+      "avg": 935.69,
+      "max": 935.69,
       "count": 1
      }
     }
