@@ -1,5 +1,5 @@
 {
- "updated": "31.10.2026 13:11",
+ "updated": "01.11.2026 14:01",
  "prices": {
   "0:4": {
    "variants": [
@@ -128,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Polar Vantage V3 (серебристый, с синим силиконовым ремешком)",
-     "price": 2174.15,
+     "price": 2473.5,
      "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bl"
     }
    ],
    "stats": {
     "overall": {
      "min": 2100.0,
-     "avg": 2149.43,
-     "max": 2174.15,
+     "avg": 2349.0,
+     "max": 2473.5,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 2100.0,
-      "avg": 2149.43,
-      "max": 2174.15,
+      "avg": 2349.0,
+      "max": 2473.5,
       "count": 3
      }
     }
@@ -258,22 +258,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 932.46,
+     "price": 935.69,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 932.46,
-     "avg": 932.46,
-     "max": 932.46,
+     "min": 935.69,
+     "avg": 935.69,
+     "max": 935.69,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 932.46,
-      "avg": 932.46,
-      "max": 932.46,
+      "min": 935.69,
+      "avg": 935.69,
+      "max": 935.69,
       "count": 1
      }
     }
@@ -329,14 +329,14 @@
    "stats": {
     "overall": {
      "min": 1372.64,
-     "avg": 1934.08,
+     "avg": 1909.08,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1372.64,
-      "avg": 1934.08,
+      "avg": 1909.08,
       "max": 2180.0,
       "count": 8
      }
