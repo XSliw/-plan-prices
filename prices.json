@@ -1,5 +1,5 @@
 {
- "updated": "01.11.2026 14:01",
+ "updated": "02.11.2026 15:00",
  "prices": {
   "0:4": {
    "variants": [
@@ -58,28 +58,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1544.0,
+     "price": 1559.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     },
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1600.84,
+     "price": 1679.46,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1544.0,
-     "avg": 1822.0,
-     "max": 2321.16,
+     "min": 1559.0,
+     "avg": 1642.8,
+     "max": 1689.93,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1544.0,
-      "avg": 1822.0,
-      "max": 2321.16,
+      "min": 1559.0,
+      "avg": 1642.8,
+      "max": 1689.93,
       "count": 3
      }
     }
@@ -128,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Polar Vantage V3 (серебристый, с синим силиконовым ремешком)",
-     "price": 2473.5,
+     "price": 2279.69,
      "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bl"
     }
    ],
    "stats": {
     "overall": {
      "min": 2100.0,
-     "avg": 2349.0,
-     "max": 2473.5,
+     "avg": 2219.79,
+     "max": 2279.69,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 2100.0,
-      "avg": 2349.0,
-      "max": 2473.5,
+      "avg": 2219.79,
+      "max": 2279.69,
       "count": 3
      }
     }
@@ -153,24 +153,30 @@
    "variants": [
     {
      "source": "Onliner",
+     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
+     "price": 1741.54,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
+    },
+    {
+     "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2464.0,
+     "price": 2329.84,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2464.0,
-     "avg": 2464.0,
-     "max": 2464.0,
-     "count": 1
+     "min": 1741.54,
+     "avg": 2035.69,
+     "max": 2329.84,
+     "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 2464.0,
-      "avg": 2464.0,
-      "max": 2464.0,
-      "count": 1
+      "min": 1741.54,
+      "avg": 2035.69,
+      "max": 2329.84,
+      "count": 2
      }
     }
    }
@@ -258,22 +264,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 935.69,
+     "price": 932.39,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 935.69,
-     "avg": 935.69,
-     "max": 935.69,
+     "min": 932.39,
+     "avg": 932.39,
+     "max": 932.39,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 935.69,
-      "avg": 935.69,
-      "max": 935.69,
+      "min": 932.39,
+      "avg": 932.39,
+      "max": 932.39,
       "count": 1
      }
     }
@@ -316,7 +322,7 @@
     {
      "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
-     "price": 1372.64,
+     "price": 1398.22,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
@@ -328,15 +334,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1372.64,
-     "avg": 1909.08,
+     "min": 1398.22,
+     "avg": 1912.28,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1372.64,
-      "avg": 1909.08,
+      "min": 1398.22,
+      "avg": 1912.28,
       "max": 2180.0,
       "count": 8
      }
