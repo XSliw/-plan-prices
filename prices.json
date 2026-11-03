@@ -1,5 +1,5 @@
 {
- "updated": "02.11.2026 15:00",
+ "updated": "03.11.2026 14:36",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1679.46,
+     "price": 1679.37,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1559.0,
-     "avg": 1642.8,
+     "avg": 1642.77,
      "max": 1689.93,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1559.0,
-      "avg": 1642.8,
+      "avg": 1642.77,
       "max": 1689.93,
       "count": 3
      }
@@ -95,9 +95,9 @@
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 965 (белый/серый)",
+     "name": "Garmin Forerunner 965 (черный/желтый)",
      "price": 1800.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bky"
     }
    ],
    "stats": {
@@ -128,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Polar Vantage V3 (серебристый, с синим силиконовым ремешком)",
-     "price": 2279.69,
+     "price": 2174.15,
      "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bl"
     }
    ],
    "stats": {
     "overall": {
      "min": 2100.0,
-     "avg": 2219.79,
-     "max": 2279.69,
+     "avg": 2149.43,
+     "max": 2174.15,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 2100.0,
-      "avg": 2219.79,
-      "max": 2279.69,
+      "avg": 2149.43,
+      "max": 2174.15,
       "count": 3
      }
     }
@@ -154,28 +154,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 1741.54,
+     "price": 1725.24,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     },
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2329.84,
+     "price": 2332.95,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1741.54,
-     "avg": 2035.69,
-     "max": 2329.84,
+     "min": 1725.24,
+     "avg": 2029.09,
+     "max": 2332.95,
      "count": 2
     },
     "by_source": {
      "Onliner": {
-      "min": 1741.54,
-      "avg": 2035.69,
-      "max": 2329.84,
+      "min": 1725.24,
+      "avg": 2029.09,
+      "max": 2332.95,
       "count": 2
      }
     }
@@ -264,22 +264,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 932.39,
+     "price": 934.93,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 932.39,
-     "avg": 932.39,
-     "max": 932.39,
+     "min": 934.93,
+     "avg": 934.93,
+     "max": 934.93,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 932.39,
-      "avg": 932.39,
-      "max": 932.39,
+      "min": 934.93,
+      "avg": 934.93,
+      "max": 934.93,
       "count": 1
      }
     }
@@ -303,15 +303,15 @@
    "stats": {
     "overall": {
      "min": 272.42,
-     "avg": 312.65,
-     "max": 335.23,
+     "avg": 312.76,
+     "max": 336.11,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 272.42,
-      "avg": 312.65,
-      "max": 335.23,
+      "avg": 312.76,
+      "max": 336.11,
       "count": 8
      }
     }
@@ -322,7 +322,7 @@
     {
      "source": "Onliner",
      "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Clear)",
-     "price": 1398.22,
+     "price": 1499.0,
      "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002075122"
     },
     {
@@ -334,15 +334,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 1398.22,
-     "avg": 1912.28,
+     "min": 1499.0,
+     "avg": 1924.88,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 1398.22,
-      "avg": 1912.28,
+      "min": 1499.0,
+      "avg": 1924.88,
       "max": 2180.0,
       "count": 8
      }
@@ -370,6 +370,32 @@
       "min": 76.42,
       "avg": 76.42,
       "max": 76.42,
+      "count": 1
+     }
+    }
+   }
+  },
+  "10:0": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Bombbar Протеиновое печенье (60 г, шоколад)",
+     "price": 6.0,
+     "url": "https://catalog.onliner.by/protein/bombbar/605325244"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 6.0,
+     "avg": 6.0,
+     "max": 6.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 6.0,
+      "avg": 6.0,
+      "max": 6.0,
       "count": 1
      }
     }
