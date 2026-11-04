@@ -1,5 +1,5 @@
 {
- "updated": "03.11.2026 14:36",
+ "updated": "04.11.2026 14:51",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1679.37,
+     "price": 1679.29,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1559.0,
-     "avg": 1642.77,
+     "avg": 1642.74,
      "max": 1689.93,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1559.0,
-      "avg": 1642.77,
+      "avg": 1642.74,
       "max": 1689.93,
       "count": 3
      }
@@ -124,39 +124,27 @@
      "name": "Polar Vantage V3 (черный, с черным силиконовым ремешком)",
      "price": 2100.0,
      "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bk"
-    },
-    {
-     "source": "Onliner",
-     "name": "Polar Vantage V3 (серебристый, с синим силиконовым ремешком)",
-     "price": 2174.15,
-     "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bl"
     }
    ],
    "stats": {
     "overall": {
      "min": 2100.0,
-     "avg": 2149.43,
-     "max": 2174.15,
-     "count": 3
+     "avg": 2100.0,
+     "max": 2100.0,
+     "count": 1
     },
     "by_source": {
      "Onliner": {
       "min": 2100.0,
-      "avg": 2149.43,
-      "max": 2174.15,
-      "count": 3
+      "avg": 2100.0,
+      "max": 2100.0,
+      "count": 1
      }
     }
    }
   },
   "1:4": {
    "variants": [
-    {
-     "source": "Onliner",
-     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
-     "price": 1725.24,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
-    },
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
@@ -166,17 +154,17 @@
    ],
    "stats": {
     "overall": {
-     "min": 1725.24,
-     "avg": 2029.09,
+     "min": 2332.95,
+     "avg": 2332.95,
      "max": 2332.95,
-     "count": 2
+     "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1725.24,
-      "avg": 2029.09,
+      "min": 2332.95,
+      "avg": 2332.95,
       "max": 2332.95,
-      "count": 2
+      "count": 1
      }
     }
    }
@@ -285,6 +273,32 @@
     }
    }
   },
+  "4:5": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Escada Favero 2108/8P",
+     "price": 740.6,
+     "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 740.6,
+     "avg": 740.6,
+     "max": 740.6,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 740.6,
+      "avg": 740.6,
+      "max": 740.6,
+      "count": 1
+     }
+    }
+   }
+  },
   "7:1": {
    "variants": [
     {
@@ -303,15 +317,15 @@
    "stats": {
     "overall": {
      "min": 272.42,
-     "avg": 312.76,
-     "max": 336.11,
+     "avg": 312.65,
+     "max": 335.23,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 272.42,
-      "avg": 312.76,
-      "max": 336.11,
+      "avg": 312.65,
+      "max": 335.23,
       "count": 8
      }
     }
@@ -327,22 +341,22 @@
     },
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Dark Golf)",
-     "price": 1740.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002095122"
+     "name": "Oakley Meta HSTN S51 OW8002 (F Black, L Prizm Black Polarized)",
+     "price": 1940.0,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002035122"
     }
    ],
    "stats": {
     "overall": {
      "min": 1499.0,
-     "avg": 1924.88,
+     "avg": 2004.88,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1499.0,
-      "avg": 1924.88,
+      "avg": 2004.88,
       "max": 2180.0,
       "count": 8
      }
