@@ -1,5 +1,5 @@
 {
- "updated": "05.11.2026 14:50",
+ "updated": "06.11.2026 14:47",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1679.29,
+     "price": 1679.26,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1559.0,
-     "avg": 1642.74,
+     "avg": 1642.73,
      "max": 1689.93,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1559.0,
-      "avg": 1642.74,
+      "avg": 1642.73,
       "max": 1689.93,
       "count": 3
      }
@@ -90,28 +90,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 965 (черный/серый)",
-     "price": 2007.7,
+     "price": 1800.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 965 (белый/серый)",
-     "price": 2007.7,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
+     "name": "Garmin Forerunner 965 (черный/желтый)",
+     "price": 1800.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bky"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2007.7,
-     "avg": 2027.16,
-     "max": 2066.09,
+     "min": 1800.0,
+     "avg": 1800.0,
+     "max": 1800.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 2007.7,
-      "avg": 2027.16,
-      "max": 2066.09,
+      "min": 1800.0,
+      "avg": 1800.0,
+      "max": 1800.0,
       "count": 3
      }
     }
@@ -258,22 +258,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 929.13,
+     "price": 935.48,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 929.13,
-     "avg": 929.13,
-     "max": 929.13,
+     "min": 935.48,
+     "avg": 935.48,
+     "max": 935.48,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 929.13,
-      "avg": 929.13,
-      "max": 929.13,
+      "min": 935.48,
+      "avg": 935.48,
+      "max": 935.48,
       "count": 1
      }
     }
@@ -323,14 +323,14 @@
    "stats": {
     "overall": {
      "min": 272.43,
-     "avg": 315.86,
+     "avg": 315.75,
      "max": 344.02,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 272.43,
-      "avg": 315.86,
+      "avg": 315.75,
       "max": 344.02,
       "count": 8
      }
@@ -374,48 +374,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 76.42,
+     "price": 59.97,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 76.42,
-     "avg": 76.42,
-     "max": 76.42,
+     "min": 59.97,
+     "avg": 59.97,
+     "max": 59.97,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 76.42,
-      "avg": 76.42,
-      "max": 76.42,
-      "count": 1
-     }
-    }
-   }
-  },
-  "10:0": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Bombbar Протеиновое печенье (60 г, шоколад)",
-     "price": 6.0,
-     "url": "https://catalog.onliner.by/protein/bombbar/605325244"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 6.0,
-     "avg": 6.0,
-     "max": 6.0,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 6.0,
-      "avg": 6.0,
-      "max": 6.0,
+      "min": 59.97,
+      "avg": 59.97,
+      "max": 59.97,
       "count": 1
      }
     }
