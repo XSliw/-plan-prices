@@ -1,5 +1,5 @@
 {
- "updated": "08.11.2026 14:02",
+ "updated": "09.11.2026 15:29",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1679.25,
+     "price": 1679.17,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1640.59,
-     "avg": 1678.68,
+     "avg": 1678.66,
      "max": 1716.21,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1640.59,
-      "avg": 1678.68,
+      "avg": 1678.66,
       "max": 1716.21,
       "count": 3
      }
@@ -258,22 +258,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 935.48,
+     "price": 1068.89,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 935.48,
-     "avg": 935.48,
-     "max": 935.48,
+     "min": 1068.89,
+     "avg": 1068.89,
+     "max": 1068.89,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 935.48,
-      "avg": 935.48,
-      "max": 935.48,
+      "min": 1068.89,
+      "avg": 1068.89,
+      "max": 1068.89,
       "count": 1
      }
     }
@@ -323,14 +323,14 @@
    "stats": {
     "overall": {
      "min": 272.43,
-     "avg": 315.75,
+     "avg": 315.09,
      "max": 344.02,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 272.43,
-      "avg": 315.75,
+      "avg": 315.09,
       "max": 344.02,
       "count": 8
      }
@@ -374,22 +374,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 59.97,
+     "price": 60.67,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 59.97,
-     "avg": 59.97,
-     "max": 59.97,
+     "min": 60.67,
+     "avg": 60.67,
+     "max": 60.67,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 59.97,
-      "avg": 59.97,
-      "max": 59.97,
+      "min": 60.67,
+      "avg": 60.67,
+      "max": 60.67,
       "count": 1
      }
     }
@@ -414,41 +414,15 @@
     "overall": {
      "min": 19.0,
      "avg": 32.98,
-     "max": 45.92,
+     "max": 45.93,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
       "avg": 32.98,
-      "max": 45.92,
+      "max": 45.93,
       "count": 4
-     }
-    }
-   }
-  },
-  "10:4": {
-   "variants": [
-    {
-     "source": "Onliner",
-     "name": "Zeitun Гель для умывания Lulu Энергетический для тусклой кожи с витамином С и ма",
-     "price": 24.0,
-     "url": "https://catalog.onliner.by/facial_cosmetics/zeitun/lulu200gel"
-    }
-   ],
-   "stats": {
-    "overall": {
-     "min": 24.0,
-     "avg": 24.0,
-     "max": 24.0,
-     "count": 1
-    },
-    "by_source": {
-     "Onliner": {
-      "min": 24.0,
-      "avg": 24.0,
-      "max": 24.0,
-      "count": 1
      }
     }
    }
