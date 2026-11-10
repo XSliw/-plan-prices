@@ -1,5 +1,5 @@
 {
- "updated": "09.11.2026 15:29",
+ "updated": "10.11.2026 15:04",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1679.17,
+     "price": 1679.03,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1640.59,
-     "avg": 1678.66,
+     "avg": 1678.61,
      "max": 1716.21,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1640.59,
-      "avg": 1678.66,
+      "avg": 1678.61,
       "max": 1716.21,
       "count": 3
      }
@@ -231,6 +231,12 @@
    "variants": [
     {
      "source": "Onliner",
+     "name": "Tacx Neo 2T Smart Trainer",
+     "price": 5999.0,
+     "url": "https://catalog.onliner.by/velosimulator/tacx/t287561"
+    },
+    {
+     "source": "Onliner",
      "name": "Garmin Tacx NEO 2T with Zwift Cog and Click",
      "price": 5999.0,
      "url": "https://catalog.onliner.by/velosimulator/garmin/0100479160"
@@ -241,14 +247,14 @@
      "min": 5999.0,
      "avg": 5999.0,
      "max": 5999.0,
-     "count": 1
+     "count": 2
     },
     "by_source": {
      "Onliner": {
       "min": 5999.0,
       "avg": 5999.0,
       "max": 5999.0,
-      "count": 1
+      "count": 2
      }
     }
    }
@@ -258,22 +264,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1068.89,
+     "price": 1064.33,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1068.89,
-     "avg": 1068.89,
-     "max": 1068.89,
+     "min": 1064.33,
+     "avg": 1064.33,
+     "max": 1064.33,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1068.89,
-      "avg": 1068.89,
-      "max": 1068.89,
+      "min": 1064.33,
+      "avg": 1064.33,
+      "max": 1064.33,
       "count": 1
      }
     }
@@ -315,22 +321,22 @@
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
-     "price": 298.08,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
+     "name": "ARENA Cobra Core Swipe Mirror 003251 350",
+     "price": 283.0,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251350"
     }
    ],
    "stats": {
     "overall": {
      "min": 272.43,
-     "avg": 315.09,
+     "avg": 309.47,
      "max": 344.02,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 272.43,
-      "avg": 315.09,
+      "avg": 309.47,
       "max": 344.02,
       "count": 8
      }
@@ -355,14 +361,14 @@
    "stats": {
     "overall": {
      "min": 1382.82,
-     "avg": 1965.35,
+     "avg": 1910.35,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1382.82,
-      "avg": 1965.35,
+      "avg": 1910.35,
       "max": 2180.0,
       "count": 8
      }
@@ -423,6 +429,32 @@
       "avg": 32.98,
       "max": 45.93,
       "count": 4
+     }
+    }
+   }
+  },
+  "10:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Zeitun Гель для умывания Lulu Энергетический для тусклой кожи с витамином С и ма",
+     "price": 24.0,
+     "url": "https://catalog.onliner.by/facial_cosmetics/zeitun/lulu200gel"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 24.0,
+     "avg": 24.0,
+     "max": 24.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 24.0,
+      "avg": 24.0,
+      "max": 24.0,
+      "count": 1
      }
     }
    }
