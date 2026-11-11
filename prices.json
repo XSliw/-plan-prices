@@ -1,5 +1,5 @@
 {
- "updated": "10.11.2026 15:04",
+ "updated": "11.11.2026 14:42",
  "prices": {
   "0:4": {
    "variants": [
@@ -64,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1679.03,
+     "price": 1678.9,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1640.59,
-     "avg": 1678.61,
+     "avg": 1678.57,
      "max": 1716.21,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1640.59,
-      "avg": 1678.61,
+      "avg": 1678.57,
       "max": 1716.21,
       "count": 3
      }
@@ -128,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Polar Vantage V3 (серебристый, с синим силиконовым ремешком)",
-     "price": 2174.15,
+     "price": 2216.36,
      "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bl"
     }
    ],
    "stats": {
     "overall": {
      "min": 2100.0,
-     "avg": 2149.43,
-     "max": 2174.15,
+     "avg": 2177.57,
+     "max": 2216.36,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 2100.0,
-      "avg": 2149.43,
-      "max": 2174.15,
+      "avg": 2177.57,
+      "max": 2216.36,
       "count": 3
      }
     }
@@ -316,27 +316,27 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 272.43,
+     "price": 259.15,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe Mirror 003251 350",
-     "price": 283.0,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251350"
+     "name": "ARENA Cobra Ultra Swipe Mirror 002507 999 (aqua-black)",
+     "price": 298.08,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507999"
     }
    ],
    "stats": {
     "overall": {
-     "min": 272.43,
-     "avg": 309.47,
+     "min": 259.15,
+     "avg": 308.21,
      "max": 344.02,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 272.43,
-      "avg": 309.47,
+      "min": 259.15,
+      "avg": 308.21,
       "max": 344.02,
       "count": 8
      }
@@ -361,14 +361,14 @@
    "stats": {
     "overall": {
      "min": 1382.82,
-     "avg": 1910.35,
+     "avg": 1965.35,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1382.82,
-      "avg": 1910.35,
+      "avg": 1965.35,
       "max": 2180.0,
       "count": 8
      }
@@ -380,22 +380,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 60.67,
+     "price": 59.97,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 60.67,
-     "avg": 60.67,
-     "max": 60.67,
+     "min": 59.97,
+     "avg": 59.97,
+     "max": 59.97,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 60.67,
-      "avg": 60.67,
-      "max": 60.67,
+      "min": 59.97,
+      "avg": 59.97,
+      "max": 59.97,
       "count": 1
      }
     }
