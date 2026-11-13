@@ -1,6 +1,32 @@
 {
- "updated": "12.11.2026 15:08",
+ "updated": "13.11.2026 14:51",
  "prices": {
+  "0:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Apple Watch Nike Series 7 41 мм (звездный свет/чистая платина, черный)",
+     "price": 970.0,
+     "url": "https://catalog.onliner.by/smartwatch/apple/mkn33"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 970.0,
+     "avg": 970.0,
+     "max": 970.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 970.0,
+      "avg": 970.0,
+      "max": 970.0,
+      "count": 1
+     }
+    }
+   }
+  },
   "1:0": {
    "variants": [
     {
@@ -38,21 +64,21 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1678.76,
+     "price": 1678.63,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     }
    ],
    "stats": {
     "overall": {
      "min": 1640.59,
-     "avg": 1678.52,
+     "avg": 1678.48,
      "max": 1716.21,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 1640.59,
-      "avg": 1678.52,
+      "avg": 1678.48,
       "max": 1716.21,
       "count": 3
      }
@@ -64,28 +90,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 965 (черный/серый)",
-     "price": 1800.0,
+     "price": 2022.52,
      "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 965 (черный/желтый)",
-     "price": 1800.0,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bky"
+     "name": "Garmin Forerunner 965 (белый/серый)",
+     "price": 2022.52,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1800.0,
-     "avg": 1800.0,
-     "max": 1800.0,
+     "min": 2022.52,
+     "avg": 2037.29,
+     "max": 2066.83,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1800.0,
-      "avg": 1800.0,
-      "max": 1800.0,
+      "min": 2022.52,
+      "avg": 2037.29,
+      "max": 2066.83,
       "count": 3
      }
     }
@@ -102,22 +128,22 @@
     {
      "source": "Onliner",
      "name": "Polar Vantage V3 (серебристый, с синим силиконовым ремешком)",
-     "price": 2195.25,
+     "price": 2174.15,
      "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bl"
     }
    ],
    "stats": {
     "overall": {
      "min": 2100.0,
-     "avg": 2163.5,
-     "max": 2195.25,
+     "avg": 2149.43,
+     "max": 2174.15,
      "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 2100.0,
-      "avg": 2163.5,
-      "max": 2195.25,
+      "avg": 2149.43,
+      "max": 2174.15,
       "count": 3
      }
     }
@@ -303,15 +329,15 @@
    "stats": {
     "overall": {
      "min": 258.28,
-     "avg": 307.55,
-     "max": 344.02,
+     "avg": 307.8,
+     "max": 342.45,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 258.28,
-      "avg": 307.55,
-      "max": 344.02,
+      "avg": 307.8,
+      "max": 342.45,
       "count": 8
      }
     }
@@ -354,22 +380,22 @@
     {
      "source": "Onliner",
      "name": "Bradex Роллер SF 0283",
-     "price": 59.97,
+     "price": 60.67,
      "url": "https://catalog.onliner.by/yoga_mat/bradex/bradsf0283"
     }
    ],
    "stats": {
     "overall": {
-     "min": 59.97,
-     "avg": 59.97,
-     "max": 59.97,
+     "min": 60.67,
+     "avg": 60.67,
+     "max": 60.67,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 59.97,
-      "avg": 59.97,
-      "max": 59.97,
+      "min": 60.67,
+      "avg": 60.67,
+      "max": 60.67,
       "count": 1
      }
     }
@@ -393,15 +419,15 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 32.98,
-     "max": 45.93,
+     "avg": 33.0,
+     "max": 46.0,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 32.98,
-      "max": 45.93,
+      "avg": 33.0,
+      "max": 46.0,
       "count": 4
      }
     }
