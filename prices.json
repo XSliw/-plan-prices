@@ -1,5 +1,5 @@
 {
- "updated": "14.11.2026 14:12",
+ "updated": "15.11.2026 14:47",
  "prices": {
   "0:4": {
    "variants": [
@@ -329,14 +329,14 @@
    "stats": {
     "overall": {
      "min": 268.0,
-     "avg": 313.44,
+     "avg": 313.52,
      "max": 342.45,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 268.0,
-      "avg": 313.44,
+      "avg": 313.52,
       "max": 342.45,
       "count": 8
      }
@@ -361,14 +361,14 @@
    "stats": {
     "overall": {
      "min": 1499.0,
-     "avg": 1979.88,
+     "avg": 1949.88,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1499.0,
-      "avg": 1979.88,
+      "avg": 1949.88,
       "max": 2180.0,
       "count": 8
      }
