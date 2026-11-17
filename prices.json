@@ -1,5 +1,5 @@
 {
- "updated": "16.11.2026 15:25",
+ "updated": "17.11.2026 15:45",
  "prices": {
   "0:4": {
    "variants": [
@@ -57,29 +57,29 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
-     "price": 1640.59,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
+     "name": "Garmin Forerunner 265 (белый камень/синий)",
+     "price": 1570.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1678.6,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
+     "name": "Garmin Forerunner 265 (черный/пудрово-серый)",
+     "price": 1670.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281010"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1640.59,
-     "avg": 1678.47,
-     "max": 1716.21,
+     "min": 1570.0,
+     "avg": 1636.67,
+     "max": 1670.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1640.59,
-      "avg": 1678.47,
-      "max": 1716.21,
+      "min": 1570.0,
+      "avg": 1636.67,
+      "max": 1670.0,
       "count": 3
      }
     }
@@ -90,28 +90,28 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 965 (черный/серый)",
-     "price": 2020.98,
+     "price": 1990.0,
      "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bkgr"
     },
     {
      "source": "Onliner",
-     "name": "Garmin Forerunner 965 (белый/серый)",
-     "price": 2020.98,
-     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965whtgr"
+     "name": "Garmin Forerunner 965 (черный/желтый)",
+     "price": 1990.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/gmfr965bky"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2020.98,
-     "avg": 2033.02,
-     "max": 2057.1,
+     "min": 1990.0,
+     "avg": 1990.0,
+     "max": 1990.0,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 2020.98,
-      "avg": 2033.02,
-      "max": 2057.1,
+      "min": 1990.0,
+      "avg": 1990.0,
+      "max": 1990.0,
       "count": 3
      }
     }
@@ -156,21 +156,27 @@
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
      "price": 2425.37,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
+    },
+    {
+     "source": "Onliner",
+     "name": "Garmin Fenix 7 Pro Sapphire Solar (карбоново-серый титан/черный)",
+     "price": 2780.0,
+     "url": "https://catalog.onliner.by/smartwatch/garmin/g0100277711"
     }
    ],
    "stats": {
     "overall": {
      "min": 2425.37,
-     "avg": 2425.37,
-     "max": 2425.37,
-     "count": 1
+     "avg": 3188.84,
+     "max": 3850.0,
+     "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 2425.37,
-      "avg": 2425.37,
-      "max": 2425.37,
-      "count": 1
+      "avg": 3188.84,
+      "max": 3850.0,
+      "count": 4
      }
     }
    }
@@ -231,15 +237,15 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Tacx Neo 2T Smart Trainer",
-     "price": 5999.0,
-     "url": "https://catalog.onliner.by/velosimulator/tacx/t287561"
-    },
-    {
-     "source": "Onliner",
      "name": "Garmin Tacx NEO 2T with Zwift Cog and Click",
      "price": 5999.0,
      "url": "https://catalog.onliner.by/velosimulator/garmin/0100479160"
+    },
+    {
+     "source": "Onliner",
+     "name": "Tacx Neo 2T Smart Trainer",
+     "price": 5999.0,
+     "url": "https://catalog.onliner.by/velosimulator/tacx/t287561"
     }
    ],
    "stats": {
@@ -329,15 +335,15 @@
    "stats": {
     "overall": {
      "min": 261.95,
-     "avg": 312.83,
-     "max": 342.78,
+     "avg": 312.42,
+     "max": 347.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 261.95,
-      "avg": 312.83,
-      "max": 342.78,
+      "avg": 312.42,
+      "max": 347.0,
       "count": 8
      }
     }
@@ -361,14 +367,14 @@
    "stats": {
     "overall": {
      "min": 1499.0,
-     "avg": 1924.88,
+     "avg": 1909.88,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1499.0,
-      "avg": 1924.88,
+      "avg": 1909.88,
       "max": 2180.0,
       "count": 8
      }
@@ -419,15 +425,15 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 32.75,
-     "max": 45.0,
+     "avg": 32.0,
+     "max": 42.0,
      "count": 4
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 32.75,
-      "max": 45.0,
+      "avg": 32.0,
+      "max": 42.0,
       "count": 4
      }
     }
