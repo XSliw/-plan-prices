@@ -1,5 +1,5 @@
 {
- "updated": "17.11.2026 15:45",
+ "updated": "18.11.2026 15:38",
  "prices": {
   "0:4": {
    "variants": [
@@ -296,22 +296,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 740.6,
+     "price": 625.8,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 740.6,
-     "avg": 740.6,
-     "max": 740.6,
+     "min": 625.8,
+     "avg": 625.8,
+     "max": 625.8,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 740.6,
-      "avg": 740.6,
-      "max": 740.6,
+      "min": 625.8,
+      "avg": 625.8,
+      "max": 625.8,
       "count": 1
      }
     }
@@ -322,7 +322,7 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 261.95,
+     "price": 261.05,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
@@ -334,15 +334,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 261.95,
-     "avg": 312.42,
+     "min": 261.05,
+     "avg": 312.31,
      "max": 347.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 261.95,
-      "avg": 312.42,
+      "min": 261.05,
+      "avg": 312.31,
       "max": 347.0,
       "count": 8
      }
@@ -425,16 +425,16 @@
    "stats": {
     "overall": {
      "min": 19.0,
-     "avg": 32.0,
-     "max": 42.0,
-     "count": 4
+     "avg": 28.67,
+     "max": 39.0,
+     "count": 3
     },
     "by_source": {
      "Onliner": {
       "min": 19.0,
-      "avg": 32.0,
-      "max": 42.0,
-      "count": 4
+      "avg": 28.67,
+      "max": 39.0,
+      "count": 3
      }
     }
    }
