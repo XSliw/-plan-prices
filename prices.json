@@ -1,5 +1,5 @@
 {
- "updated": "20.11.2026 15:28",
+ "updated": "21.11.2026 15:02",
  "prices": {
   "1:0": {
    "variants": [
@@ -32,7 +32,7 @@
     {
      "source": "Onliner",
      "name": "Garmin Forerunner 265 (белый камень/синий)",
-     "price": 1570.0,
+     "price": 1584.67,
      "url": "https://catalog.onliner.by/smartwatch/garmin/g0100281011"
     },
     {
@@ -44,16 +44,16 @@
    ],
    "stats": {
     "overall": {
-     "min": 1570.0,
-     "avg": 1636.67,
-     "max": 1670.0,
+     "min": 1584.67,
+     "avg": 1646.41,
+     "max": 1684.55,
      "count": 3
     },
     "by_source": {
      "Onliner": {
-      "min": 1570.0,
-      "avg": 1636.67,
-      "max": 1670.0,
+      "min": 1584.67,
+      "avg": 1646.41,
+      "max": 1684.55,
       "count": 3
      }
     }
@@ -264,22 +264,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 635.98,
+     "price": 740.6,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 635.98,
-     "avg": 635.98,
-     "max": 635.98,
+     "min": 740.6,
+     "avg": 740.6,
+     "max": 740.6,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 635.98,
-      "avg": 635.98,
-      "max": 635.98,
+      "min": 740.6,
+      "avg": 740.6,
+      "max": 740.6,
       "count": 1
      }
     }
@@ -289,28 +289,28 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe Mirror 003251 330",
-     "price": 261.95,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
+     "name": "ARENA Cobra Core Swipe 003930 700",
+     "price": 248.0,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003930700"
     },
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe Mirror 002507 310",
-     "price": 302.17,
+     "price": 310.0,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507310"
     }
    ],
    "stats": {
     "overall": {
-     "min": 261.95,
-     "avg": 311.08,
+     "min": 248.0,
+     "avg": 312.48,
      "max": 347.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 261.95,
-      "avg": 311.08,
+      "min": 248.0,
+      "avg": 312.48,
       "max": 347.0,
       "count": 8
      }
@@ -327,22 +327,22 @@
     },
     {
      "source": "Onliner",
-     "name": "Oakley Meta HSTN S51 OW8002 (F Brown Smoke, L Prizm Deep Water Polarized)",
-     "price": 1940.0,
-     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002065122"
+     "name": "Oakley Meta HSTN S51 OW8002 (F Warm Grey, L Prizm Ruby)",
+     "price": 1740.0,
+     "url": "https://catalog.onliner.by/virtualreality/oakley/ow80028002045122"
     }
    ],
    "stats": {
     "overall": {
      "min": 1499.0,
-     "avg": 2004.88,
+     "avg": 1979.88,
      "max": 2180.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
       "min": 1499.0,
-      "avg": 2004.88,
+      "avg": 1979.88,
       "max": 2180.0,
       "count": 8
      }
