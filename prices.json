@@ -1,6 +1,32 @@
 {
- "updated": "22.11.2026 15:16",
+ "updated": "23.11.2026 17:00",
  "prices": {
+  "0:4": {
+   "variants": [
+    {
+     "source": "Onliner",
+     "name": "Apple Watch Nike Series 7 41 мм (звездный свет/чистая платина, черный)",
+     "price": 880.0,
+     "url": "https://catalog.onliner.by/smartwatch/apple/mkn33"
+    }
+   ],
+   "stats": {
+    "overall": {
+     "min": 880.0,
+     "avg": 880.0,
+     "max": 880.0,
+     "count": 1
+    },
+    "by_source": {
+     "Onliner": {
+      "min": 880.0,
+      "avg": 880.0,
+      "max": 880.0,
+      "count": 1
+     }
+    }
+   }
+  },
   "1:0": {
    "variants": [
     {
@@ -128,22 +154,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Fenix 7 Pro Solar (сланцево-серый/черный)",
-     "price": 2580.04,
+     "price": 2608.47,
      "url": "https://catalog.onliner.by/smartwatch/garmin/0100277801"
     }
    ],
    "stats": {
     "overall": {
-     "min": 2580.04,
-     "avg": 2580.04,
-     "max": 2580.04,
+     "min": 2608.47,
+     "avg": 2608.47,
+     "max": 2608.47,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 2580.04,
-      "avg": 2580.04,
-      "max": 2580.04,
+      "min": 2608.47,
+      "avg": 2608.47,
+      "max": 2608.47,
       "count": 1
      }
     }
@@ -205,15 +231,15 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Garmin Tacx NEO 2T with Zwift Cog and Click",
-     "price": 5999.0,
-     "url": "https://catalog.onliner.by/velosimulator/garmin/0100479160"
-    },
-    {
-     "source": "Onliner",
      "name": "Tacx Neo 2T Smart Trainer",
      "price": 5999.0,
      "url": "https://catalog.onliner.by/velosimulator/tacx/t287561"
+    },
+    {
+     "source": "Onliner",
+     "name": "Garmin Tacx NEO 2T with Zwift Cog and Click",
+     "price": 5999.0,
+     "url": "https://catalog.onliner.by/velosimulator/garmin/0100479160"
     }
    ],
    "stats": {
@@ -238,22 +264,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 1064.33,
+     "price": 940.33,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 1064.33,
-     "avg": 1064.33,
-     "max": 1064.33,
+     "min": 940.33,
+     "avg": 940.33,
+     "max": 940.33,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 1064.33,
-      "avg": 1064.33,
-      "max": 1064.33,
+      "min": 940.33,
+      "avg": 940.33,
+      "max": 940.33,
       "count": 1
      }
     }
@@ -264,22 +290,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 740.6,
+     "price": 771.46,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 740.6,
-     "avg": 740.6,
-     "max": 740.6,
+     "min": 771.46,
+     "avg": 771.46,
+     "max": 771.46,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 740.6,
-      "avg": 740.6,
-      "max": 740.6,
+      "min": 771.46,
+      "avg": 771.46,
+      "max": 771.46,
       "count": 1
      }
     }
@@ -289,9 +315,9 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Core Swipe 003930 700",
-     "price": 248.0,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003930700"
+     "name": "ARENA Cobra Core Swipe Mirror 003251 330",
+     "price": 269.0,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003251330"
     },
     {
      "source": "Onliner",
@@ -302,15 +328,15 @@
    ],
    "stats": {
     "overall": {
-     "min": 248.0,
-     "avg": 312.48,
+     "min": 269.0,
+     "avg": 315.1,
      "max": 347.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 248.0,
-      "avg": 312.48,
+      "min": 269.0,
+      "avg": 315.1,
       "max": 347.0,
       "count": 8
      }
