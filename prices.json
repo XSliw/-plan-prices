@@ -1,5 +1,5 @@
 {
- "updated": "25.11.2026 16:51",
+ "updated": "26.11.2026 16:31",
  "prices": {
   "0:4": {
    "variants": [
@@ -127,9 +127,9 @@
     },
     {
      "source": "Onliner",
-     "name": "Polar Vantage V3 (серебристый, с синим силиконовым ремешком)",
+     "name": "Polar Vantage V3 (серебристый, с серым силиконовым ремешком)",
      "price": 2188.12,
-     "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3bl"
+     "url": "https://catalog.onliner.by/smartwatch/polarelectro/vantagev3gr"
     }
    ],
    "stats": {
@@ -237,15 +237,15 @@
    "variants": [
     {
      "source": "Onliner",
-     "name": "Tacx Neo 2T Smart Trainer",
-     "price": 5999.0,
-     "url": "https://catalog.onliner.by/velosimulator/tacx/t287561"
-    },
-    {
-     "source": "Onliner",
      "name": "Garmin Tacx NEO 2T with Zwift Cog and Click",
      "price": 5999.0,
      "url": "https://catalog.onliner.by/velosimulator/garmin/0100479160"
+    },
+    {
+     "source": "Onliner",
+     "name": "Tacx Neo 2T Smart Trainer",
+     "price": 5999.0,
+     "url": "https://catalog.onliner.by/velosimulator/tacx/t287561"
     }
    ],
    "stats": {
@@ -270,22 +270,22 @@
     {
      "source": "Onliner",
      "name": "Garmin Edge 540",
-     "price": 940.33,
+     "price": 943.01,
      "url": "https://catalog.onliner.by/bikecomp/garmin/0100269431"
     }
    ],
    "stats": {
     "overall": {
-     "min": 940.33,
-     "avg": 940.33,
-     "max": 940.33,
+     "min": 943.01,
+     "avg": 943.01,
+     "max": 943.01,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 940.33,
-      "avg": 940.33,
-      "max": 940.33,
+      "min": 943.01,
+      "avg": 943.01,
+      "max": 943.01,
       "count": 1
      }
     }
@@ -296,22 +296,22 @@
     {
      "source": "Onliner",
      "name": "Escada Favero 2108/8P",
-     "price": 771.46,
+     "price": 714.77,
      "url": "https://catalog.onliner.by/luster/escada/escafavero21088p"
     }
    ],
    "stats": {
     "overall": {
-     "min": 771.46,
-     "avg": 771.46,
-     "max": 771.46,
+     "min": 714.77,
+     "avg": 714.77,
+     "max": 714.77,
      "count": 1
     },
     "by_source": {
      "Onliner": {
-      "min": 771.46,
-      "avg": 771.46,
-      "max": 771.46,
+      "min": 714.77,
+      "avg": 714.77,
+      "max": 714.77,
       "count": 1
      }
     }
@@ -322,27 +322,27 @@
     {
      "source": "Onliner",
      "name": "ARENA Cobra Ultra Swipe 003929 700",
-     "price": 290.0,
+     "price": 282.52,
      "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003929700"
     },
     {
      "source": "Onliner",
-     "name": "ARENA Cobra Ultra Swipe 003929 100 (blue/white/black)",
-     "price": 305.0,
-     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren003929100"
+     "name": "ARENA Cobra Ultra Swipe Mirror 002507 310",
+     "price": 302.17,
+     "url": "https://catalog.onliner.by/swimming_goods/arenabackpacks/aren002507310"
     }
    ],
    "stats": {
     "overall": {
-     "min": 290.0,
-     "avg": 313.5,
+     "min": 282.52,
+     "avg": 309.4,
      "max": 347.0,
      "count": 8
     },
     "by_source": {
      "Onliner": {
-      "min": 290.0,
-      "avg": 313.5,
+      "min": 282.52,
+      "avg": 309.4,
       "max": 347.0,
       "count": 8
      }
